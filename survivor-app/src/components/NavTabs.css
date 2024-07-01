@@ -1,0 +1,35 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-link {
+    color: whitesmoke !important;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.active {
+    color: blue;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    text-decoration: none;
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.navbar-toggler {
+    background-color: whitesmoke !important;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
