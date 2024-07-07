@@ -68,12 +68,12 @@
   transition: all 0.2s ease-out;
 }
 
-.fa-bars {
-  color: rgb(242, 242, 242);
+.nav-links.mobile-link {
+  display: none;
 }
 
-.nav-links-mobile {
-  display: none;
+.fa-bars {
+  color: rgb(242, 242, 242);
 }
 
 .menu-icon {
@@ -119,6 +119,10 @@
     border-radius: 0;
   }
 
+  .nav-links.mobile-link {
+    display: block;
+  }
+
   .navbar-logo {
     position: absolute;
     top: 0;
@@ -139,26 +143,5 @@
   .fa-times {
     color: rgb(242, 242, 242);
     font-size: 2rem;
-  }
-
-  .nav-links-mobile {
-    display: block;
-    text-align: center;
-    margin: 2rem auto;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: rgb(242, 242, 242);
-    padding: 14px 20px;
-    border: 1px solid rgb(242, 242, 242);
-    transition: all 0.3s ease-out;
-  }
-
-  .nav-links-mobile:hover {
-    background: rgb(242, 242, 242);
-    color: #242424;
-    transition: 250ms;
   }
 }
