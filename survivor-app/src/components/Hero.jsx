@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./Hero.css";
+import video from "../videos/video1.MP4";
 
 function Hero() {
   return (
@@ -16,6 +17,11 @@ function Hero() {
         full spectrum of humanity and inhumanity, allowing audiences to derive
         their own insights and reflections.
       </p>
+
+      <div className="video-wrap">
+        <h3>Watch the Trailer</h3>
+        <video src={video} controls></video>
+      </div>
     </div>
   );
 }
