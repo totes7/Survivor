@@ -131,11 +131,10 @@
     position: absolute;
     top: 10%;
     left: 0;
-    /* transform: translate(25%, 50%); */
   }
 
   .navbar-logo img {
-    width: 200px; /* Adjust the width of your logo image */
+    width: 200px;
     height: 60px;
   }
 

@@ -20,25 +20,13 @@
 
 .title {
   height: 10%;
-  width: 50%;
+  width: 60%;
   margin-top: 100px;
 }
-
-/* .hero-container > h1 {
-  color: #fff;
-  font-size: 200px;
-  margin-top: 150px;
-}
-
-.hero-container > h2 {
-  color: #fff;
-  font-size: 38px;
-  margin-top: -40px;
-} */
 
 .hero-container > p {
   margin-top: 100px;
-  text-align: center;
+  text-align: justify;
   padding: 0 25%;
   color: rgb(242, 242, 242);
   font-size: 22px;
@@ -63,15 +51,6 @@ video {
 }
 
 @media screen and (max-width: 1200px) {
-  .hero-container > h1 {
-    font-size: 140px;
-  }
-
-  .hero-container > h2 {
-    font-size: 27px;
-    margin-top: -30px;
-  }
-
   .hero-container > p {
     font-size: 20px;
   }
@@ -82,30 +61,12 @@ video {
 }
 
 @media screen and (max-width: 960px) {
-  .hero-container > h1 {
-    font-size: 100px;
-  }
-
-  .hero-container > h2 {
-    font-size: 19px;
-    margin-top: -20px;
-  }
-
   .hero-container > p {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .hero-container > h1 {
-    font-size: 78px;
-  }
-
-  .hero-container > h2 {
-    font-size: 15px;
-    margin-top: -14px;
-  }
-
   .hero-container > p {
     font-size: 12px;
     margin-top: 80px;
@@ -117,15 +78,6 @@ video {
 }
 
 @media screen and (max-width: 450px) {
-  .hero-container > h1 {
-    font-size: 50px;
-  }
-
-  .hero-container > h2 {
-    font-size: 9.5px;
-    margin-top: -7px;
-  }
-
   .hero-container > p {
     font-size: 10px;
   }
