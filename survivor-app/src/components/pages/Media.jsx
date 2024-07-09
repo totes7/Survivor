@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "../../App.css";
 
 function Media() {
-  return (
-    <div>Media</div>
-  )
+  return <div className="media">Media</div>;
 }
 
-export default Media
+export default Media;

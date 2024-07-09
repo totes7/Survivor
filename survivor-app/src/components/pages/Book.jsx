@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "../../App.css";
 
 function Book() {
-  return (
-    <div>Book</div>
-  )
+  return <div className="book">Book</div>;
 }
 
-export default Book
+export default Book;

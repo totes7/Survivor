@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "../../App.css";
 
 function Screening() {
-  return (
-    <div>Screening</div>
-  )
+  return <div className="screening">Screening</div>;
 }
 
-export default Screening
+export default Screening;
