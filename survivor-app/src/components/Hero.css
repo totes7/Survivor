@@ -20,12 +20,12 @@
 
 .title {
   height: 10%;
-  width: 60%;
+  width: 50%;
   margin-top: 100px;
 }
 
 .hero-container > p {
-  margin-top: 100px;
+  margin: 10% 7% 0 7%;
   text-align: justify;
   padding: 0 25%;
   color: rgb(242, 242, 242);
