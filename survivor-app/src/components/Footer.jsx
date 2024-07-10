@@ -9,14 +9,6 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="social-icons">
             <Link
-              class="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
               class="social-icon-link instagram"
               to="/"
               target="_blank"
@@ -38,7 +30,7 @@ function Footer() {
               target="_blank"
               aria-label="Twitter"
             >
-              <i class="fab fa-twitter" />
+              <i class="fab fa-x-twitter" />
             </Link>
             <Link
               class="social-icon-link twitter"
