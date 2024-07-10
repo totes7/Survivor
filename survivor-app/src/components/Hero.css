@@ -14,15 +14,15 @@
 .title {
   height: 10%;
   width: 50%;
-  margin-top: 100px;
+  margin: 5% 0;
 }
 
 .hero-container > p {
-  margin: 10% 7% 0 7%;
+  margin: 1% 5%;
   text-align: justify;
   padding: 0 25%;
   color: rgb(242, 242, 242);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .video-wrap {
@@ -63,7 +63,6 @@ video {
 @media screen and (max-width: 600px) {
   .hero-container > p {
     font-size: 12px;
-    margin-top: 80px;
   }
 
   .video-wrap > h3 {

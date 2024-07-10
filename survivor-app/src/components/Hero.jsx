@@ -17,6 +17,19 @@ function Hero() {
         full spectrum of humanity and inhumanity, allowing audiences to derive
         their own insights and reflections.
       </p>
+      <p>
+        We follow 12-year-old Ivor Perl from a small village in Hungary to the
+        gates of Auschwitz, Kaufering, Allach, and Dachau, witnessing the
+        unspeakable horrors of the Holocaust. From being herded onto a cattle
+        truck and narrowly avoiding the gas chambers and ovens, to enduring
+        hunger, typhus, and unimaginable loss, we ultimately see the unbreakable
+        bond between two brothers and their miraculous survival.
+      </p>
+      <p>
+        The beautiful visual and auditory intricacy of Zoom Rockman’s unique
+        animation style will captivate the audience, ensuring they won't want to
+        take their eyes off the screen.
+      </p>
 
       <div className="video-wrap">
         <h3>Watch the Trailer</h3>
