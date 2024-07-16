@@ -326,7 +326,7 @@ function PrivacyPolicy() {
               <a
                 href="mailto:info@exceptionalagency.com"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 info@exceptionalagency.com
               </a>
@@ -346,7 +346,7 @@ function PrivacyPolicy() {
           <p>
             {" "}
             ICO website:{" "}
-            <a href="https://www.ico.org.uk" target="_blank" rel="noopener">
+            <a href="https://www.ico.org.uk" target="_blank" rel="noreferrer">
               <strong>www.ico.org.uk</strong>
             </a>
           </p>

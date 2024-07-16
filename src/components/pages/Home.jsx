@@ -21,7 +21,7 @@ function Home() {
           <div className="news-section">
             <h3>Latest</h3>
             <p>Movie release date coming soon!</p>
-            <p>Pre-order your tickets <a href="#">here</a></p>
+            <p>Pre-order your tickets here</p>
           </div>
         </div>
 
