@@ -12,9 +12,8 @@
 }
 
 .title {
-  height: 10%;
-  width: 50%;
-  margin: 5% 0;
+  width: 100%;
+  margin-bottom: 5%;
 }
 
 .hero-container > p {

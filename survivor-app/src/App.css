@@ -5,7 +5,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.home {
+.home, .privacy-policy {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     120deg,
@@ -51,6 +51,47 @@
   color: rgb(11, 87, 208);
 }
 
+.privacy-policy-container {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 5% 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  object-fit: contain;
+  text-align: justify;
+}
+
+.privacy-policy-container ul {
+  margin: 2%;
+}
+
+.privacy-policy-container h1 {
+  margin: 2% 0;
+  font-size: 60px;
+}
+
+.privacy-policy-container h2 {
+  margin: 2% 0;
+  font-size: 40px;
+}
+
+.privacy-policy-container h3 {
+  margin: 2% 0;
+  font-size: 25px;
+}
+
+.privacy-policy-container a {
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+}
+
+.privacy-policy-container a:hover {
+  color: rgb(11, 87, 208);
+}
+
 @media screen and (max-width: 960px) {
   .home-bottom-section {
     display: flex;
@@ -63,5 +104,28 @@
     width: 50%;
     margin: 10% 5% 20% 5%;
     text-align: center;
+  }
+
+  .privacy-policy-container {
+    padding: 5% 10%;
+  }
+
+  .privacy-policy-container ul {
+    margin: 4%;
+  }
+
+  .privacy-policy-container h1 {
+    margin: 3% 0;
+    font-size: 50px;
+  }
+  
+  .privacy-policy-container h2 {
+    margin: 3% 0;
+    font-size: 30px;
+  }
+  
+  .privacy-policy-container h3 {
+    margin: 3% 0;
+    font-size: 20px;
   }
 }

@@ -2,12 +2,12 @@ import React from "react";
 import "../App.css";
 import "./Hero.css";
 import video from "../videos/video1.MP4";
-import title from "../images/LogoTagBBG.png";
+import cover from "../images/HeroCover.png";
 
 function Hero() {
   return (
     <div className="hero-container">
-      <img src={title} alt="survivor logo title" className="title" />
+      <img src={cover} alt="survivor logo title" className="title" />
       <p>
         Survivor is the story of a young boy caught up in the horrors of the
         Holocaust, told by Zoom Rockman using a unique animation style with

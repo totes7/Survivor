@@ -8,6 +8,7 @@ import Media from './components/pages/Media';
 import Screening from './components/pages/Screening';
 import Book from './components/pages/Book';
 import Contact from './components/pages/Contact';
+import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/screening" element={<Screening/>} />
         <Route path="/book" element={<Book/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
       </Routes>
     </Router>
   );
