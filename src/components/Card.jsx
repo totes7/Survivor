@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 function Card(props) {
   return (
     <>
-      <div className="card-container">
+      <div className={props.classOuter}>
         <Link to={props.path} target="_blank">
           <figure className="card-image-wrap">
-            <img src={props.src} alt="" className="card-image" />
+            <img src={props.src} alt="" className={props.classImage} />
+            <figcaption>{props.title}</figcaption>
             <figcaption>{props.caption}</figcaption>
           </figure>
         </Link>

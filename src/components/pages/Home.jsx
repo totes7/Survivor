@@ -3,7 +3,7 @@ import "../../App.css";
 import Hero from "../Hero";
 import Footer from "../Footer";
 import Card from "../Card";
-import pic from "../../images/ZoomProfile.jpg";
+import zoom from "../../images/ZoomProfile.jpg";
 
 function Home() {
   return (
@@ -13,10 +13,13 @@ function Home() {
 
         <div className="home-bottom-section">
           <Card
-            src={pic}
+            src={zoom}
+            title="Director/Animator"
             caption="Zoom Rockman"
             text="Director Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator."
             path="https://www.instagram.com/the_zoomcomic/"
+            classOuter="home-card-container"
+            classImage="home-card-image"
           />
           <div className="news-section">
             <h3>Latest</h3>
