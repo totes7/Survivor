@@ -61,6 +61,7 @@
   justify-content: center;
   align-items: flex-start;
   object-fit: contain;
+  line-height: 150%;
 }
 
 .privacy-policy-container p {
@@ -72,17 +73,17 @@
 }
 
 .privacy-policy-container h1 {
-  margin: 2% 0;
+  margin: 5% 0;
   font-size: 60px;
 }
 
 .privacy-policy-container h2 {
-  margin: 2% 0;
+  margin: 5% 0;
   font-size: 40px;
 }
 
 .privacy-policy-container h3 {
-  margin: 2% 0;
+  margin: 5% 0;
   font-size: 25px;
 }
 
@@ -111,6 +112,7 @@
 
   .privacy-policy-container {
     padding: 5% 10%;
+    line-height: 160%;
   }
 
   .privacy-policy-container ul {
@@ -118,17 +120,17 @@
   }
 
   .privacy-policy-container h1 {
-    margin: 3% 0;
-    font-size: 50px;
+    margin: 5% 0;
+    font-size: 35px;
   }
   
   .privacy-policy-container h2 {
-    margin: 3% 0;
+    margin: 5% 0;
     font-size: 30px;
   }
   
   .privacy-policy-container h3 {
-    margin: 3% 0;
+    margin: 5% 0;
     font-size: 20px;
   }
 }

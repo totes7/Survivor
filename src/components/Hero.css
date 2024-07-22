@@ -60,6 +60,7 @@ video {
 }
 
 @media screen and (max-width: 600px) {
+  
   .hero-container > p {
     font-size: 12px;
   }

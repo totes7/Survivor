@@ -45,13 +45,14 @@ function PrivacyPolicy() {
             </strong>
           </p>
           <p>
-            Person Responsible: <strong>Sally Vaughan</strong>
+            Person Responsible:{" "} <strong>Sally Vaughan</strong>
           </p>
           <p>
-            Contact Email:{" "}
+            ContactEmail:
+            {" "}
             <strong>
-              <a href="mailto:info@exceptionalagency.com">
-                info@exceptionalagency.com
+              <a href="mailto:survivor@exceptionalagency.com">
+                survivor@exceptionalagency.com
               </a>
             </strong>
           </p>
@@ -213,8 +214,8 @@ function PrivacyPolicy() {
             <strong>(a) Your consent</strong> – You are able to remove your
             consent at any time. You can do this by contacting{" "}
             <strong>
-              <a href="mailto:info@exceptionalagency.com">
-                info@exceptionalagency.com
+              <a href="mailto:survivor@exceptionalagency.com">
+                survivor@exceptionalagency.com
               </a>
             </strong>
           </p>
@@ -315,7 +316,7 @@ function PrivacyPolicy() {
           <p>
             You are not required to pay any charge for exercising your rights.
             If you make a request, we have one month to respond to you. Please
-            contact us at info@exceptionalagency.com if you wish to make a
+            contact us at survivor@exceptionalagency.com if you wish to make a
             request.
           </p>
           <h2>How to Complain</h2>
@@ -324,11 +325,11 @@ function PrivacyPolicy() {
             you can make a complaint to us at{" "}
             <strong>
               <a
-                href="mailto:info@exceptionalagency.com"
+                href="mailto:survivor@exceptionalagency.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                info@exceptionalagency.com
+                survivor@exceptionalagency.com
               </a>
             </strong>
           </p>
