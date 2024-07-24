@@ -14,6 +14,7 @@ function Home() {
         <div className="home-bottom-section">
           <Card
             src={zoom}
+            alt="Zoom Rockman picture"
             caption="Zoom Rockman"
             title="Filmmaker"
             text="Director Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator."

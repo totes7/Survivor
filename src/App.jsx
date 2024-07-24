@@ -9,10 +9,12 @@ import Screening from './components/pages/Screening';
 import Book from './components/pages/Book';
 import Contact from './components/pages/Contact';
 import PrivacyPolicy from "./components/pages/PrivacyPolicy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home/>} />

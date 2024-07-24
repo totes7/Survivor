@@ -14,6 +14,7 @@ function Book() {
         <div className="book-container">
           <Card
             src={ivor}
+            alt="Ivor Perl BEM picture"
             title="Author"
             caption="Ivor Perl BEM"
             text="Ivor Perl was only 12 years old when his family were evicted from their home, robbed of their possessions, loaded into a cattle truck and deported to Auschwitz.
