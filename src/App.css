@@ -7,7 +7,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.home, .book, .privacy-policy {
+.home, .book, .screening, .privacy-policy {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     120deg,
@@ -53,6 +53,30 @@
 
 .news-section a:hover {
   color: rgb(11, 87, 208);
+}
+
+/* Screening */
+
+.screening {
+  height: 100%;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.screening h1 {
+  font-size: 40px;
+}
+
+.screening p {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.screening form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Book */
