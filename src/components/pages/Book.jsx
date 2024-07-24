@@ -35,7 +35,13 @@ function Book() {
           to="https://lemonsoul.com/products/chicken-soup-under-the-tree"
           target="_blank"
         >
-          <button>BUY HERE</button>
+          <button>BUY ON LEMON SOUL</button>
+        </Link>
+        <Link
+          to="https://www.amazon.co.uk/Chicken-Soup-Under-Tree-Journey/dp/1999378156"
+          target="_blank"
+        >
+          <button>BUY ON AMAZON</button>
         </Link>
       </div>
       <Footer />
