@@ -9,8 +9,8 @@ function Card(props) {
         <Link to={props.path} target="_blank">
           <figure className="card-image-wrap">
             <img src={props.src} alt="" className={props.classImage} />
-            <figcaption>{props.title}</figcaption>
             <figcaption>{props.caption}</figcaption>
+            <figcaption>{props.title}</figcaption>
           </figure>
         </Link>
 
