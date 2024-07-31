@@ -63,7 +63,7 @@ function Screening() {
               <button
                 // onClick={handleSubmit}
                 type="submit"
-                className="btn btn-secondary"
+                className="form-button"
               >
                 Send
               </button>
