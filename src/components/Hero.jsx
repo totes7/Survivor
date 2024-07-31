@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./Hero.css";
-import video from "../videos/video1.MP4";
+import video from "../videos/InProductionPromo.mp4";
 import cover from "../images/HeroCover.png";
 
 function Hero() {
@@ -32,7 +32,7 @@ function Hero() {
       </p>
 
       <div className="video-wrap">
-        <h3>Watch the Trailer</h3>
+        <h3>In Production Promo</h3>
         <video src={video} controls></video>
       </div>
     </div>
