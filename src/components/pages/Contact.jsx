@@ -72,6 +72,9 @@ function Contact() {
         </button>
 
         <h1>SOCIAL</h1>
+        <div className="contact-social">
+          
+        </div>
       </div>
 
       <Footer />
