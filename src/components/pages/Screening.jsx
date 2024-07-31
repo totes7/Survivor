@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import Footer from "../Footer";
 
 function Screening() {
   return (
@@ -69,6 +70,8 @@ function Screening() {
               </button>
 
       </div>
+
+      <Footer />
     </>
   );
 }
