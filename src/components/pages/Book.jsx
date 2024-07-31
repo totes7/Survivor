@@ -10,7 +10,7 @@ function Book() {
   return (
     <>
       <div className="book">
-        <h1>BOOK</h1>
+        <h1>THE BOOK</h1>
         <div className="book-container">
           <Card
             src={ivor}

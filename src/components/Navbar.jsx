@@ -52,7 +52,7 @@ function Navbar() {
               onMouseLeave={onMouseLeave}
             >
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                About &nbsp; <i className="fas fa-caret-down" />
+                More &nbsp; <i className="fas fa-caret-down" />
               </Link>
               {dropdown && <Dropdown />}
             </li>
@@ -71,7 +71,7 @@ function Navbar() {
                 className="nav-links mobile-link"
                 onClick={closeMobileMenu}
               >
-                Info
+                Production
               </Link>
             </li>
             <li>
@@ -80,7 +80,7 @@ function Navbar() {
                 className="nav-links mobile-link"
                 onClick={closeMobileMenu}
               >
-                Screening
+                Screenings
               </Link>
             </li>
             <li>
@@ -89,7 +89,7 @@ function Navbar() {
                 className="nav-links mobile-link"
                 onClick={closeMobileMenu}
               >
-                Book
+                The Book
               </Link>
             </li>
           </ul>

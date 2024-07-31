@@ -8,7 +8,7 @@ function Screening() {
       <div className="screening">
         <h1>SCREENING</h1>
         <p>
-        Survivor will be first shown internationally at MIPCOM 24</p>
+        Survivor will be first shown internationally at 'MIPCOM 24' on 21 October 2024</p>
         <p>Register interest in attending a screening below </p>
 
         <form id="myForm" className="mb-3">

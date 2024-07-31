@@ -15,7 +15,7 @@ function Home() {
           <Card
             src={zoom}
             alt="Zoom Rockman picture"
-            caption="Zoom Rockman"
+            caption="ZOOM ROCKMAN"
             title="Filmmaker"
             text="Director Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator."
             path="https://www.instagram.com/the_zoomcomic/"
@@ -24,8 +24,8 @@ function Home() {
           />
           <div className="news-section">
             <h3>Latest</h3>
-            <p>Movie release date coming soon!</p>
-            <p>Pre-order your tickets here</p>
+            <p>Release date coming soon!</p>
+            <p>Register interest in attending a screening</p>
           </div>
         </div>
 
