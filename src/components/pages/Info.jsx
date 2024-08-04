@@ -1,69 +1,77 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
+import erran from "../../images/ErranProfile.jpg";
 
 function Info() {
   return (
     <>
       <div className="info">
+        <h1>TEAM</h1>
         <div className="info-team">
-          <h1>TEAM</h1>
           <p>
-            Zoom Rockman <span>...................................</span>{" "}
-            Director
+            Zoom Rockman <span>Director</span>
           </p>
           <p>
-            Kate Lennard <span>................................</span>{" "}
-            Screenwriter
+            Kate Lennard <span>Screenwriter</span>
           </p>
           <p>
-            Sally Vaughan <span>........................................</span>{" "}
-            Producer
+            Sally Vaughan <span>Producer</span>
           </p>
           <p>
-            Nigel Canin <span>........................</span> Executive Producer
+            Nigel Canin <span>Executive Producer</span>
           </p>
           <p>
-            Rachel Mansson <span>..</span> Marketing and Distribution
+            Rachel Mansson <span>Marketing and Distribution</span>
           </p>
         </div>
 
-        <div className="info-music">
-          <h1>MUSIC</h1>
-          <p>
-            Music for the first third of the film, set in Hungary, is
-            traditional Yiddish Folk, developing into an ominous Talmudic chant
-            as the Nazi invasion unfolds only to end abruptly, when the cattle
-            truck doors are bolted shut. As they’re unbolted again at Auschwitz,
-            the second section begins. Blood pumping in ears, panic attack
-            sounds slowly evolving into an industrial soundscape as we follow
-            the new inmates’ metamorphosis into slave labour robots through a
-            full spectrum of Holocaust indignities, revealed in rapid
-            succession. The final crescendo and eventual escape through the
-            perimeter fence is accompanied by the exhilarating, rebellious sound
-            of Motorcade By Magazine (Post Punk band from 1978). This section
-            ends with a door being kicked in and the abrupt end of WW2. Section
-            three begins with silence and then the sound of nature. Emotional,
-            threatening, but hopeful. We hear the sounds of the Hebrew mourners’
-            prayers getting louder and eventually transforming into the joyous
-            sound of 1950’s Brick Lane, British, Yiddish Jazz.{" "}
-          </p>
-          <p>
-            {" "}
-            Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven throughout
-            the film and used to denote any emotional highs and lows. Erran
-            Baron Cohen is an award winning composer whose work has encompassed
-            film and television scores, album releases, orchestral commissions
-            and musical theatre. His knowledge of contemporary classical,
-            electronic and world music makes him an extremely versatile composer
-            able to turn his talents to a wide variety of eclectic projects.
-            Erran has received numerous Composer Awards for his scores to Borat,
-            Bruno and The Dictator and his song Wuhan Flu was Oscar shortlisted.
-          </p>
+        <h1>MUSIC</h1>
+
+        <div id="music">
+          <div id="music-text">
+            <p>
+              Music for the first third of the film, set in Hungary, is
+              traditional Yiddish Folk, developing into an ominous Talmudic
+              chant as the Nazi invasion unfolds only to end abruptly, when the
+              cattle truck doors are bolted shut. As they’re unbolted again at
+              Auschwitz, the second section begins. Blood pumping in ears, panic
+              attack sounds slowly evolving into an industrial soundscape as we
+              follow the new inmates’ metamorphosis into slave labour robots
+              through a full spectrum of Holocaust indignities, revealed in
+              rapid succession. The final crescendo and eventual escape through
+              the perimeter fence is accompanied by the exhilarating, rebellious
+              sound of Motorcade By Magazine (Post Punk band from 1978). This
+              section ends with a door being kicked in and the abrupt end of
+              WW2. Section three begins with silence and then the sound of
+              nature. Emotional, threatening, but hopeful. We hear the sounds of
+              the Hebrew mourners’ prayers getting louder and eventually
+              transforming into the joyous sound of 1950’s Brick Lane, British,
+              Yiddish Jazz.{" "}
+            </p>
+          </div>
+          <div id="music-image">
+            <img src={erran} alt="Erran Baron Cohen" />
+          </div>
+          <div id="music-profile">
+            <p>
+              {" "}
+              Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven
+              throughout the film and used to denote any emotional highs and
+              lows. Erran Baron Cohen is an award winning composer whose work
+              has encompassed film and television scores, album releases,
+              orchestral commissions and musical theatre. His knowledge of
+              contemporary classical, electronic and world music makes him an
+              extremely versatile composer able to turn his talents to a wide
+              variety of eclectic projects. Erran has received numerous Composer
+              Awards for his scores to Borat, Bruno and The Dictator and his
+              song Wuhan Flu was Oscar shortlisted.
+            </p>
+          </div>
         </div>
 
+        <h1>RESEARCH</h1>
         <div className="info-research">
-          <h1>RESEARCH</h1>
           <p>
             All characters have been developed using photographs of Ivor’s
             family and anonymous victims of the Holocaust. Each soul depicted is
@@ -85,8 +93,8 @@ function Info() {
           </p>
         </div>
 
+        <h1>ASPIRATIONS</h1>
         <div className="info-aspirations">
-          <h1>ASPIRATIONS</h1>
           <p>
             This film hopes to join the ranks of the most significant Holocaust
             films ever made. By utilising a distinctive animation style with

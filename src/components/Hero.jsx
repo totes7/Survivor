@@ -13,9 +13,7 @@ function Hero() {
         Holocaust, told by Zoom Rockman using a unique animation style with
         paper puppets. Zoom met Ivor, a 92- year-old Holocaust survivor, in the
         summer of 2023. Ivor left a lasting impression on Zoom, inspiring him to
-        share Ivor’s story, which remains relevant today. The film captures the
-        full spectrum of humanity and inhumanity, allowing audiences to derive
-        their own insights and reflections.
+        share Ivor’s story, which remains relevant today.
       </p>
       <p>
         We follow 12-year-old Ivor Perl from a small village in Hungary to the

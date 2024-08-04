@@ -23,7 +23,7 @@ function Home() {
             classImage="home-card-image"
           />
           <div className="news-section">
-            <h3>Latest</h3>
+            <h3>LATEST</h3>
             <p>Release date coming soon!</p>
             <p>Register interest in attending a screening</p>
           </div>

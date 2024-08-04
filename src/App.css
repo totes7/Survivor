@@ -4,10 +4,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.home, .about, .info, .book, .screening, .contact, .privacy-policy {
+.home,
+.about,
+.info,
+.book,
+.screening,
+.contact,
+.privacy-policy {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     120deg,
@@ -37,7 +43,7 @@
 }
 
 .news-section > h3 {
-  font-size: 40px;
+  font-size: 25px;
   margin-bottom: 5%;
 }
 
@@ -77,9 +83,19 @@
   padding: 0 20%;
 }
 
-/* Info */
+/* Info (Production) */
 
-.info-team,.info-music, .info-research, .info-aspirations {
+.info {
+  padding-top: 5%;
+}
+
+.info-team {
+  height: 100%;
+  margin: 5% 25%;
+}
+
+.info-research,
+.info-aspirations {
   height: 100%;
   padding: 5% 10%;
   text-align: justify;
@@ -89,51 +105,70 @@
   justify-content: center;
 }
 
-.info-team h1 {
+.info h1 {
   font-size: 40px;
-  margin-bottom: 5%;
+  text-align: center;
 }
 
 .info-team p {
   margin-top: 2%;
   font-size: 24px;
-  padding: 0 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.info-team p:last-child {
+  border-bottom: none;
 }
 
 .info-team span {
-  color: transparent;
+  margin-left: auto;
+  text-align: right;
 }
 
-.info-music h1 {
-  font-size: 40px;
-  margin-bottom: 5%;
+#music {
+  margin: 5% 15%;
+  display: grid;
+  text-align: justify;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "text text"
+    "image profile";
 }
 
-.info-music p {
-  margin-top: 2%;
+#music-text {
+  grid-area: text;
+}
+
+#music-text p {
   font-size: 20px;
-  padding: 0 20%;
 }
 
-.info-research h1 {
-  font-size: 40px;
-  margin-bottom: 5%;
+#music-image {
+  grid-area: image;
+  background-image: url("./images/ErranProfile.jpg");
+  border-radius: 5px;
 }
 
-.info-research p {
-  margin-top: 2%;
-  font-size: 20px;
-  padding: 0 20%;
+#music-image img {
+  display: none;
 }
 
-.info-aspirations h1 {
-  font-size: 40px;
-  margin-bottom: 5%;
+#music-profile {
+  grid-area: profile;
 }
 
+#music-profile p {
+  font-size: 18px;
+  padding: 5%;
+}
+
+.info-research p,
 .info-aspirations p {
-  margin-top: 2%;
   font-size: 20px;
+  margin-top: 1%;
   padding: 0 20%;
 }
 
@@ -198,7 +233,7 @@
   text-align: center;
 }
 
-.book h1{
+.book h1 {
   font-size: 40px;
 }
 
@@ -269,7 +304,8 @@
   padding: 20px;
 }
 
-.contact form > input, .contact form > textarea {
+.contact form > input,
+.contact form > textarea {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -350,15 +386,56 @@
     padding: 0 2%;
   }
 
+  .synopsis {
+    height: 450px;
+    overflow-y: scroll;
+  }
+
+  .info {
+    padding-top: 10%;
+  }
+
+  .info-team {
+    margin: 10%;
+  }
+
   .info-team p {
     font-size: 15px;
     padding: 0 2%;
   }
 
-  .info-music p {
-    font-size: 15px;
-    padding: 0 2%;
-    margin-top: 5%;
+  #music {
+    margin: 5% 10%;
+    text-align: justify;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #music-text {
+    height: 350px;
+    overflow-y: scroll;
+  }
+
+  #music-image {
+    background-image: none;
+    margin: 10%;
+  }
+
+  #music-image img {
+    display: block;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  #music-profile {
+    height: 200px;
+    overflow-y: scroll;
+  }
+
+  #music-profile p {
+    padding: 0;
   }
 
   .info-research p {
@@ -422,12 +499,12 @@
     margin: 5% 0;
     font-size: 35px;
   }
-  
+
   .privacy-policy-container h2 {
     margin: 5% 0;
     font-size: 30px;
   }
-  
+
   .privacy-policy-container h3 {
     margin: 5% 0;
     font-size: 20px;
