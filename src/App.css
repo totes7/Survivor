@@ -85,10 +85,6 @@
 
 /* Info (Production) */
 
-.info {
-  padding-top: 5%;
-}
-
 .info-team {
   height: 100%;
   margin: 5% 25%;
@@ -108,6 +104,7 @@
 .info h1 {
   font-size: 40px;
   text-align: center;
+  padding-top: 5%;
 }
 
 .info-team p {
@@ -140,6 +137,8 @@
 
 #music-text {
   grid-area: text;
+  overflow-y: scroll;
+  margin-bottom: 5%;
 }
 
 #music-text p {
@@ -150,6 +149,9 @@
   grid-area: image;
   background-image: url("./images/ErranProfile.jpg");
   border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #music-image img {
@@ -158,6 +160,7 @@
 
 #music-profile {
   grid-area: profile;
+  overflow-y: scroll;
 }
 
 #music-profile p {
@@ -165,7 +168,6 @@
   padding: 5%;
 }
 
-.info-research p,
 .info-aspirations p {
   font-size: 20px;
   margin-top: 1%;
@@ -176,18 +178,18 @@
   margin: 5% 15%;
   display: grid;
   text-align: justify;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 25% 25% 50%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "text image3 image3"
-    "text image1 image2"
-    "video video video";
+    "text text image3 image3"
+    "text text image1 image2"
+    "video video video video";
 }
 
 #research-text {
   grid-area: text;
-  margin: 5%;
-  font-size: 20px;
+  margin: 5% 5% 5% 0;
+  font-size: 22px;
   overflow-y: scroll;
 }
 
@@ -203,18 +205,27 @@
 #research-image-one {
   grid-area: image1;
   background-image: url("./images/Research-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* margin: 5%; */
 }
 
 #research-image-two {
   grid-area: image2;
   background-image: url("./images/Research-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* margin: 5%; */
 }
 
 #research-image-three {
   grid-area: image3;
   background-image: url("./images/Research-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* margin: 5%; */
 }
 
@@ -410,6 +421,38 @@
 /* Media Queries */
 
 @media screen and (max-width: 960px) {
+  
+  .info-team {
+    margin: 15%;
+  }
+
+  #research {
+    margin: 5% 10% 50% 10%;
+    display: grid;
+    text-align: justify;
+    grid-template-rows: 40% 30% 25% 5%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "text text"
+      "image3 image3"
+      "image1 image2"
+      "video video";
+  }
+
+  #research-text {
+    font-size: 20px;
+    margin: 5%;
+  }
+
+  
+  .info-aspirations p {
+    font-size: 15px;
+    padding: 0 2%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 819px) {
   .home-bottom-section {
     display: flex;
     flex-flow: column;
@@ -441,8 +484,8 @@
     padding-top: 10%;
   }
 
-  .info-team {
-    margin: 10%;
+  .info h1 {
+    padding: 15% 0 5% 0;
   }
 
   .info-team p {
@@ -473,6 +516,9 @@
     display: block;
     height: 300px;
     border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #music-profile {
@@ -482,18 +528,6 @@
 
   #music-profile p {
     padding: 0;
-  }
-
-  .info-research p {
-    font-size: 15px;
-    padding: 0 2%;
-    margin-top: 5%;
-  }
-
-  .info-aspirations p {
-    font-size: 15px;
-    padding: 0 2%;
-    margin-top: 5%;
   }
 
   .screening h1 {
