@@ -172,6 +172,52 @@
   padding: 0 20%;
 }
 
+#research {
+  margin: 5% 15%;
+  display: grid;
+  text-align: justify;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "text image3 image3"
+    "text image1 image2"
+    "video video video";
+}
+
+#research-text {
+  grid-area: text;
+  margin: 5%;
+  font-size: 20px;
+  overflow-y: scroll;
+}
+
+#research-text::-webkit-scrollbar {
+  display: none;
+}
+
+#research-video {
+  grid-area: video;
+  /* padding: 5%; */
+}
+
+#research-image-one {
+  grid-area: image1;
+  background-image: url("./images/Research-1.png");
+  /* margin: 5%; */
+}
+
+#research-image-two {
+  grid-area: image2;
+  background-image: url("./images/Research-2.png");
+  /* margin: 5%; */
+}
+
+#research-image-three {
+  grid-area: image3;
+  background-image: url("./images/Research-3.png");
+  /* margin: 5%; */
+}
+
 /* Screening */
 
 .screening {

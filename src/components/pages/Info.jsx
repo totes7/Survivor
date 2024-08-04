@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
 import erran from "../../images/ErranProfile.jpg";
+import video from "../../videos/video1.MP4";
 
 function Info() {
   return (
@@ -71,26 +72,38 @@ function Info() {
         </div>
 
         <h1>RESEARCH</h1>
-        <div className="info-research">
-          <p>
-            All characters have been developed using photographs of Ivor’s
-            family and anonymous victims of the Holocaust. Each soul depicted is
-            based on a real person, respectfully brought back to life in puppet
-            form. This includes Zoom’s own great-great-uncle, Lazar Rozenwajn,
-            who was imprisoned at Auschwitz and liberated from Dachau on the
-            same day as Ivor. Holocaust artist David Olère’s visual descriptions
-            of the Sonderkommando informed Zoom’s understanding of the workings
-            of the crematoriums, leading him to include Olère himself in these
-            scenes. Knowledge and layouts of locations have been enhanced by
-            research trips to Auschwitz, Dachau, Allach, Kaufering IV, and
-            Walnuss II, guided by historians. Testimony from Ivor has been
-            crossreferenced with the books of Primo Levi, Elie Wiesel, and
-            József Debreczeni, who were also at Auschwitz around the same time.
-            Later this year, Zoom will travel to Mako, Hungary, to see where
-            Ivor lived with his parents and siblings. From there, he will take a
-            train to Szeged and see the scenery the family travelled through on
-            their first cattle truck journey to Auschwitz.
-          </p>
+        <div id="research">
+          <div id="research-text">
+            <p>
+              All characters have been developed using photographs of Ivor’s
+              family and anonymous victims of the Holocaust. Each soul depicted
+              is based on a real person, respectfully brought back to life in
+              puppet form. This includes Zoom’s own great-great-uncle, Lazar
+              Rozenwajn, who was imprisoned at Auschwitz and liberated from
+              Dachau on the same day as Ivor. Holocaust artist David Olère’s
+              visual descriptions of the Sonderkommando informed Zoom’s
+              understanding of the workings of the crematoriums, leading him to
+              include Olère himself in these scenes. Knowledge and layouts of
+              locations have been enhanced by research trips to Auschwitz,
+              Dachau, Allach, Kaufering IV, and Walnuss II, guided by
+              historians. Testimony from Ivor has been crossreferenced with the
+              books of Primo Levi, Elie Wiesel, and József Debreczeni, who were
+              also at Auschwitz around the same time. Later this year, Zoom will
+              travel to Mako, Hungary, to see where Ivor lived with his parents
+              and siblings. From there, he will take a train to Szeged and see
+              the scenery the family travelled through on their first cattle
+              truck journey to Auschwitz.
+            </p>
+          </div>
+          <div id="research-image-one">
+          </div>
+          <div id="research-image-two">
+          </div>
+          <div id="research-image-three">
+          </div>
+          <div id="research-video">
+            <video src={video} controls></video>
+          </div>
         </div>
 
         <h1>ASPIRATIONS</h1>
