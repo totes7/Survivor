@@ -93,7 +93,7 @@
 .info-research,
 .info-aspirations {
   height: 100%;
-  padding: 5% 10%;
+  padding: 5% 20%;
   text-align: justify;
   display: flex;
   flex-flow: column;
@@ -125,10 +125,11 @@
 }
 
 #music {
-  margin: 5% 15%;
+  min-height: 800px;
+  margin: 5% 20%;
   display: grid;
   text-align: justify;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 50% 50%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "text text"
@@ -141,8 +142,12 @@
   margin-bottom: 5%;
 }
 
+#music-text::-webkit-scrollbar {
+  display: none;
+}
+
 #music-text p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #music-image {
@@ -163,19 +168,23 @@
   overflow-y: scroll;
 }
 
+#music-profile::-webkit-scrollbar {
+  display: none;
+}
+
+
 #music-profile p {
-  font-size: 18px;
+  font-size: 20px;
   padding: 5%;
 }
 
 .info-aspirations p {
   font-size: 20px;
   margin-top: 1%;
-  padding: 0 20%;
 }
 
 #research {
-  margin: 5% 15%;
+  margin: 5% 20%;
   display: grid;
   text-align: justify;
   grid-template-rows: 25% 25% 50%;
@@ -422,6 +431,20 @@
 
 @media screen and (max-width: 960px) {
   
+  .about h1 {
+    margin-bottom: 10%;
+  }
+
+  .about p {
+    font-size: 18px;
+    padding: 0 2%;
+  }
+
+  .synopsis {
+    height: 450px;
+    overflow-y: scroll;
+  }
+
   .info-team {
     margin: 15%;
   }
@@ -464,20 +487,6 @@
     width: 50%;
     margin: 10% 5% 20% 5%;
     text-align: center;
-  }
-
-  .about h1 {
-    margin-bottom: 10%;
-  }
-
-  .about p {
-    font-size: 18px;
-    padding: 0 2%;
-  }
-
-  .synopsis {
-    height: 450px;
-    overflow-y: scroll;
   }
 
   .info {
