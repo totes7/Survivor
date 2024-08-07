@@ -80,7 +80,37 @@
 .about p {
   margin-top: 2%;
   font-size: 20px;
-  padding: 0 20%;
+  padding: 0 15%;
+}
+
+.synopsis {
+  margin-bottom: 5%;
+}
+
+#characters {
+  margin: 5% 10%;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "image text text";
+}
+
+#characters-image {
+  grid-area: image;
+  background-image: url("./images/IvorCharacter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#characters-text {
+  grid-area: text;
+  overflow-y: scroll;
+}
+
+#characters-text::-webkit-scrollbar {
+  display: none;
 }
 
 /* Info (Production) */
@@ -450,7 +480,7 @@
   }
 
   .about h1 {
-    margin-bottom: 10%;
+    margin: 10% 0;
   }
 
   .about p {
@@ -461,6 +491,15 @@
   .synopsis {
     height: 450px;
     overflow-y: scroll;
+  }
+
+  #characters {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "image text text";
   }
 
   .info-team {
@@ -505,6 +544,10 @@
     width: 50%;
     margin: 10% 5% 20% 5%;
     text-align: center;
+  }
+
+  #characters-text p {
+    padding: 5%;
   }
 
   .info {

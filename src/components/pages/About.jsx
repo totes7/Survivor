@@ -51,6 +51,23 @@ function About() {
             to the UK. Ivor, now 92, appears on screen in live action.
           </p>
         </div>
+
+        <h1>CHARACTERS</h1>
+
+        <div id="characters">
+          <div id="characters-image"></div>
+          <div id="characters-text">
+            <p>
+              We follow 12-year-old Ivor Perl from a small town in Hungary to
+              the gates of Auschwitz, Kaufering, Allach, and Dachau, witnessing
+              the unspeakable horrors of the Holocaust. From being herded onto a
+              cattle truck and narrowly avoiding the gas chambers and ovens, to
+              enduring hunger, typhus, and unimaginable loss, we ultimately see
+              the unbreakable bond between two brothers and their miraculous
+              survival
+            </p>
+          </div>
+        </div>
       </div>
 
       <Footer />
