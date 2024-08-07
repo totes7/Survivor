@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import Card from "../Card";
 import Footer from "../Footer";
 import erran from "../../images/ErranProfile.jpg";
 import video from "../../videos/video1.MP4";
@@ -52,7 +53,6 @@ function Info() {
             </p>
           </div>
           <div id="music-image">
-            <img src={erran} alt="Erran Baron Cohen" />
           </div>
           <div id="music-profile">
             <p>
@@ -68,6 +68,27 @@ function Info() {
               Awards for his scores to Borat, Bruno and The Dictator and his
               song Wuhan Flu was Oscar shortlisted.
             </p>
+          </div>
+          <div id="music-card">
+          <Card
+            src={erran}
+            alt="Erran Baron Cohen"
+            caption="ERRAN BARON COHEN"
+            title="Composer"
+            text="Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven
+              throughout the film and used to denote any emotional highs and
+              lows. Erran Baron Cohen is an award winning composer whose work
+              has encompassed film and television scores, album releases,
+              orchestral commissions and musical theatre. His knowledge of
+              contemporary classical, electronic and world music makes him an
+              extremely versatile composer able to turn his talents to a wide
+              variety of eclectic projects. Erran has received numerous Composer
+              Awards for his scores to Borat, Bruno and The Dictator and his
+              song Wuhan Flu was Oscar shortlisted."
+            path="http://www.erranbaroncohen.com/"
+            classOuter="music-card-container"
+            classImage="music-card-image"
+          />
           </div>
         </div>
 

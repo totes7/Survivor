@@ -11,7 +11,7 @@ function Footer() {
             <div class="social-icons">
               <Link
                 class="social-icon-link instagram"
-                to="/"
+                to="https://www.instagram.com/the_zoomcomic/"
                 target="_blank"
                 aria-label="Instagram"
               >
@@ -19,7 +19,7 @@ function Footer() {
               </Link>
               <Link
                 class="social-icon-link youtube"
-                to="/"
+                to="https://www.youtube.com/channel/UCEfloRN5hzghunA970rEv0g"
                 target="_blank"
                 aria-label="Youtube"
               >
@@ -27,15 +27,15 @@ function Footer() {
               </Link>
               <Link
                 class="social-icon-link twitter"
-                to="/"
+                to="https://x.com/The_ZoomComic?t=6XHyQxg4Wy7DVdoxBkoqHg&s=08"
                 target="_blank"
                 aria-label="Twitter"
               >
                 <i class="fab fa-x-twitter" />
               </Link>
               <Link
-                class="social-icon-link twitter"
-                to="/"
+                class="social-icon-link linkedin"
+                to="https://www.linkedin.com/in/sallyvaughan/"
                 target="_blank"
                 aria-label="LinkedIn"
               >

@@ -159,7 +159,7 @@
   background-size: cover;
 }
 
-#music-image img {
+#music-card {
   display: none;
 }
 
@@ -171,7 +171,6 @@
 #music-profile::-webkit-scrollbar {
   display: none;
 }
-
 
 #music-profile p {
   font-size: 20px;
@@ -430,14 +429,17 @@
 /* Media Queries */
 
 @media screen and (max-width: 960px) {
-  
+  .about {
+    padding: 5%;
+  }
+
   .about h1 {
     margin-bottom: 10%;
   }
 
   .about p {
     font-size: 18px;
-    padding: 0 2%;
+    padding: 0;
   }
 
   .synopsis {
@@ -446,11 +448,11 @@
   }
 
   .info-team {
-    margin: 15%;
+    margin: 10%;
   }
 
   #research {
-    margin: 5% 10% 50% 10%;
+    margin: 5% 5% 50% 5%;
     display: grid;
     text-align: justify;
     grid-template-rows: 40% 30% 25% 5%;
@@ -467,7 +469,6 @@
     margin: 5%;
   }
 
-  
   .info-aspirations p {
     font-size: 15px;
     padding: 0 2%;
@@ -503,7 +504,7 @@
   }
 
   #music {
-    margin: 5% 10%;
+    margin: 5% 5%;
     text-align: justify;
     display: flex;
     flex-flow: column;
@@ -512,31 +513,50 @@
   }
 
   #music-text {
-    height: 350px;
+    height: 300px;
     overflow-y: scroll;
+  }
+
+  #music-text p {
+    font-size: 20px;
+  }
+
+  #music-card {
+    display: block;
+  }
+
+  .music-card-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 5% 5%;
+  }
+
+  .music-card-image {
+    display: block;
+    width: 80%;
+    margin: 0 10%;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+
+  .music-card-container a {
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+  }
+  
+  .music-card-container a:hover {
+    color: rgb(11, 87, 208);
   }
 
   #music-image {
     background-image: none;
-    margin: 10%;
-  }
-
-  #music-image img {
-    display: block;
-    height: 300px;
-    border-radius: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   #music-profile {
-    height: 200px;
-    overflow-y: scroll;
-  }
-
-  #music-profile p {
-    padding: 0;
+    display: none;
   }
 
   .screening h1 {
