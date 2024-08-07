@@ -1,8 +1,41 @@
 import React from "react";
+import { useState } from "react";
+import { send } from "emailjs-com";
 import "../../App.css";
 import Footer from "../Footer";
 
 function Contact() {
+  const [toSend, setToSend] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    send("service_8brub0n", "sample1", toSend, "w3PTPQHEg7TjRVSxm")
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+
+    setToSend({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+
+    alert("Message sent successfully!");
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
+
   return (
     <>
       <div className="contact">
@@ -23,8 +56,8 @@ function Contact() {
             className="form-control"
             id="name-input"
             placeholder="Name"
-            // value={toSend.name}
-            // onChange={handleChange}
+            value={toSend.name}
+            onChange={handleChange}
           />
           <label htmlFor="email-input" className="form-label">
             Email address
@@ -35,8 +68,8 @@ function Contact() {
             className="form-control"
             id="email-input"
             placeholder="name@example.com"
-            // value={toSend.email}
-            // onChange={handleChange}
+            value={toSend.email}
+            onChange={handleChange}
           />
           <label htmlFor="subject-input" className="form-label">
             Subject
@@ -47,8 +80,8 @@ function Contact() {
             className="form-control"
             id="subject-input"
             placeholder="Subject"
-            // value={toSend.subject}
-            // onChange={handleChange}
+            value={toSend.subject}
+            onChange={handleChange}
           />
           <label htmlFor="message-input" className="form-label">
             Message
@@ -59,12 +92,12 @@ function Contact() {
             id="message-input"
             rows="4"
             placeholder="Leave a message"
-            // value={toSend.message}
-            // onChange={handleChange}
+            value={toSend.message}
+            onChange={handleChange}
           ></textarea>
         </form>
         <button
-          // onClick={handleSubmit}
+          onClick={handleSubmit}
           type="submit"
           className="form-button"
         >
@@ -72,9 +105,7 @@ function Contact() {
         </button>
 
         <h1>SOCIAL</h1>
-        <div className="contact-social">
-          
-        </div>
+        <div className="contact-social"></div>
       </div>
 
       <Footer />
