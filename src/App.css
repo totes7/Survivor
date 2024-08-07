@@ -90,17 +90,6 @@
   margin: 5% 25%;
 }
 
-.info-research,
-.info-aspirations {
-  height: 100%;
-  padding: 5% 20%;
-  text-align: justify;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .info h1 {
   font-size: 40px;
   text-align: center;
@@ -177,11 +166,6 @@
   padding: 5%;
 }
 
-.info-aspirations p {
-  font-size: 20px;
-  margin-top: 1%;
-}
-
 #research {
   margin: 5% 20%;
   display: grid;
@@ -189,12 +173,12 @@
   grid-template-rows: 25% 25% 50%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "text text image3 image3"
-    "text text image1 image2"
+  "text text image3 image3"
+  "text text image1 image2"
     "video video video video";
-}
-
-#research-text {
+  }
+  
+  #research-text {
   grid-area: text;
   margin: 5% 5% 5% 0;
   font-size: 22px;
@@ -235,6 +219,38 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* margin: 5%; */
+}
+
+#aspirations {
+  padding: 5% 20%;
+  display: grid;
+  text-align: justify;
+  grid-template-rows: 500px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "image text";
+}
+
+#aspirations-image {
+  grid-area: image;
+  background-image: url("./images/AspirationImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aspirations-text {
+  grid-area: text;
+  overflow-y: scroll;
+}
+
+#aspirations-text::-webkit-scrollbar {
+  display: none;
+}
+
+#aspirations-text p {
+  font-size: 20px;
+  margin: 5%;
 }
 
 /* Screening */
@@ -451,6 +467,10 @@
     margin: 10%;
   }
 
+  #music {
+    margin: 5% 5%;
+  }
+
   #research {
     margin: 5% 5% 50% 5%;
     display: grid;
@@ -466,17 +486,14 @@
 
   #research-text {
     font-size: 20px;
-    margin: 5%;
   }
 
-  .info-aspirations p {
-    font-size: 15px;
-    padding: 0 2%;
-    margin-top: 5%;
+  #aspirations {
+    padding: 5% 5%;
   }
 }
 
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 765px) {
   .home-bottom-section {
     display: flex;
     flex-flow: column;
@@ -499,7 +516,7 @@
   }
 
   .info-team p {
-    font-size: 15px;
+    font-size: 18px;
     padding: 0 2%;
   }
 
@@ -518,7 +535,7 @@
   }
 
   #music-text p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #music-card {
@@ -557,6 +574,34 @@
 
   #music-profile {
     display: none;
+  }
+
+  #research-text {
+    font-size: 18px;
+  }
+
+  #aspirations {
+    padding: 5%;
+    display: grid;
+    text-align: justify;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "text"
+    "image";
+  }
+
+  #aspirations-text {
+    margin-bottom: 5%;
+  }
+
+  #aspirations-text p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  #aspirations-image {
+    margin-bottom: 5%;
   }
 
   .screening h1 {

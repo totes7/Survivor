@@ -52,8 +52,7 @@ function Info() {
               Yiddish Jazz.{" "}
             </p>
           </div>
-          <div id="music-image">
-          </div>
+          <div id="music-image"></div>
           <div id="music-profile">
             <p>
               {" "}
@@ -70,12 +69,12 @@ function Info() {
             </p>
           </div>
           <div id="music-card">
-          <Card
-            src={erran}
-            alt="Erran Baron Cohen"
-            caption="ERRAN BARON COHEN"
-            title="Composer"
-            text="Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven
+            <Card
+              src={erran}
+              alt="Erran Baron Cohen"
+              caption="ERRAN BARON COHEN"
+              title="Composer"
+              text="Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven
               throughout the film and used to denote any emotional highs and
               lows. Erran Baron Cohen is an award winning composer whose work
               has encompassed film and television scores, album releases,
@@ -85,10 +84,10 @@ function Info() {
               variety of eclectic projects. Erran has received numerous Composer
               Awards for his scores to Borat, Bruno and The Dictator and his
               song Wuhan Flu was Oscar shortlisted."
-            path="http://www.erranbaroncohen.com/"
-            classOuter="music-card-container"
-            classImage="music-card-image"
-          />
+              path="http://www.erranbaroncohen.com/"
+              classOuter="music-card-container"
+              classImage="music-card-image"
+            />
           </div>
         </div>
 
@@ -116,36 +115,36 @@ function Info() {
               truck journey to Auschwitz.
             </p>
           </div>
-          <div id="research-image-one">
-          </div>
-          <div id="research-image-two">
-          </div>
-          <div id="research-image-three">
-          </div>
+          <div id="research-image-one"></div>
+          <div id="research-image-two"></div>
+          <div id="research-image-three"></div>
           <div id="research-video">
             <video src={video} controls></video>
           </div>
         </div>
 
         <h1>ASPIRATIONS</h1>
-        <div className="info-aspirations">
-          <p>
-            This film hopes to join the ranks of the most significant Holocaust
-            films ever made. By utilising a distinctive animation style with
-            paper puppet characters and scenery derived from archival material,
-            we aim to vividly depict the physical and emotional realities of the
-            Holocaust based on thoroughly researched, fact-checked primary
-            source testimonies.
-          </p>
-          <p>
-            Our goal is to engage deeply, surprise, and touch the audience as
-            they follow Ivor, an ordinary boy, through his journey of love,
-            loss, fear, joy, excitement, despair, confusion, shame, happiness
-            and courage. We intend for this film to reach a wide audience, spark
-            meaningful debate and discussion, and be recognised as a vital
-            creative expression of humanity's fragility, preserved for current
-            and future generations.
-          </p>
+        <div id="aspirations">
+          <div id="aspirations-image"></div>
+          <div id="aspirations-text">
+            <p>
+              This film hopes to join the ranks of the most significant
+              Holocaust films ever made. By utilising a distinctive animation
+              style with paper puppet characters and scenery derived from
+              archival material, we aim to vividly depict the physical and
+              emotional realities of the Holocaust based on thoroughly
+              researched, fact-checked primary source testimonies.
+            </p>
+            <p>
+              Our goal is to engage deeply, surprise, and touch the audience as
+              they follow Ivor, an ordinary boy, through his journey of love,
+              loss, fear, joy, excitement, despair, confusion, shame, happiness
+              and courage. We intend for this film to reach a wide audience,
+              spark meaningful debate and discussion, and be recognised as a
+              vital creative expression of humanity's fragility, preserved for
+              current and future generations.
+            </p>
+          </div>
         </div>
       </div>
 
