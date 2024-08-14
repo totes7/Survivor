@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import Card from "../Card";
+import Accordion from "../Accordion";
 import Footer from "../Footer";
 import erran from "../../images/ErranProfile.jpg";
 import video from "../../videos/video1.MP4";
@@ -10,7 +11,10 @@ function Info() {
     <>
       <div className="info">
         <h1>TEAM</h1>
-        <div className="info-team">
+
+        <Accordion />
+
+        {/* <div className="info-team">
           <p>
             Zoom Rockman <span>Director</span>
           </p>
@@ -26,7 +30,7 @@ function Info() {
           <p>
             Rachel Mansson <span>Marketing and Distribution</span>
           </p>
-        </div>
+        </div> */}
 
         <h1>MUSIC</h1>
 
