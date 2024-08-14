@@ -226,7 +226,7 @@
 
 #research-image-one {
   grid-area: image1;
-  background-image: url("./images/Research-1.png");
+  background-image: url("./images/Research-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -235,7 +235,7 @@
 
 #research-image-two {
   grid-area: image2;
-  background-image: url("./images/Research-2.png");
+  background-image: url("./images/Research-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,7 +244,7 @@
 
 #research-image-three {
   grid-area: image3;
-  background-image: url("./images/Research-3.png");
+  background-image: url("./images/Research-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
