@@ -230,7 +230,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin: 5%; */
+  margin: 1%;
 }
 
 #research-image-two {
@@ -239,7 +239,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin: 5%; */
+  margin: 1%;
 }
 
 #research-image-three {
@@ -248,7 +248,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin: 5%; */
+  margin: 1%;
 }
 
 #aspirations {
@@ -525,6 +525,7 @@
 
   #research-text {
     font-size: 20px;
+    margin: 0;
   }
 
   #aspirations {
