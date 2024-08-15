@@ -148,17 +148,17 @@
   margin: 5% 20%;
   display: grid;
   text-align: justify;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "text text"
-    "image profile";
+    "image profile"
+    "singer singerImage";
 }
 
 #music-text {
   grid-area: text;
   overflow-y: scroll;
-  margin-bottom: 5%;
 }
 
 #music-text::-webkit-scrollbar {
@@ -170,6 +170,7 @@
 }
 
 #music-image {
+  min-height: 300px;
   grid-area: image;
   background-image: url("./images/ErranProfile.jpg");
   border-radius: 5px;
@@ -182,18 +183,39 @@
   display: none;
 }
 
-#music-profile {
-  grid-area: profile;
-  overflow-y: scroll;
+#music-card-singer {
+  display: none;
 }
 
-#music-profile::-webkit-scrollbar {
+#music-profile {
+  grid-area: profile;
+  padding: 0 0 0 5%;
+}
+
+#music-profile p::-webkit-scrollbar {
   display: none;
 }
 
 #music-profile p {
   font-size: 20px;
-  padding: 5%;
+  overflow-y: scroll;
+}
+
+#music-singer-profile {
+  grid-area: singer;
+  padding: 15% 5% 5% 0;
+  font-size: 20px;
+}
+
+#music-singer-image {
+  min-height: 300px;
+  grid-area: singerImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/PiniProfile.jpg");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #research {
@@ -586,19 +608,23 @@
     display: block;
   }
 
+  #music-card-singer {
+    display: block;
+  }
+
   .music-card-container {
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 90%;
-    margin: 5% 5%;
+    margin: 0 5%;
   }
 
   .music-card-image {
     display: block;
     width: 80%;
-    margin: 0 10%;
+    margin: 5% 10%;
     object-fit: contain;
     border-radius: 50%;
   }
@@ -614,10 +640,20 @@
 
   #music-image {
     background-image: none;
+    min-height: 0;
   }
 
   #music-profile {
     display: none;
+  }
+
+  #music-singer-profile {
+    display: none;
+  }
+
+  #music-singer-image {
+    background-image: none;
+    min-height: 0;
   }
 
   #research-text {

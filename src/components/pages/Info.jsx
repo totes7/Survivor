@@ -4,6 +4,7 @@ import Card from "../Card";
 import Accordion from "../Accordion";
 import Footer from "../Footer";
 import erran from "../../images/ErranProfile.jpg";
+import pini from "../../images/PiniProfile.jpg";
 import video from "../../videos/video1.MP4";
 
 function Info() {
@@ -13,24 +14,6 @@ function Info() {
         <h1>TEAM</h1>
 
         <Accordion />
-
-        {/* <div className="info-team">
-          <p>
-            Zoom Rockman <span>Director</span>
-          </p>
-          <p>
-            Kate Lennard <span>Screenwriter</span>
-          </p>
-          <p>
-            Sally Vaughan <span>Producer</span>
-          </p>
-          <p>
-            Nigel Canin <span>Executive Producer</span>
-          </p>
-          <p>
-            Rachel Mansson <span>Marketing and Distribution</span>
-          </p>
-        </div> */}
 
         <h1>MUSIC</h1>
 
@@ -58,6 +41,7 @@ function Info() {
           </div>
           <div id="music-image"></div>
           <div id="music-profile">
+            <h3>ERRAN BARON COHEN - COMPOSER</h3>
             <p>
               {" "}
               Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven
@@ -89,6 +73,33 @@ function Info() {
               Awards for his scores to Borat, Bruno and The Dictator and his
               song Wuhan Flu was Oscar shortlisted."
               path="http://www.erranbaroncohen.com/"
+              classOuter="music-card-container"
+              classImage="music-card-image"
+            />
+          </div>
+          <div id="music-singer-profile">
+            <h4>PINI BROWN - SINGER</h4>
+            <p>
+              Pini Brown trained as a Cantor in Jerusalem. His early years were
+              marked by a struggle to fit in and conform within his Ultra
+              Orthodox Community. Age 20 he was brought to the UK for an
+              arranged marriage and after a period of deep unhappiness he made
+              the brave decision to leave. Embraced by the wider Jewish
+              Community he continues to pave his way; By day, hosting tours of
+              the East End and by night making a name for himself performing his
+              unique brand of Yiddish Klezmer in the late night blues and jazz
+              clubs of London.
+            </p>
+          </div>
+          <div id="music-singer-image"></div>
+          <div id="music-card-singer">
+            <Card
+              src={pini}
+              alt="Pini Brown"
+              caption="PINI BROWN"
+              title="Singer"
+              text="Pini Brown trained as a Cantor in Jerusalem.  His early years were marked by a struggle to fit in and conform within his Ultra Orthodox Community. Age 20 he was brought to the UK for an arranged marriage and after a period of deep unhappiness he made the brave decision to leave. Embraced by the wider Jewish Community he continues to pave his way; By day, hosting tours of the East End and by night making a name for himself performing his unique brand of Yiddish Klezmer in the late night blues and jazz clubs of London."
+              path="https://www.instagram.com/pini_on_the_roof/"
               classOuter="music-card-container"
               classImage="music-card-image"
             />
