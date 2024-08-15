@@ -13,7 +13,7 @@ export const TeamMembers = [
         name: 'Kate Lennard',
         title: 'Screenwriter',
         image: kate,
-        text: "Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at Rockman&Rockman design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera collection. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages. Kate is also the mother of Zoom and Ace Rockman."
+        text: "Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN&ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera collection. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages. Kate is also the mother of Zoom and Ace Rockman."
     },
     {
         name: 'Sally Vaughan',
