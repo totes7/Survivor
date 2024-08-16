@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import zoom from "../../images/ZoomProfile.jpg";
 import kate from "../../images/KateProfile.jpg";
 import sally from "../../images/SallyProfile.jpg";
+import nigel from "../../images/NigelProfile.jpeg";
 import morgan from "../../images/MorganProfile.jpg";
 import mark from "../../images/MarkProfile.jpg";
 import ace from "../../images/AceProfile.jpg";
@@ -86,6 +87,22 @@ function Info() {
               title="Producer"
               text="Sally Vaughan is a producer, agent and coach. Prior to founding her own agency, Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 and became art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership."
               path="https://www.linkedin.com/in/sallyvaughan/"
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="nigel-image"></div>
+          <div id="nigel-profile">
+            <h3>NIGEL CANIN - EXECUTIVE PRODUCER</h3>
+          </div>
+          <div id="nigel-card">
+          <Card
+              src={nigel}
+              alt="Nigel Canin"
+              caption="NIGEL CANIN"
+              title="Executive Producer"
+              text=""
+              path="https://www.linkedin.com/in/nigel-canin-43061317/"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -239,6 +256,25 @@ function Info() {
             <video src={video} controls></video>
           </div>
         </div>
+
+        <h1>CHARACTERS</h1>
+
+        <div id="characters">
+          <div id="characters-image"></div>
+          <div id="characters-text">
+            <h3>IVOR PERL</h3>
+            <p>
+              We follow 12-year-old Ivor Perl from a small town in Hungary to
+              the gates of Auschwitz, Kaufering, Allach, and Dachau, witnessing
+              the unspeakable horrors of the Holocaust. From being herded onto a
+              cattle truck and narrowly avoiding the gas chambers and ovens, to
+              enduring hunger, typhus, and unimaginable loss, we ultimately see
+              the unbreakable bond between two brothers and their miraculous
+              survival
+            </p>
+          </div>
+        </div>
+
       </div>
 
       <Footer />

@@ -123,30 +123,7 @@
   font-size: 20px;
 }
 
-#characters {
-  margin: 5% 10%;
-  display: grid;
-  grid-template-rows: 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "image text text";
-}
 
-#characters-image {
-  grid-area: image;
-  background-image: url("./images/IvorCharacter.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#characters-text {
-  grid-area: text;
-  overflow-y: scroll;
-}
-
-#characters-text::-webkit-scrollbar {
-  display: none;
-}
 
 /* Info (Production) */
 
@@ -169,6 +146,7 @@
   margin: 5% 20%;
   display: grid;
   text-align: justify;
+  font-size: 16px;
   word-spacing: -2px;
   grid-template-rows: 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px;
   grid-template-columns: 1fr 1fr;
@@ -176,6 +154,7 @@
     "zoomImage zoom"
     "kate kateImage"
     "sallyImage sally"
+    "nigel nigelImage"
     "morgan morganImage"
     "markImage mark"
     "ace aceImage"
@@ -240,6 +219,26 @@
 }
 
 #sally-card {
+  display: none;
+}
+
+#nigel-image {
+  min-height: 300px;
+  grid-area: nigelImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/NigelProfile.jpeg");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nigel-profile {
+  grid-area: nigel;
+  padding: 15% 5% 5% 0;
+}
+
+#nigel-card {
   display: none;
 }
 
@@ -357,13 +356,12 @@
 
 #research-text {
   grid-area: text;
-  margin: 0 5% 5% 0;
-  font-size: 20px;
+  margin: 0 5% 0 0;
+  font-size: 18px;
 }
 
 #research-video {
   grid-area: video;
-  /* padding: 5%; */
 }
 
 #research-image-one {
@@ -392,6 +390,29 @@
   background-size: cover;
   margin: 1%;
 }
+
+#characters {
+  padding: 5% 20%;
+  text-align: justify;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "image text text";
+}
+
+#characters-image {
+  grid-area: image;
+  background-image: url("./images/IvorCharacter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#characters-text {
+  grid-area: text;
+  font-size: 18px;
+}
+
 
 /* Screening */
 
@@ -600,6 +621,7 @@
 
   #team {
     margin: 5% 5%;
+    font-size: 15px;
   }
 
   #music-text {
@@ -624,6 +646,10 @@
     margin: 0;
   }
 
+  #characters {
+    padding: 5%;
+  }
+
   #aspirations {
     padding: 0;
   }
@@ -645,10 +671,6 @@
     width: 50%;
     margin: 10% 5% 20% 5%;
     text-align: center;
-  }
-
-  #characters-text p {
-    padding: 5%;
   }
 
   .info {
@@ -708,6 +730,19 @@
   }
 
   #sally-profile {
+    display: none;
+  }
+
+  #nigel-card {
+    display: block;
+  }
+
+  #nigel-image {
+    background-image: none;
+    min-height: 0;
+  }
+
+  #nigel-profile {
     display: none;
   }
 
