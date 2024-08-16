@@ -105,8 +105,9 @@ function Contact() {
           Send
         </button>
 
-        <h1>SOCIAL</h1>
-        <div className="contact-social"></div>
+        {/* <h1>SOCIAL</h1>
+        <div className="contact-social"></div> */}
+
       </div>
 
       <Footer />

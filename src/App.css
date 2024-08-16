@@ -165,23 +165,6 @@
   margin-bottom: 3%;
 }
 
-.info-team p {
-  margin-top: 2%;
-  font-size: 24px;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-}
-
-.info-team p:last-child {
-  border-bottom: none;
-}
-
-.info-team span {
-  margin-left: auto;
-  text-align: right;
-}
-
 #team {
   margin: 5% 20%;
   display: grid;
@@ -374,13 +357,8 @@
 
 #research-text {
   grid-area: text;
-  margin: 0 5% 0 0;
+  margin: 0 5% 5% 0;
   font-size: 20px;
-  overflow-y: scroll;
-}
-
-#research-text::-webkit-scrollbar {
-  display: none;
 }
 
 #research-video {
@@ -620,21 +598,8 @@
     padding: 0;
   }
 
-  /* .synopsis {
-    height: 450px;
-    overflow-y: scroll;
-  } */
-
-  #characters {
-    margin: 0;
-    display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "image text text";
-  }
-
-  .info-team {
-    margin: 10%;
+  #team {
+    margin: 5% 5%;
   }
 
   #music-text {
@@ -642,10 +607,10 @@
   }
 
   #research {
-    margin: 5% 5% 50% 5%;
+    padding: 5% 5% 20% 5%;
     display: grid;
     text-align: justify;
-    grid-template-rows: 40% 30% 25% 5%;
+    grid-template-rows: 400px 350px 350px 350px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "text text"
@@ -835,6 +800,19 @@
 
   .team-card-container a:hover {
     color: rgb(11, 87, 208);
+  }
+
+  #research {
+    padding: 5% 5% 20% 5%;
+    display: grid;
+    text-align: justify;
+    grid-template-rows: 600px 350px 300px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "text text"
+      "image3 image3"
+      "image1 image2"
+      "video video";
   }
 
   #research-text {
