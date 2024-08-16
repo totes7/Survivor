@@ -29,7 +29,7 @@ function Contact() {
       message: "",
     });
 
-    alert("Message sent successfully!");
+    alert("Thank you for getting in touch! We aim to respond within 5 days.");
   };
 
   const handleChange = (e) => {
@@ -41,9 +41,10 @@ function Contact() {
       <div className="contact">
         <h1>CONTACT</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, hic odio
-          veniam tenetur saepe magni? Itaque, delectus eius! Optio nostrum neque
-          id quod excepturi. Voluptatibus ullam optio quam itaque ex.
+          The team welcome feedbacks, information, suggestions and questions.
+        </p>
+        <p>
+          Here's how to get in touch. We aim to respond within 5 days.
         </p>
 
         <form id="myForm" className="mb-3">
