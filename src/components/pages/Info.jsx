@@ -94,6 +94,7 @@ function Info() {
           <div id="nigel-image"></div>
           <div id="nigel-profile">
             <h3>NIGEL CANIN - EXECUTIVE PRODUCER</h3>
+            <p>Nigel Canin is Director of 2Simple Educational Software, Lemon Soul Publishing and Second Chance, a not for profit computer recycling project.</p>
           </div>
           <div id="nigel-card">
           <Card
@@ -101,7 +102,7 @@ function Info() {
               alt="Nigel Canin"
               caption="NIGEL CANIN"
               title="Executive Producer"
-              text=""
+              text="Nigel Canin is Director of 2Simple Educational Software, Lemon Soul Publishing and Second Chance, a not for profit computer recycling project."
               path="https://www.linkedin.com/in/nigel-canin-43061317/"
               classOuter="team-card-container"
               classImage="team-card-image"
@@ -260,8 +261,8 @@ function Info() {
         <h1>CHARACTERS</h1>
 
         <div id="characters">
-          <div id="characters-image"></div>
-          <div id="characters-text">
+          <div id="ivor-image"></div>
+          <div id="ivor-profile">
             <h3>IVOR PERL</h3>
             <p>
               We follow 12-year-old Ivor Perl from a small town in Hungary to
@@ -273,6 +274,23 @@ function Info() {
               survival
             </p>
           </div>
+        </div>
+
+        <h2>UNKNOWN CHARACTERS</h2>
+
+        <div id="unknown">
+          <div id="unknown-image-1"></div>
+          <div id="unknown-image-2"></div>
+          <div id="unknown-image-3"></div>
+          <div id="unknown-image-4"></div>
+          <div id="unknown-image-5"></div>
+          <div id="unknown-image-6"></div>
+          <div id="unknown-image-7"></div>
+          <div id="unknown-image-8"></div>
+          <div id="unknown-image-9"></div>
+          <div id="unknown-image-10"></div>
+          <div id="unknown-image-11"></div>
+          <div id="unknown-image-12"></div>
         </div>
 
       </div>

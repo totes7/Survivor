@@ -138,6 +138,11 @@
   padding-top: 5%;
 }
 
+.info h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
 .info h3 {
   margin-bottom: 3%;
 }
@@ -397,10 +402,10 @@
   display: grid;
   grid-template-rows: 300px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "image text text";
+  grid-template-areas: "image profile profile";
 }
 
-#characters-image {
+#ivor-image {
   grid-area: image;
   background-image: url("./images/IvorCharacter.png");
   background-position: center;
@@ -408,9 +413,117 @@
   background-size: contain;
 }
 
-#characters-text {
-  grid-area: text;
+#ivor-profile {
+  grid-area: profile;
   font-size: 18px;
+}
+
+#unknown {
+  padding: 5% 20%;
+  display: grid;
+  text-align: justify;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "unk1 unk2 unk3 unk4"
+    "unk5 unk6 unk7 unk8"
+    "unk9 unk10 unk11 unk12";
+}
+
+#unknown-image-1{
+  grid-area: unk1;
+  background-image: url("./images/Unknown1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-2{
+  grid-area: unk2;
+  background-image: url("./images/Unknown2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-3{
+  grid-area: unk3;
+  background-image: url("./images/Unknown3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-4{
+  grid-area: unk4;
+  background-image: url("./images/Unknown4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-5{
+  grid-area: unk5;
+  background-image: url("./images/Unknown5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-6{
+  grid-area: unk6;
+  background-image: url("./images/Unknown6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-7{
+  grid-area: unk7;
+  background-image: url("./images/Unknown7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-8{
+  grid-area: unk8;
+  background-image: url("./images/Unknown8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-9{
+  grid-area: unk9;
+  background-image: url("./images/Unknown9.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#unknown-image-10{
+  grid-area: unk10;
+  background-image: url("./images/Unknown10.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;;
+}
+
+#unknown-image-11{
+  grid-area: unk11;
+  background-image: url("./images/Unknown11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;;
+}
+
+#unknown-image-12{
+  grid-area: unk12;
+  background-image: url("./images/Unknown12.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;;
 }
 
 
@@ -647,7 +760,7 @@
   }
 
   #characters {
-    padding: 5%;
+    padding: 10% 5%;
   }
 
   #aspirations {
@@ -677,8 +790,32 @@
     padding-top: 10%;
   }
 
-  .info h1 {
+  .info h1, .info h2 {
     padding: 15% 0 5% 0;
+  }
+
+  #aspirations {
+    padding: 5% 0;
+    display: grid;
+    text-align: justify;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "text"
+      "image";
+  }
+
+  #aspirations-text {
+    margin-bottom: 5%;
+  }
+
+  #aspirations-text p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  #aspirations-image {
+    margin-top: 5%;
   }
 
   #team {
@@ -854,28 +991,17 @@
     font-size: 18px;
   }
 
-  #aspirations {
-    padding: 5% 0;
+  #unknown {
+    padding: 5%;
     display: grid;
     text-align: justify;
-    grid-template-rows: 350px 350px;
-    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-      "text"
-      "image";
-  }
-
-  #aspirations-text {
-    margin-bottom: 5%;
-  }
-
-  #aspirations-text p {
-    font-size: 18px;
-    margin: 0;
-  }
-
-  #aspirations-image {
-    margin-top: 5%;
+      "unk1 unk2 unk3"
+      "unk4 unk5 unk6"
+      "unk7 unk8 unk9"
+      "unk10 unk11 unk12";
   }
 
   .screening h1 {
