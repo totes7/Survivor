@@ -160,11 +160,11 @@
     "kate kateImage"
     "sallyImage sally"
     "nigel nigelImage"
+    "erran erranImage"
+    "piniImage pini"
     "morgan morganImage"
-    "markImage mark"
-    "ace aceImage"
-    "erranImage erran"
-    "pini piniImage";
+    "aceImage ace"
+    "mark markImage";
 }
 
 #zoom-image {
@@ -280,7 +280,7 @@
 
 #mark-profile {
   grid-area: mark;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #mark-card {
@@ -300,7 +300,7 @@
 
 #ace-profile {
   grid-area: ace;
-  padding: 15% 5% 5% 0;
+  padding: 15% 5% 0 5%;
 }
 
 #ace-card {
@@ -320,7 +320,7 @@
 
 #erran-profile {
   grid-area: erran;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #erran-card {
@@ -329,7 +329,7 @@
 
 #pini-profile {
   grid-area: pini;
-  padding: 15% 5% 5% 0;
+  padding: 15% 0 5% 5%;
 }
 
 #pini-image {

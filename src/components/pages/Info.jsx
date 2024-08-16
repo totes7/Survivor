@@ -108,57 +108,6 @@ function Info() {
               classImage="team-card-image"
             />
           </div>
-          <div id="morgan-image"></div>
-          <div id="morgan-profile">
-            <h3>MORGAN PENN - SOUND DESIGN</h3>
-            <p>Morgan Penn is a London based Portrait Painter and Musician. </p>
-          </div>
-          <div id="morgan-card">
-          <Card
-              src={morgan}
-              alt="Morgan Penn"
-              caption="MORGAN PENN"
-              title="Sound Design"
-              text="Morgan Penn is a London based Portrait Painter and Musician."
-              path="https://www.instagram.com/morganpennportraits/"
-              classOuter="team-card-container"
-              classImage="team-card-image"
-            />
-          </div>
-          <div id="mark-image"></div>
-          <div id="mark-profile">
-            <h3>MARK GARSIDE - TECHNICAL DESIGN</h3>
-            <p>Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. Mark is also the father of Zoom and Ace Rockman. </p>
-          </div>
-          <div id="mark-card">
-          <Card
-              src={mark}
-              alt="Mark Garside"
-              caption="MARK GARSIDE"
-              title="Technical Design"
-              text="Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. Mark is also the father of Zoom and Ace Rockman."
-              path=""
-              classOuter="team-card-container"
-              classImage="team-card-image"
-            />
-          </div>
-          <div id="ace-image"></div>
-          <div id="ace-profile">
-            <h3>ACE ROCKMAN - ASSISTANT COLOURIST AND PUPPET MAKER</h3>
-            <p>Ace is currently in his 3rd year studying Classics at St Andrew’s University.</p>
-          </div>
-          <div id="ace-card">
-          <Card
-              src={ace}
-              alt="Ace Rockman"
-              caption="ACE ROCKMAN"
-              title="Assistant Colourist and Puppet Maker"
-              text="Ace is currently in his 3rd year studying Classics at St Andrew’s University."
-              path=""
-              classOuter="team-card-container"
-              classImage="team-card-image"
-            />
-          </div>
           <div id="erran-image"></div>
           <div id="erran-profile">
             <h3>ERRAN BARON COHEN - COMPOSER</h3>
@@ -220,6 +169,57 @@ function Info() {
               title="Singer"
               text="Pini Brown trained as a Cantor in Jerusalem.  His early years were marked by a struggle to fit in and conform within his Ultra Orthodox Community. Age 20 he was brought to the UK for an arranged marriage and after a period of deep unhappiness he made the brave decision to leave. Embraced by the wider Jewish Community he continues to pave his way; By day, hosting tours of the East End and by night making a name for himself performing his unique brand of Yiddish Klezmer in the late night blues and jazz clubs of London."
               path="https://www.instagram.com/pini_on_the_roof/"
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="morgan-image"></div>
+          <div id="morgan-profile">
+            <h3>MORGAN PENN - SOUND DESIGN</h3>
+            <p>Morgan Penn is a London based Portrait Painter and Musician. </p>
+          </div>
+          <div id="morgan-card">
+          <Card
+              src={morgan}
+              alt="Morgan Penn"
+              caption="MORGAN PENN"
+              title="Sound Design"
+              text="Morgan Penn is a London based Portrait Painter and Musician."
+              path="https://www.instagram.com/morganpennportraits/"
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="ace-image"></div>
+          <div id="ace-profile">
+            <h3>ACE ROCKMAN - ASSISTANT COLOURIST AND PUPPET MAKER</h3>
+            <p>Ace is currently in his 3rd year studying Classics at St Andrew’s University.</p>
+          </div>
+          <div id="ace-card">
+          <Card
+              src={ace}
+              alt="Ace Rockman"
+              caption="ACE ROCKMAN"
+              title="Assistant Colourist and Puppet Maker"
+              text="Ace is currently in his 3rd year studying Classics at St Andrew’s University."
+              path=""
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="mark-image"></div>
+          <div id="mark-profile">
+            <h3>MARK GARSIDE - TECHNICAL DESIGN</h3>
+            <p>Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. Mark is also the father of Zoom and Ace Rockman. </p>
+          </div>
+          <div id="mark-card">
+          <Card
+              src={mark}
+              alt="Mark Garside"
+              caption="MARK GARSIDE"
+              title="Technical Design"
+              text="Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. Mark is also the father of Zoom and Ace Rockman."
+              path=""
               classOuter="team-card-container"
               classImage="team-card-image"
             />
