@@ -531,7 +531,7 @@
 
 .screening {
   height: 100%;
-  padding: 5% 10%;
+  padding: 5%;
   text-align: center;
   display: flex;
   flex-flow: column;
@@ -631,7 +631,7 @@
 
 .contact {
   height: 100%;
-  padding: 5% 10%;
+  padding: 5%;
   text-align: justify;
   display: flex;
   flex-flow: column;
