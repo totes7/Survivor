@@ -138,29 +138,7 @@ function Info() {
           </div>
         </div>
 
-        <h1>ASPIRATIONS</h1>
-        <div id="aspirations">
-          <div id="aspirations-image"></div>
-          <div id="aspirations-text">
-            <p>
-              This film hopes to join the ranks of the most significant
-              Holocaust films ever made. By utilising a distinctive animation
-              style with paper puppet characters and scenery derived from
-              archival material, we aim to vividly depict the physical and
-              emotional realities of the Holocaust based on thoroughly
-              researched, fact-checked primary source testimonies.
-            </p>
-            <p>
-              Our goal is to engage deeply, surprise, and touch the audience as
-              they follow Ivor, an ordinary boy, through his journey of love,
-              loss, fear, joy, excitement, despair, confusion, shame, happiness
-              and courage. We intend for this film to reach a wide audience,
-              spark meaningful debate and discussion, and be recognised as a
-              vital creative expression of humanity's fragility, preserved for
-              current and future generations.
-            </p>
-          </div>
-        </div>
+        
       </div>
 
       <Footer />

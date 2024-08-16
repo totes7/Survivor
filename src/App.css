@@ -70,21 +70,55 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .about h1 {
   font-size: 40px;
+  margin: 5%;
 }
 
-.about p {
+.synopsis p {
   margin-top: 2%;
   font-size: 20px;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 .synopsis {
   margin-bottom: 5%;
+}
+
+
+#aspirations {
+  padding: 5% 10%;
+  display: grid;
+  text-align: justify;
+  grid-template-rows: 500px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "image text";
+}
+
+#aspirations-image {
+  grid-area: image;
+  background-image: url("./images/AspirationImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aspirations-text {
+  grid-area: text;
+}
+
+#aspirations-text p {
+  font-size: 20px;
+  margin: 5%;
+}
+
+#music-text {
+  /* grid-area: text; */
+  margin: 5% 10%;
 }
 
 #characters {
@@ -148,21 +182,13 @@
   margin: 5% 20%;
   display: grid;
   text-align: justify;
+  word-spacing: -2px;
   grid-template-rows: 33% 33% 33%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "text text"
     "image profile"
     "singer singerImage";
-}
-
-#music-text {
-  grid-area: text;
-  overflow-y: scroll;
-}
-
-#music-text::-webkit-scrollbar {
-  display: none;
 }
 
 #music-text p {
@@ -273,37 +299,6 @@
   margin: 1%;
 }
 
-#aspirations {
-  padding: 5% 20%;
-  display: grid;
-  text-align: justify;
-  grid-template-rows: 500px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-  "image text";
-}
-
-#aspirations-image {
-  grid-area: image;
-  background-image: url("./images/AspirationImage.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#aspirations-text {
-  grid-area: text;
-  overflow-y: scroll;
-}
-
-#aspirations-text::-webkit-scrollbar {
-  display: none;
-}
-
-#aspirations-text p {
-  font-size: 20px;
-  margin: 5%;
-}
 
 /* Screening */
 
@@ -510,10 +505,10 @@
     padding: 0;
   }
 
-  .synopsis {
+  /* .synopsis {
     height: 450px;
     overflow-y: scroll;
-  }
+  } */
 
   #characters {
     margin: 0;
@@ -528,8 +523,8 @@
     margin: 10%;
   }
 
-  #music {
-    margin: 5% 5%;
+  #music-text {
+    margin: 5% 0 15% 0;
   }
 
   #research {
@@ -551,7 +546,11 @@
   }
 
   #aspirations {
-    padding: 5% 5%;
+    padding: 0;
+  }
+
+  #aspirations-text p {
+    margin: 0 0 0 5%;
   }
 }
 
@@ -594,11 +593,11 @@
     align-items: center;
     justify-content: center;
   }
-
+/* 
   #music-text {
     height: 300px;
     overflow-y: scroll;
-  }
+  } */
 
   #music-text p {
     font-size: 18px;
@@ -661,10 +660,10 @@
   }
 
   #aspirations {
-    padding: 5%;
+    padding: 5% 0;
     display: grid;
     text-align: justify;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 350px 350px;
     grid-template-columns: 1fr;
     grid-template-areas:
     "text"
@@ -681,7 +680,7 @@
   }
 
   #aspirations-image {
-    margin-bottom: 5%;
+    margin-top: 5%;
   }
 
   .screening h1 {
