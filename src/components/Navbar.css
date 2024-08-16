@@ -29,13 +29,8 @@
 }
 
 .navbar-logo img {
-    width: 250px;
-    height: 70px;
-  }
-
-.navbar-logo:hover {
-  color: rgb(11, 87, 208);
-  transition: all 0.4s ease-out;
+  width: 250px;
+  height: 70px;
 }
 
 .fa-typo3 {
@@ -44,14 +39,13 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: end;
-  margin-right: 2rem;
+  margin-right: 5%;
 }
 
 .dropdown-button {
