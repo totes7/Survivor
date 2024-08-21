@@ -12,19 +12,19 @@ function About() {
         <div id="research">
           <div id="research-text">
             <p>
-              Care and due diligence has been taken to recreate all events,
-              locations and conversations as accurately as possible.
-            </p>{" "}
-            <p>
               Many hours spent with Ivor Perl BEM discussing his first hand
               testimony, cross referenced with the books of Primo Levi, Elie
               Wiesel, and József Debreczeni [all at Auschwitz around the same
               time] informed the writing of the screenplay.{" "}
             </p>{" "}
             <p>
+              Care and due diligence has been taken to recreate all events,
+              locations and conversations as accurately as possible.
+            </p>{" "}
+            <p>
               Knowledge and layouts of locations were enhanced by research trips
               to Auschwitz, Dachau, Allach, Kaufering IV, Walnuss II and Munich,
-              guided by historians, taxi drivers, locals.
+              guided by historians, taxi drivers and locals.
             </p>{" "}
             <p>
               Holocaust artist David Olère’s visual descriptions of the
@@ -53,11 +53,10 @@ function About() {
             All puppets were created by Zoom Rockman using reference
             photographs, documented film footage and survivor art. Where these
             were not available he used detailed descriptions from Ivor himself.
-            Each person below described as ‘unknown’ is someone we have not been
-            able to name.
           </p>{" "}
           <p>
-            If you have any information regarding their identity please get in
+            Each person below described as ‘unknown’ is someone we have not been
+            able to name.If you have any information regarding their identity please get in
             touch using the contact page of this site.
           </p>
 

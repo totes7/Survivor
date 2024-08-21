@@ -179,7 +179,7 @@
   text-align: justify;
   font-size: 18px;
   word-spacing: -2px;
-  grid-template-rows: 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px;
+  grid-template-rows: 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "zoomImage zoom"
@@ -187,11 +187,12 @@
     "sallyImage sally"
     "nigel nigelImage"
     "rachelImage rachel"
-    "erran erranImage"
-    "piniImage pini"
-    "morgan morganImage"
-    "aceImage ace"
-    "mark markImage";
+    "jen jenImage"
+    "erranImage erran"
+    "pini piniImage"
+    "morganImage morgan"
+    "ace aceImage"
+    "markImage mark";
 }
 
 #zoom-image {
@@ -294,63 +295,23 @@
   display: none;
 }
 
-#morgan-image {
+#jen-image {
   min-height: 300px;
-  grid-area: morganImage;
+  grid-area: jenImage;
   margin: 15% 0 0 0;
-  background-image: url("./images/MorganProfile.jpg");
+  background-image: url("./images/JenniferProfile.jpg");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#morgan-profile {
-  grid-area: morgan;
+#jen-profile {
+  grid-area: jen;
   padding: 15% 5% 5% 0;
 }
 
-#morgan-card {
-  display: none;
-}
-
-#mark-image {
-  min-height: 300px;
-  grid-area: markImage;
-  margin: 15% 0 0 0;
-  background-image: url("./images/MarkProfile.jpg");
-  border-radius: 5px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#mark-profile {
-  grid-area: mark;
-  padding: 15% 5% 5% 0;
-}
-
-#mark-card {
-  display: none;
-}
-
-#ace-image {
-  min-height: 300px;
-  grid-area: aceImage;
-  margin: 15% 0 0 0;
-  background-image: url("./images/AceProfile.jpg");
-  border-radius: 5px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#ace-profile {
-  grid-area: ace;
-  padding: 15% 5% 0 5%;
-}
-
-#ace-card {
+#jen-card {
   display: none;
 }
 
@@ -367,7 +328,7 @@
 
 #erran-profile {
   grid-area: erran;
-  padding: 15% 5% 5% 0;
+  padding: 15% 0 5% 5%;
 }
 
 #erran-card {
@@ -376,7 +337,7 @@
 
 #pini-profile {
   grid-area: pini;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #pini-image {
@@ -391,6 +352,66 @@
 }
 
 #pini-card {
+  display: none;
+}
+
+#morgan-image {
+  min-height: 300px;
+  grid-area: morganImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/MorganProfile.jpg");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#morgan-profile {
+  grid-area: morgan;
+  padding: 15% 0 5% 5%;
+}
+
+#morgan-card {
+  display: none;
+}
+
+#ace-image {
+  min-height: 300px;
+  grid-area: aceImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/AceProfile.jpg");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ace-profile {
+  grid-area: ace;
+  padding: 15% 5% 5% 0;
+}
+
+#ace-card {
+  display: none;
+}
+
+#mark-image {
+  min-height: 300px;
+  grid-area: markImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/MarkProfile.jpg");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mark-profile {
+  grid-area: mark;
+  padding: 15% 0 5% 5%;
+}
+
+#mark-card {
   display: none;
 }
 
@@ -796,6 +817,45 @@
     display: none;
   }
 
+  #jen-card {
+    display: block;
+  }
+
+  #jen-image {
+    background-image: none;
+    min-height: 0;
+  }
+
+  #jen-profile {
+    display: none;
+  }
+
+  #erran-card {
+    display: block;
+  }
+
+  #erran-image {
+    background-image: none;
+    min-height: 0;
+  }
+
+  #erran-profile {
+    display: none;
+  }
+
+  #pini-card {
+    display: block;
+  }
+
+  #pini-image {
+    background-image: none;
+    min-height: 0;
+  }
+
+  #pini-profile {
+    display: none;
+  }
+
   #morgan-card {
     display: block;
   }
@@ -832,32 +892,6 @@
   }
 
   #ace-profile {
-    display: none;
-  }
-
-  #erran-card {
-    display: block;
-  }
-
-  #erran-image {
-    background-image: none;
-    min-height: 0;
-  }
-
-  #erran-profile {
-    display: none;
-  }
-
-  #pini-card {
-    display: block;
-  }
-
-  #pini-image {
-    background-image: none;
-    min-height: 0;
-  }
-
-  #pini-profile {
     display: none;
   }
 

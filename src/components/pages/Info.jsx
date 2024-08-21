@@ -7,6 +7,7 @@ import kate from "../../images/KateProfile.jpg";
 import sally from "../../images/SallyProfile.jpg";
 import nigel from "../../images/NigelProfile.jpeg";
 import rachel from "../../images/RachelProfile.jpg";
+import jen from "../../images/JenniferProfile.jpg";
 import morgan from "../../images/MorganProfile.jpg";
 import mark from "../../images/MarkProfile.jpg";
 import ace from "../../images/AceProfile.jpg";
@@ -108,6 +109,24 @@ function Info() {
               title="Distribution"
               text="Commercially focused, highly creative international media senior marketing executive with extensive knowledge of the entertainment industry. Rachel has successfully conceived, built, launched and grown many successful digital businesses and products internationally. Prior to founding the BYO Collective, Rachel has held senior roles at NBCUniversal, PolyGram Films, Star TV, MTV Europe and Virgin Records. Currently BYO Collective consults for multiple media companies including PBS, Viaplay, Really Epic Dog, O3 Medya, MBC Studios amongst others."
               path="https://www.linkedin.com/in/rachelmansson/"
+              target="_blank"
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="jen-image"></div>
+          <div id="jen-profile">
+            <h3>JEN BUZZELLI - ASSOCIATE PRODUCER</h3>
+            <p>Jen Buzzelli is a NY-based producer with 25 years experience in international co-production, distribution and programming and for the likes of National Geographic, truTV and KONAMI.</p>
+          </div>
+          <div id="jen-card">
+          <Card
+              src={jen}
+              alt="Jen Buzzelli"
+              caption="JEN BUZZELLI"
+              title="Associate Producer"
+              text="Jen Buzzelli is a NY-based producer with 25 years experience in international co-production, distribution and programming and for the likes of National Geographic, truTV and KONAMI."
+              path=""
               target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
