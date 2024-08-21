@@ -23,6 +23,7 @@ function Book() {
 
             Every day in Auschwitz was a brutal struggle for survival, surrounded by unimaginable horror. Against all the odds Ivor survived the Holocaust and would go on to build a meaningful and fulfilling life in England."
             path="https://www.hmd.org.uk/resource/ivor-perl/"
+            target="_blank"
             classOuter="book-card-container"
             classImage="book-card-image"
           />

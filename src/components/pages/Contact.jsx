@@ -41,7 +41,7 @@ function Contact() {
       <div className="contact">
         <h1>CONTACT</h1>
         <p>
-          The team welcome feedbacks, information, suggestions and questions.
+          The team welcome feedback, information, suggestions and questions.
         </p>
         <p>
           Here's how to get in touch. We aim to respond within 5 days.

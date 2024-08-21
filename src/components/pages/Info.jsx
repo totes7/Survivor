@@ -6,6 +6,7 @@ import zoom from "../../images/ZoomProfile.jpg";
 import kate from "../../images/KateProfile.jpg";
 import sally from "../../images/SallyProfile.jpg";
 import nigel from "../../images/NigelProfile.jpeg";
+import rachel from "../../images/RachelProfile.jpg";
 import morgan from "../../images/MorganProfile.jpg";
 import mark from "../../images/MarkProfile.jpg";
 import ace from "../../images/AceProfile.jpg";
@@ -53,6 +54,7 @@ function Info() {
               title="Director"
               text="Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator. Zoom is the youngest-ever contributor to The Beano and Private Eye. Zoom has illustrated several books including Iain Dale’s The Prime Ministers (Political Book of the Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas Defendat Me, The Boris Letters (2022) and Farce Majeure (2023), Ivor Baddiel’s Ben’s Bonkers Bar Mitzvah (2023) and Jonny Zucker’s Striker Boy (2023). The Evening Standard named Zoom as one of the Most Influential Londoners under 25 and his cartoon for Private Eye, ‘You can’t do anything these days without being seen as an antisemite’ won Pocket Political Cartoon of the Year 2023. After reading Ivor Perl’s story, Zoom said: “Ivor’s book moved me deeply. When I read Ivor’s words, I saw them as a film, and I realised that I could bring these images to life using my paper puppet animation skills and create something accessible to an audience who wouldn’t normally think of delving into this subject matter. Anti-Semitism is again on the rise and I have heard people say, Why are Jews always banging on about the Holocaust?“ - This film is the answer to that question."
               path="https://www.instagram.com/the_zoomcomic/"
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -70,6 +72,7 @@ function Info() {
               title="Screenwriter"
               text="Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN&ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera collection. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages. Kate is also the mother of Zoom and Ace Rockman."
               path="https://www.instagram.com/rockman_and_rockman/"
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -77,7 +80,7 @@ function Info() {
           <div id="sally-image"></div>
           <div id="sally-profile">
             <h3>SALLY VAUGHAN - PRODUCER</h3>
-            <p>Sally Vaughan is a producer, agent and coach. Prior to founding her own agency, Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 and became art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership.</p>
+            <p>Sally Vaughan is a producer, agent and coach. Prior to founding Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 becoming art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership.</p>
           </div>
           <div id="sally-card">
           <Card
@@ -85,8 +88,9 @@ function Info() {
               alt="Sally Vaughan"
               caption="SALLY VAUGHAN"
               title="Producer"
-              text="Sally Vaughan is a producer, agent and coach. Prior to founding her own agency, Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 and became art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership."
+              text="Sally Vaughan is a producer, agent and coach. Prior to founding Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 becoming art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership."
               path="https://www.linkedin.com/in/sallyvaughan/"
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -104,6 +108,25 @@ function Info() {
               title="Executive Producer"
               text="Nigel Canin is Director of 2Simple Educational Software, Lemon Soul Publishing and Second Chance, a not for profit computer recycling project."
               path="https://www.linkedin.com/in/nigel-canin-43061317/"
+              target="_blank"
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="rachel-image"></div>
+          <div id="rachel-profile">
+            <h3>RACHEL MANSSON - DISTRIBUTION</h3>
+            <p>Commercially focused, highly creative international media senior marketing executive with extensive knowledge of the entertainment industry. Rachel has successfully conceived, built, launched and grown many successful digital businesses and products internationally. Prior to founding the BYO Collective, Rachel has held senior roles at NBCUniversal, PolyGram Films, Star TV, MTV Europe and Virgin Records. Currently BYO Collective consults for multiple media companies including PBS, Viaplay, Really Epic Dog, O3 Medya, MBC Studios amongst others.</p>
+          </div>
+          <div id="rachel-card">
+          <Card
+              src={rachel}
+              alt="Rachel Mansson"
+              caption="RACHEL MANSSON"
+              title="Distribution"
+              text="Commercially focused, highly creative international media senior marketing executive with extensive knowledge of the entertainment industry. Rachel has successfully conceived, built, launched and grown many successful digital businesses and products internationally. Prior to founding the BYO Collective, Rachel has held senior roles at NBCUniversal, PolyGram Films, Star TV, MTV Europe and Virgin Records. Currently BYO Collective consults for multiple media companies including PBS, Viaplay, Really Epic Dog, O3 Medya, MBC Studios amongst others."
+              path="https://www.linkedin.com/in/rachelmansson/"
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -113,16 +136,7 @@ function Info() {
             <h3>ERRAN BARON COHEN - COMPOSER</h3>
             <p>
               {" "}
-              Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven
-              throughout the film and used to denote any emotional highs and
-              lows. Erran Baron Cohen is an award winning composer whose work
-              has encompassed film and television scores, album releases,
-              orchestral commissions and musical theatre. His knowledge of
-              contemporary classical, electronic and world music makes him an
-              extremely versatile composer able to turn his talents to a wide
-              variety of eclectic projects. Erran has received numerous Composer
-              Awards for his scores to Borat, Bruno and The Dictator and his
-              song Wuhan Flu was Oscar shortlisted.
+              Erran Baron Cohen is an award winning composer whose work has encompassed film and television scores, album releases, orchestral commissions and musical theatre. His knowledge of contemporary classical, electronic and world music makes him an extremely versatile composer able to turn his talents to a wide variety of eclectic projects. Erran has received numerous Composer Awards for his scores to Borat, Bruno and The Dictator and his song Wuhan Flu was Oscar shortlisted.
             </p>
           </div>
           <div id="erran-card">
@@ -131,17 +145,9 @@ function Info() {
               alt="Erran Baron Cohen"
               caption="ERRAN BARON COHEN"
               title="Composer"
-              text="Erran Baron Cohen is composing ‘Ivor’s Theme’ to be woven
-              throughout the film and used to denote any emotional highs and
-              lows. Erran Baron Cohen is an award winning composer whose work
-              has encompassed film and television scores, album releases,
-              orchestral commissions and musical theatre. His knowledge of
-              contemporary classical, electronic and world music makes him an
-              extremely versatile composer able to turn his talents to a wide
-              variety of eclectic projects. Erran has received numerous Composer
-              Awards for his scores to Borat, Bruno and The Dictator and his
-              song Wuhan Flu was Oscar shortlisted."
+              text="Erran Baron Cohen is an award winning composer whose work has encompassed film and television scores, album releases, orchestral commissions and musical theatre. His knowledge of contemporary classical, electronic and world music makes him an extremely versatile composer able to turn his talents to a wide variety of eclectic projects. Erran has received numerous Composer Awards for his scores to Borat, Bruno and The Dictator and his song Wuhan Flu was Oscar shortlisted."
               path="http://www.erranbaroncohen.com/"
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -169,6 +175,7 @@ function Info() {
               title="Singer"
               text="Pini Brown trained as a Cantor in Jerusalem.  His early years were marked by a struggle to fit in and conform within his Ultra Orthodox Community. Age 20 he was brought to the UK for an arranged marriage and after a period of deep unhappiness he made the brave decision to leave. Embraced by the wider Jewish Community he continues to pave his way; By day, hosting tours of the East End and by night making a name for himself performing his unique brand of Yiddish Klezmer in the late night blues and jazz clubs of London."
               path="https://www.instagram.com/pini_on_the_roof/"
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -186,6 +193,7 @@ function Info() {
               title="Sound Design"
               text="Morgan Penn is a London based Portrait Painter and Musician."
               path="https://www.instagram.com/morganpennportraits/"
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -203,6 +211,7 @@ function Info() {
               title="Assistant Colourist and Puppet Maker"
               text="Ace is currently in his 3rd year studying Classics at St Andrew’s University."
               path=""
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />
@@ -220,6 +229,7 @@ function Info() {
               title="Technical Design"
               text="Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. Mark is also the father of Zoom and Ace Rockman."
               path=""
+              target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
             />

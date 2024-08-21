@@ -39,7 +39,7 @@ function Screening() {
   return (
     <>
       <div className="screening">
-        <h1>SCREENING</h1>
+        <h1>SCREENINGS</h1>
         <p>
           Survivor will be first shown internationally at MIPCOM 24 on 22
           October 2024

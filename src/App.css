@@ -160,6 +160,7 @@
     "kate kateImage"
     "sallyImage sally"
     "nigel nigelImage"
+    "rachelImage rachel"
     "erran erranImage"
     "piniImage pini"
     "morgan morganImage"
@@ -244,6 +245,26 @@
 }
 
 #nigel-card {
+  display: none;
+}
+
+#rachel-image {
+  min-height: 300px;
+  grid-area: rachelImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/RachelProfile.jpg");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rachel-profile {
+  grid-area: rachel;
+  padding: 15% 0 5% 5%;
+}
+
+#rachel-card {
   display: none;
 }
 
@@ -815,7 +836,7 @@
   }
 
   #aspirations-image {
-    margin-top: 5%;
+    margin-top: 15%;
   }
 
   #team {
@@ -880,6 +901,19 @@
   }
 
   #nigel-profile {
+    display: none;
+  }
+
+  #rachel-card {
+    display: block;
+  }
+
+  #rachel-image {
+    background-image: none;
+    min-height: 0;
+  }
+
+  #rachel-profile {
     display: none;
   }
 

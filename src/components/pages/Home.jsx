@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
 import Hero from "../Hero";
 import Footer from "../Footer";
@@ -16,16 +17,19 @@ function Home() {
             src={zoom}
             alt="Zoom Rockman picture"
             caption="ZOOM ROCKMAN"
-            title="Filmmaker"
-            text="Director Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator."
-            path="https://www.instagram.com/the_zoomcomic/"
+            title="Director"
+            text=""
+            path="/info"
             classOuter="home-card-container"
             classImage="home-card-image"
           />
           <div className="news-section">
             <h3>LATEST</h3>
             <p>Release date coming soon!</p>
-            <p>Register interest in attending a screening</p>
+            <p>
+              Register interest in attending a screening {" "}
+              <Link to="/screening">here</Link>.
+            </p>
           </div>
         </div>
 
