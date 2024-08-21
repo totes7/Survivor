@@ -12,7 +12,7 @@ import mark from "../../images/MarkProfile.jpg";
 import ace from "../../images/AceProfile.jpg";
 import erran from "../../images/ErranProfile.jpg";
 import pini from "../../images/PiniProfile.jpg";
-import video from "../../videos/video1.MP4";
+
 
 function Info() {
   return (
@@ -25,25 +25,7 @@ function Info() {
           <div id="zoom-profile">
             <h3>ZOOM ROCKMAN - DIRECTOR</h3>
             <p>
-              Zoom Rockman is an award-winning cartoonist, illustrator,
-              puppet-maker and animator. Zoom is the youngest-ever contributor
-              to The Beano and Private Eye. Zoom has illustrated several books
-              including Iain Dale’s The Prime Ministers (Political Book of the
-              Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas
-              Defendat Me, The Boris Letters (2022) and Farce Majeure (2023),
-              Ivor Baddiel’s Ben’s Bonkers Bar Mitzvah (2023) and Jonny Zucker’s
-              Striker Boy (2023). The Evening Standard named Zoom as one of the
-              Most Influential Londoners under 25 and his cartoon for Private
-              Eye, ‘You can’t do anything these days without being seen as an
-              antisemite’ won Pocket Political Cartoon of the Year 2023. After
-              reading Ivor Perl’s story, Zoom said: “Ivor’s book moved me
-              deeply. When I read Ivor’s words, I saw them as a film, and I
-              realised that I could bring these images to life using my paper
-              puppet animation skills and create something accessible to an
-              audience who wouldn’t normally think of delving into this subject
-              matter. Anti-Semitism is again on the rise and I have heard people
-              say, Why are Jews always banging on about the Holocaust?" - This
-              film is the answer to that question.
+            Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator. Zoom is the youngest-ever contributor to The Beano and Private Eye. Zoom has illustrated several books including Iain Dale’s The Prime Ministers (Political Book of the Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas Defendat Me, The Boris Letters (2022) and Farce Majeure (2023). The Evening Standard named Zoom as one of the Most Influential Londoners under 25 and his cartoon for Private Eye, ‘You can’t do anything these days without being seen as an antisemite’ won best Pocket Cartoon of the Year at the Political Cartoon Awards 2023.
             </p>
           </div>
           <div id="zoom-card">
@@ -52,7 +34,7 @@ function Info() {
               alt="Zoom Rockman"
               caption="ZOOM ROCKMAN"
               title="Director"
-              text="Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator. Zoom is the youngest-ever contributor to The Beano and Private Eye. Zoom has illustrated several books including Iain Dale’s The Prime Ministers (Political Book of the Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas Defendat Me, The Boris Letters (2022) and Farce Majeure (2023), Ivor Baddiel’s Ben’s Bonkers Bar Mitzvah (2023) and Jonny Zucker’s Striker Boy (2023). The Evening Standard named Zoom as one of the Most Influential Londoners under 25 and his cartoon for Private Eye, ‘You can’t do anything these days without being seen as an antisemite’ won Pocket Political Cartoon of the Year 2023. After reading Ivor Perl’s story, Zoom said: “Ivor’s book moved me deeply. When I read Ivor’s words, I saw them as a film, and I realised that I could bring these images to life using my paper puppet animation skills and create something accessible to an audience who wouldn’t normally think of delving into this subject matter. Anti-Semitism is again on the rise and I have heard people say, Why are Jews always banging on about the Holocaust?“ - This film is the answer to that question."
+              text="Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator. Zoom is the youngest-ever contributor to The Beano and Private Eye. Zoom has illustrated several books including Iain Dale’s The Prime Ministers (Political Book of the Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas Defendat Me, The Boris Letters (2022) and Farce Majeure (2023). The Evening Standard named Zoom as one of the Most Influential Londoners under 25 and his cartoon for Private Eye, ‘You can’t do anything these days without being seen as an antisemite’ won best Pocket Cartoon of the Year at the Political Cartoon Awards 2023."
               path="https://www.instagram.com/the_zoomcomic/"
               target="_blank"
               classOuter="team-card-container"
@@ -62,7 +44,7 @@ function Info() {
           <div id="kate-image"></div>
           <div id="kate-profile">
             <h3>KATE LENNARD - SCREENWRITER</h3>
-            <p>Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN&ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera collection. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages. Kate is also the mother of Zoom and Ace Rockman.</p>
+            <p>Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN & ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera archive. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages.</p>
           </div>
           <div id="kate-card">
           <Card
@@ -70,7 +52,7 @@ function Info() {
               alt="Kate Lennard"
               caption="KATE LENNARD"
               title="Screenwriter"
-              text="Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN&ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera collection. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages. Kate is also the mother of Zoom and Ace Rockman."
+              text="Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN & ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera archive. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages."
               path="https://www.instagram.com/rockman_and_rockman/"
               target="_blank"
               classOuter="team-card-container"
@@ -219,7 +201,7 @@ function Info() {
           <div id="mark-image"></div>
           <div id="mark-profile">
             <h3>MARK GARSIDE - TECHNICAL DESIGN</h3>
-            <p>Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. Mark is also the father of Zoom and Ace Rockman. </p>
+            <p>Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. </p>
           </div>
           <div id="mark-card">
           <Card
@@ -227,7 +209,7 @@ function Info() {
               alt="Mark Garside"
               caption="MARK GARSIDE"
               title="Technical Design"
-              text="Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. Mark is also the father of Zoom and Ace Rockman."
+              text="Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production."
               path=""
               target="_blank"
               classOuter="team-card-container"
@@ -236,72 +218,53 @@ function Info() {
           </div>
         </div>
 
-        <h1>RESEARCH</h1>
-        <div id="research">
-          <div id="research-text">
+        <h1>ASPIRATIONS</h1>
+        <div id="aspirations">
+          <div id="aspirations-image"></div>
+          <div id="aspirations-text">
             <p>
-              All characters have been developed using photographs of Ivor’s
-              family and anonymous victims of the Holocaust. Each soul depicted
-              is based on a real person, respectfully brought back to life in
-              puppet form. This includes Zoom’s own great-great-uncle, Lazar
-              Rozenwajn, who was imprisoned at Auschwitz and liberated from
-              Dachau on the same day as Ivor. Holocaust artist David Olère’s
-              visual descriptions of the Sonderkommando informed Zoom’s
-              understanding of the workings of the crematoriums, leading him to
-              include Olère himself in these scenes. Knowledge and layouts of
-              locations have been enhanced by research trips to Auschwitz,
-              Dachau, Allach, Kaufering IV, and Walnuss II, guided by
-              historians. Testimony from Ivor has been crossreferenced with the
-              books of Primo Levi, Elie Wiesel, and József Debreczeni, who were
-              also at Auschwitz around the same time. Later this year, Zoom will
-              travel to Mako, Hungary, to see where Ivor lived with his parents
-              and siblings. From there, he will take a train to Szeged and see
-              the scenery the family travelled through on their first cattle
-              truck journey to Auschwitz.
+              This film hopes to join the ranks of the most significant
+              Holocaust films ever made. By utilising a distinctive animation
+              style with paper puppet characters and scenery derived from
+              archival material, we aim to vividly depict the physical and
+              emotional realities of the Holocaust based on thoroughly
+              researched, fact-checked primary source testimonies.
             </p>
-          </div>
-          <div id="research-image-one"></div>
-          <div id="research-image-two"></div>
-          <div id="research-image-three"></div>
-          <div id="research-video">
-            <video src={video} controls></video>
-          </div>
-        </div>
-
-        <h1>CHARACTERS</h1>
-
-        <div id="characters">
-          <div id="ivor-image"></div>
-          <div id="ivor-profile">
-            <h3>IVOR PERL</h3>
             <p>
-              We follow 12-year-old Ivor Perl from a small town in Hungary to
-              the gates of Auschwitz, Kaufering, Allach, and Dachau, witnessing
-              the unspeakable horrors of the Holocaust. From being herded onto a
-              cattle truck and narrowly avoiding the gas chambers and ovens, to
-              enduring hunger, typhus, and unimaginable loss, we ultimately see
-              the unbreakable bond between two brothers and their miraculous
-              survival
+              Our goal is to engage deeply, surprise, and touch the audience as
+              they follow Ivor, an ordinary boy, through his journey of love,
+              loss, fear, joy, excitement, despair, confusion, shame, happiness
+              and courage. We intend for this film to reach a wide audience,
+              spark meaningful debate and discussion, and be recognised as a
+              vital creative expression of humanity's fragility, preserved for
+              current and future generations.
             </p>
           </div>
         </div>
 
-        <h2>UNKNOWN CHARACTERS</h2>
+        <h1>MUSIC</h1>
 
-        <div id="unknown">
-          <div id="unknown-image-1"></div>
-          <div id="unknown-image-2"></div>
-          <div id="unknown-image-3"></div>
-          <div id="unknown-image-4"></div>
-          <div id="unknown-image-5"></div>
-          <div id="unknown-image-6"></div>
-          <div id="unknown-image-7"></div>
-          <div id="unknown-image-8"></div>
-          <div id="unknown-image-9"></div>
-          <div id="unknown-image-10"></div>
-          <div id="unknown-image-11"></div>
-          <div id="unknown-image-12"></div>
-        </div>
+        <div id="music-text">
+            <p>
+              Music for the first third of the film, set in Hungary, is
+              traditional Yiddish Folk, developing into an ominous Talmudic
+              chant as the Nazi invasion unfolds only to end abruptly, when the
+              cattle truck doors are bolted shut. As they’re unbolted again at
+              Auschwitz, the second section begins. Blood pumping in ears, panic
+              attack sounds slowly evolving into an industrial soundscape as we
+              follow the new inmates’ metamorphosis into slave labour robots
+              through a full spectrum of Holocaust indignities, revealed in
+              rapid succession. The final crescendo and eventual escape through
+              the perimeter fence is accompanied by the exhilarating, rebellious
+              sound of Motorcade By Magazine (Post Punk band from 1978). This
+              section ends with a door being kicked in and the abrupt end of
+              WW2. Section three begins with silence and then the sound of
+              nature. Emotional, threatening, but hopeful. We hear the sounds of
+              the Hebrew mourners’ prayers getting louder and eventually
+              transforming into the joyous sound of 1950’s Brick Lane, British,
+              Yiddish Jazz.{" "}
+            </p>
+          </div>
 
       </div>
 

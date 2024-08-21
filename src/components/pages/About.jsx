@@ -1,11 +1,63 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
+import video from "../../videos/video1.MP4";
 
 function About() {
   return (
     <>
       <div className="about">
+        <h1>AUTHENTICITY</h1>
+        <div id="research">
+          <div id="research-text">
+            <p>
+              Care and due diligence has been taken to recreate all events,
+              locations and conversations as accurately as possible.
+            </p>{" "}
+            <p>
+              Many hours spent with Ivor Perl BEM discussing his first hand
+              testimony, cross referenced with the books of Primo Levi, Elie
+              Wiesel, and József Debreczeni [all at Auschwitz around the same
+              time] informed the writing of the screenplay.{" "}
+            </p>{" "}
+            <p>
+              Knowledge and layouts of locations were enhanced by research trips
+              to Auschwitz, Dachau, Allach, Kaufering IV, Walnuss II and Munich,
+              guided by historians, taxi drivers, locals.
+            </p>{" "}
+            <p>
+              Holocaust artist David Olère’s visual descriptions of the
+              Sonderkommando informed Zoom’s understanding of the workings of
+              the crematoriums, leading him to include Olère himself in those
+              scenes alongside Ivor’s older brother, David.
+            </p>{" "}
+            <p>
+              With Ivor’s blessing, Zoom included his own great-great-uncle,
+              Lazar Rozenwajn in an early death camp scene. Lazar was imprisoned
+              at Auschwitz and liberated from Dachau the same day as Ivor.
+            </p>
+          </div>
+          {/* <div id="research-image-one"></div>
+          <div id="research-image-two"></div>
+          <div id="research-image-three"></div> */}
+          <div id="research-video">
+            <video src={video} controls></video>
+          </div>
+        </div>
+
+        <h1>CHARACTERS</h1>
+
+        <div id="characters">
+          <p>
+            All puppets were created by Zoom Rockman using reference
+            photographs, documented film footage and survivor art. Where these
+            were not available he used detailed descriptions from Ivor himself.
+            Each person below described as ‘unknown’ is someone we have not been
+            able to name. If you have any information regarding their identity
+            please get in touch using the contact page of this site.
+          </p>
+        </div>
+
         <h1>SYNOPSIS</h1>
         <div className="synopsis">
           <p>
@@ -48,59 +100,9 @@ function About() {
             him to go free. Ivor and Alec are sent to Feldafing, the camp for
             displaced persons. They attend a Kol Nidre service and light
             memorial candles. Being the youngest, they are soon put on a plane
-            to the UK. Ivor, now 92, appears on screen in live action.
+            to the UK.
           </p>
         </div>
-
-        <h1>ASPIRATIONS</h1>
-        <div id="aspirations">
-          <div id="aspirations-image"></div>
-          <div id="aspirations-text">
-            <p>
-              This film hopes to join the ranks of the most significant
-              Holocaust films ever made. By utilising a distinctive animation
-              style with paper puppet characters and scenery derived from
-              archival material, we aim to vividly depict the physical and
-              emotional realities of the Holocaust based on thoroughly
-              researched, fact-checked primary source testimonies.
-            </p>
-            <p>
-              Our goal is to engage deeply, surprise, and touch the audience as
-              they follow Ivor, an ordinary boy, through his journey of love,
-              loss, fear, joy, excitement, despair, confusion, shame, happiness
-              and courage. We intend for this film to reach a wide audience,
-              spark meaningful debate and discussion, and be recognised as a
-              vital creative expression of humanity's fragility, preserved for
-              current and future generations.
-            </p>
-          </div>
-        </div>
-
-        <h1>MUSIC</h1>
-
-        <div id="music-text">
-            <p>
-              Music for the first third of the film, set in Hungary, is
-              traditional Yiddish Folk, developing into an ominous Talmudic
-              chant as the Nazi invasion unfolds only to end abruptly, when the
-              cattle truck doors are bolted shut. As they’re unbolted again at
-              Auschwitz, the second section begins. Blood pumping in ears, panic
-              attack sounds slowly evolving into an industrial soundscape as we
-              follow the new inmates’ metamorphosis into slave labour robots
-              through a full spectrum of Holocaust indignities, revealed in
-              rapid succession. The final crescendo and eventual escape through
-              the perimeter fence is accompanied by the exhilarating, rebellious
-              sound of Motorcade By Magazine (Post Punk band from 1978). This
-              section ends with a door being kicked in and the abrupt end of
-              WW2. Section three begins with silence and then the sound of
-              nature. Emotional, threatening, but hopeful. We hear the sounds of
-              the Hebrew mourners’ prayers getting louder and eventually
-              transforming into the joyous sound of 1950’s Brick Lane, British,
-              Yiddish Jazz.{" "}
-            </p>
-          </div>
-
-        
       </div>
 
       <Footer />
