@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import Characters from "../Characters";
 import Footer from "../Footer";
 import video from "../../videos/video1.MP4";
 
@@ -53,9 +54,15 @@ function About() {
             photographs, documented film footage and survivor art. Where these
             were not available he used detailed descriptions from Ivor himself.
             Each person below described as ‘unknown’ is someone we have not been
-            able to name. If you have any information regarding their identity
-            please get in touch using the contact page of this site.
+            able to name.
+          </p>{" "}
+          <p>
+            If you have any information regarding their identity please get in
+            touch using the contact page of this site.
           </p>
+
+            <Characters />
+
         </div>
 
         <h1>SYNOPSIS</h1>

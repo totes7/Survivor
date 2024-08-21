@@ -137,6 +137,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "image profile profile"; */
 }
+#characters p {
+  padding-bottom: 2%;
+}
 
 .synopsis p {
   margin-top: 2%;
@@ -654,6 +657,10 @@
 
   #characters {
     padding: 10% 5%;
+  }
+
+  #characters p {
+    padding-bottom: 5%;
   }
 
   #aspirations {
