@@ -11,15 +11,16 @@ function About() {
         <h1>AUTHENTICITY</h1>
         <div id="research">
           <div id="research-text">
+            <p>Everything in this film is true.</p>{" "}
+            <p>
+              Care and due diligence has been taken to recreate all events,
+              locations and conversations as accurately as possible.
+            </p>{" "}
             <p>
               Many hours spent with Ivor Perl BEM discussing his first hand
               testimony, cross referenced with the books of Primo Levi, Elie
               Wiesel, and József Debreczeni [all at Auschwitz around the same
               time] informed the writing of the screenplay.{" "}
-            </p>{" "}
-            <p>
-              Care and due diligence has been taken to recreate all events,
-              locations and conversations as accurately as possible.
             </p>{" "}
             <p>
               Knowledge and layouts of locations were enhanced by research trips
@@ -56,12 +57,10 @@ function About() {
           </p>{" "}
           <p>
             Each person below described as ‘unknown’ is someone we have not been
-            able to name.If you have any information regarding their identity please get in
-            touch using the contact page of this site.
+            able to name.If you have any information regarding their identity
+            please get in touch using the contact page of this site.
           </p>
-
-            <Characters />
-
+          <Characters />
         </div>
 
         <h1>SYNOPSIS</h1>

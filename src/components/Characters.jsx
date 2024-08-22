@@ -1,25 +1,30 @@
 import React from "react";
 import "./Characters.css";
 
-const characters = require.context("../images/characters", true);
+function Characters() {
+  const characters = require.context("../images/characters", true);
 
-const charactersList = characters
-  .keys()
-  .map((character) => characters(character));
+  const charactersList = characters
+    .keys()
+    .map((character) => characters(character));
 
-const sortedCharactersList = charactersList.slice().sort((a, b) => {
   const getNumberFromPath = (path) => {
     const fileName = path.split("/").pop();
     return parseInt(fileName.split(".")[0], 10);
   };
 
-  return getNumberFromPath(a) - getNumberFromPath(b);
-});
+  const filteredCharactersList = charactersList.filter((character) => {
+    const number = getNumberFromPath(character);
+    return number >= 20 && number <= 43;
+  });
 
-function Characters() {
+  const sortedFilteredCharactersList = filteredCharactersList.sort((a, b) => {
+    return getNumberFromPath(a) - getNumberFromPath(b);
+  });
+
   return (
     <div className="characters">
-      {sortedCharactersList.map((character, index) => (
+      {sortedFilteredCharactersList.map((character, index) => (
         <img key={index} src={character} alt={`character-${index}`} />
       ))}
     </div>
