@@ -11,10 +11,7 @@ function About() {
         <h1>AUTHENTICITY</h1>
         <div id="research">
           <div id="research-text">
-            <p>Everything in this film is true.</p>{" "}
-            <p>
-              Care and due diligence has been taken to recreate all events,
-              locations and conversations as accurately as possible.
+            <p>Everything in this film is true. Care and due diligence has been taken to recreate all events, locations and conversations as accurately as possible.
             </p>{" "}
             <p>
               Many hours spent with Ivor Perl BEM discussing his first hand
