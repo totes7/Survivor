@@ -44,7 +44,7 @@ function Contact() {
           The team welcome feedback, information, suggestions and questions.
         </p>
         <p>
-          Here's how to get in touch. We aim to respond within 5 days.
+          Here's how to get in touch.
         </p>
 
         <form id="myForm" className="mb-3">

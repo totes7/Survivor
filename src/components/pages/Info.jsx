@@ -14,7 +14,6 @@ import ace from "../../images/AceProfile.jpg";
 import erran from "../../images/ErranProfile.jpg";
 import pini from "../../images/PiniProfile.jpg";
 
-
 function Info() {
   return (
     <>
@@ -26,7 +25,16 @@ function Info() {
           <div id="zoom-profile">
             <h3>ZOOM ROCKMAN - DIRECTOR</h3>
             <p>
-            Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator. Zoom is the youngest-ever contributor to The Beano and Private Eye. Zoom has illustrated several books including Iain Dale’s The Prime Ministers (Political Book of the Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas Defendat Me, The Boris Letters (2022) and Farce Majeure (2023). The Evening Standard named Zoom as one of the Most Influential Londoners under 25 and his cartoon for Private Eye, ‘You can’t do anything these days without being seen as an antisemite’ won best Pocket Cartoon of the Year at the Political Cartoon Awards 2023.
+              Zoom Rockman is an award-winning cartoonist, illustrator,
+              puppet-maker and animator. Zoom is the youngest-ever contributor
+              to The Beano and Private Eye. Zoom has illustrated several books
+              including Iain Dale’s The Prime Ministers (Political Book of the
+              Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas
+              Defendat Me, The Boris Letters (2022) and Farce Majeure (2023).
+              The Evening Standard named Zoom as one of the Most Influential
+              Londoners under 25 and his cartoon for Private Eye, ‘You can’t do
+              anything these days without being seen as an antisemite’ won best
+              Pocket Cartoon of the Year at the Political Cartoon Awards 2023.
             </p>
           </div>
           <div id="zoom-card">
@@ -45,10 +53,17 @@ function Info() {
           <div id="kate-image"></div>
           <div id="kate-profile">
             <h3>KATE LENNARD - SCREENWRITER</h3>
-            <p>Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN & ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera archive. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages.</p>
+            <p>
+              Kate Lennard is a writer, researcher, production manager and
+              furniture designer. She is Creative Director at ROCKMAN & ROCKMAN
+              design studio, known for its original furniture designs influenced
+              by its extensive 20th-century ephemera archive. Her Little Genius
+              series of children's books, published by Penguin Random House in
+              the UK, has been translated into 8 languages.
+            </p>
           </div>
           <div id="kate-card">
-          <Card
+            <Card
               src={kate}
               alt="Kate Lennard"
               caption="KATE LENNARD"
@@ -63,10 +78,20 @@ function Info() {
           <div id="sally-image"></div>
           <div id="sally-profile">
             <h3>SALLY VAUGHAN - PRODUCER</h3>
-            <p>Sally Vaughan is a producer, agent and coach. Prior to founding Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 becoming art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership.</p>
+            <p>
+              Sally Vaughan is a producer, agent and coach. Prior to founding
+              Exceptional, Sally's career spanned the media and art worlds. As
+              vice president marketing for ESPN Asia and CNN International, she
+              led the marketing launch of ESPN India and CNN's first
+              multiplatform campaign. Sally launched the first online platform
+              purely for figurative artists in 2008 becoming art consultant to
+              the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years
+              since he was 16 years old. She is an ILM qualified Leadership and
+              Management coach and a Member of the Institute of Leadership.
+            </p>
           </div>
           <div id="sally-card">
-          <Card
+            <Card
               src={sally}
               alt="Sally Vaughan"
               caption="SALLY VAUGHAN"
@@ -81,10 +106,14 @@ function Info() {
           <div id="nigel-image"></div>
           <div id="nigel-profile">
             <h3>NIGEL CANIN - EXECUTIVE PRODUCER</h3>
-            <p>Nigel Canin is Director of 2Simple Educational Software, Lemon Soul Publishing and Second Chance, a not for profit computer recycling project.</p>
+            <p>
+              Nigel Canin is Director of 2Simple Educational Software, Lemon
+              Soul Publishing and Second Chance, a not for profit computer
+              recycling project.
+            </p>
           </div>
           <div id="nigel-card">
-          <Card
+            <Card
               src={nigel}
               alt="Nigel Canin"
               caption="NIGEL CANIN"
@@ -99,10 +128,20 @@ function Info() {
           <div id="rachel-image"></div>
           <div id="rachel-profile">
             <h3>RACHEL MANSSON - DISTRIBUTION</h3>
-            <p>Commercially focused, highly creative international media senior marketing executive with extensive knowledge of the entertainment industry. Rachel has successfully conceived, built, launched and grown many successful digital businesses and products internationally. Prior to founding the BYO Collective, Rachel has held senior roles at NBCUniversal, PolyGram Films, Star TV, MTV Europe and Virgin Records. Currently BYO Collective consults for multiple media companies including PBS, Viaplay, Really Epic Dog, O3 Medya, MBC Studios amongst others.</p>
+            <p>
+              Commercially focused, highly creative international media senior
+              marketing executive with extensive knowledge of the entertainment
+              industry. Rachel has successfully conceived, built, launched and
+              grown many successful digital businesses and products
+              internationally. Prior to founding the BYO Collective, Rachel has
+              held senior roles at NBCUniversal, PolyGram Films, Star TV, MTV
+              Europe and Virgin Records. Currently BYO Collective consults for
+              multiple media companies including PBS, Viaplay, Really Epic Dog,
+              O3 Medya, MBC Studios amongst others.
+            </p>
           </div>
           <div id="rachel-card">
-          <Card
+            <Card
               src={rachel}
               alt="Rachel Mansson"
               caption="RACHEL MANSSON"
@@ -117,10 +156,14 @@ function Info() {
           <div id="jen-image"></div>
           <div id="jen-profile">
             <h3>JEN BUZZELLI - ASSOCIATE PRODUCER</h3>
-            <p>Jen Buzzelli is a NY-based producer with 25 years experience in international co-production, distribution and programming and for the likes of National Geographic, truTV and KONAMI.</p>
+            <p>
+              Jen Buzzelli is a NY-based producer with 25 years experience in
+              international co-production, distribution and programming and for
+              the likes of National Geographic, truTV and KONAMI.
+            </p>
           </div>
           <div id="jen-card">
-          <Card
+            <Card
               src={jen}
               alt="Jen Buzzelli"
               caption="JEN BUZZELLI"
@@ -137,7 +180,14 @@ function Info() {
             <h3>ERRAN BARON COHEN - COMPOSER</h3>
             <p>
               {" "}
-              Erran Baron Cohen is an award winning composer whose work has encompassed film and television scores, album releases, orchestral commissions and musical theatre. His knowledge of contemporary classical, electronic and world music makes him an extremely versatile composer able to turn his talents to a wide variety of eclectic projects. Erran has received numerous Composer Awards for his scores to Borat, Bruno and The Dictator and his song Wuhan Flu was Oscar shortlisted.
+              Erran Baron Cohen is an award winning composer whose work has
+              encompassed film and television scores, album releases, orchestral
+              commissions and musical theatre. His knowledge of contemporary
+              classical, electronic and world music makes him an extremely
+              versatile composer able to turn his talents to a wide variety of
+              eclectic projects. Erran has received numerous Composer Awards for
+              his scores to Borat, Bruno and The Dictator and his song Wuhan Flu
+              was Oscar shortlisted.
             </p>
           </div>
           <div id="erran-card">
@@ -187,7 +237,7 @@ function Info() {
             <p>Morgan Penn is a London based Portrait Painter and Musician. </p>
           </div>
           <div id="morgan-card">
-          <Card
+            <Card
               src={morgan}
               alt="Morgan Penn"
               caption="MORGAN PENN"
@@ -202,10 +252,13 @@ function Info() {
           <div id="ace-image"></div>
           <div id="ace-profile">
             <h3>ACE ROCKMAN - ASSISTANT COLOURIST AND PUPPET MAKER</h3>
-            <p>Ace is currently in his 3rd year studying Classics at St Andrew’s University.</p>
+            <p>
+              Ace is currently in his 3rd year studying Classics at St Andrew’s
+              University.
+            </p>
           </div>
           <div id="ace-card">
-          <Card
+            <Card
               src={ace}
               alt="Ace Rockman"
               caption="ACE ROCKMAN"
@@ -220,10 +273,14 @@ function Info() {
           <div id="mark-image"></div>
           <div id="mark-profile">
             <h3>MARK GARSIDE - TECHNICAL DESIGN</h3>
-            <p>Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He studied Industrial Design at the Royal College of Art and now specialises in luxury retail display and production. </p>
+            <p>
+              Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He
+              studied Industrial Design at the Royal College of Art and now
+              specialises in luxury retail display and production.{" "}
+            </p>
           </div>
           <div id="mark-card">
-          <Card
+            <Card
               src={mark}
               alt="Mark Garside"
               caption="MARK GARSIDE"
@@ -237,6 +294,42 @@ function Info() {
           </div>
         </div>
 
+        <h1>MUSIC</h1>
+        <div id="music-text">
+          <p>
+            Zoom Rockman’s music concept is for the soundtrack to be broken down
+            into three main sections. The first, set in Hungary, traditional
+            Yiddish Folk, developing into an ominous, Talmudic chant as the Nazi
+            invasion unfolds only to end abruptly, when the cattle truck doors
+            are bolted shut.
+          </p>
+          <p>
+            As the cattle truck doors are unbolted again at Auschwitz, the
+            second section begins. Blood pumping in the ears, panic attack
+            sounds slowly evolving into an industrial soundscape following the
+            new inmate’s metamorphosis into death camp prisoners through a full
+            spectrum of Holocaust indignities, revealed in rapid succession.
+            It’s relentless, uncomfortable, disturbing and inhumane. The final
+            crescendo and eventual escape through the perimeter fence is
+            illustrated with the use of the exhilarating, rebellious sound of
+            ‘Motorcade’ By Magazine [Post Punk band from 1978] ending abruptly
+            at the end of WW2 with a door being kicked in.
+          </p>
+          <p>
+            Section 3 begins with silence. A chance to see what remains. We hear
+            nature. It’s emotional, still threatening, but hopeful. Finally we
+            hear the distant ancient sounds of the Hebrew prayers getting louder
+            and eventually transforming into the joyous sound of 1950’s Brick
+            Lane, British, Yiddish Jazz.
+          </p>
+          <p>
+            Ivor’s Theme, composed by Erran Baron Cohen is woven throughout,
+            with additional vocals provided by trained cantor, Pini Brown. The
+            Industrial sound was designed by musician Morgan Penn and edited
+            together by Zoom in his studio.
+          </p>
+        </div>
+        
         <h1>ASPIRATIONS</h1>
         <div id="aspirations">
           <div id="aspirations-image"></div>
@@ -260,31 +353,6 @@ function Info() {
             </p>
           </div>
         </div>
-
-        <h1>MUSIC</h1>
-
-        <div id="music-text">
-            <p>
-              Music for the first third of the film, set in Hungary, is
-              traditional Yiddish Folk, developing into an ominous Talmudic
-              chant as the Nazi invasion unfolds only to end abruptly, when the
-              cattle truck doors are bolted shut. As they’re unbolted again at
-              Auschwitz, the second section begins. Blood pumping in ears, panic
-              attack sounds slowly evolving into an industrial soundscape as we
-              follow the new inmates’ metamorphosis into slave labour robots
-              through a full spectrum of Holocaust indignities, revealed in
-              rapid succession. The final crescendo and eventual escape through
-              the perimeter fence is accompanied by the exhilarating, rebellious
-              sound of Motorcade By Magazine (Post Punk band from 1978). This
-              section ends with a door being kicked in and the abrupt end of
-              WW2. Section three begins with silence and then the sound of
-              nature. Emotional, threatening, but hopeful. We hear the sounds of
-              the Hebrew mourners’ prayers getting louder and eventually
-              transforming into the joyous sound of 1950’s Brick Lane, British,
-              Yiddish Jazz.{" "}
-            </p>
-          </div>
-
       </div>
 
       <Footer />
