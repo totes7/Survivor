@@ -29,7 +29,7 @@ function Contact() {
       message: "",
     });
 
-    alert("Thank you for getting in touch! We aim to respond within 5 days.");
+    alert("Thank you for getting in touch!");
   };
 
   const handleChange = (e) => {
