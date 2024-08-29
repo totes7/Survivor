@@ -27,7 +27,7 @@ function Footer() {
               </Link>
               <Link
                 class="social-icon-link twitter"
-                to="https://x.com/The_ZoomComic?t=6XHyQxg4Wy7DVdoxBkoqHg&s=08"
+                to="https://x.com/SURV_IVOR_Film"
                 target="_blank"
                 aria-label="Twitter"
               >

@@ -242,7 +242,7 @@ function Info() {
               alt="Morgan Penn"
               caption="MORGAN PENN"
               title="Sound Design"
-              text="Morgan Penn is a London based Portrait Painter and Musician."
+              text="Morgan Penn is a London-based portrait painter and musician."
               path="https://www.instagram.com/morganpennportraits/"
               target="_blank"
               classOuter="team-card-container"
@@ -329,7 +329,7 @@ function Info() {
             together by Zoom in his studio.
           </p>
         </div>
-        
+
         <h1>ASPIRATIONS</h1>
         <div id="aspirations">
           <div id="aspirations-image"></div>
