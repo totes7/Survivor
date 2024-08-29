@@ -11,7 +11,7 @@ function Footer() {
             <div class="social-icons">
               <Link
                 class="social-icon-link instagram"
-                to="https://www.instagram.com/the_zoomcomic/"
+                to="https://www.instagram.com/surv_ivor_film/"
                 target="_blank"
                 aria-label="Instagram"
               >
@@ -35,7 +35,7 @@ function Footer() {
               </Link>
               <Link
                 class="social-icon-link linkedin"
-                to="https://www.linkedin.com/in/sallyvaughan/"
+                to="https://www.linkedin.com/showcase/survivorfilm/about/"
                 target="_blank"
                 aria-label="LinkedIn"
               >
