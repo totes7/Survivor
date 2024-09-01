@@ -186,13 +186,14 @@
     "kate kateImage"
     "sallyImage sally"
     "nigel nigelImage"
-    "rachelImage rachel"
-    "jen jenImage"
-    "erranImage erran"
-    "pini piniImage"
-    "morganImage morgan"
-    "ace aceImage"
-    "markImage mark";
+    "nickImage nick"
+    "rachel rachelImage"
+    "jenImage jen"
+    "erran erranImage"
+    "piniImage pini"
+    "morgan morganImage"
+    "aceImage ace"
+    "mark markImage";
 }
 
 #zoom-image {
@@ -259,7 +260,7 @@
   min-height: 300px;
   grid-area: nigelImage;
   margin: 15% 0 0 0;
-  background-image: url("./images/NigelProfile.jpeg");
+  background-image: url("./images/NigelProfile.jpg");
   border-radius: 5px;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,6 +273,26 @@
 }
 
 #nigel-card {
+  display: none;
+}
+
+#nick-image {
+  min-height: 300px;
+  grid-area: nickImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/NickProfile.png");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nick-profile {
+  grid-area: nick;
+  padding: 15% 0 5% 5%;
+}
+
+#nick-card {
   display: none;
 }
 
@@ -288,7 +309,7 @@
 
 #rachel-profile {
   grid-area: rachel;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #rachel-card {
@@ -308,7 +329,7 @@
 
 #jen-profile {
   grid-area: jen;
-  padding: 15% 5% 5% 0;
+  padding: 15% 0 5% 5%;
 }
 
 #jen-card {
@@ -328,7 +349,7 @@
 
 #erran-profile {
   grid-area: erran;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #erran-card {
@@ -337,7 +358,7 @@
 
 #pini-profile {
   grid-area: pini;
-  padding: 15% 5% 5% 0;
+  padding: 15% 0 5% 5%;
 }
 
 #pini-image {
@@ -368,7 +389,7 @@
 
 #morgan-profile {
   grid-area: morgan;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #morgan-card {
@@ -388,7 +409,7 @@
 
 #ace-profile {
   grid-area: ace;
-  padding: 15% 5% 5% 0;
+  padding: 15% 0 5% 5%;
 }
 
 #ace-card {
@@ -408,7 +429,7 @@
 
 #mark-profile {
   grid-area: mark;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #mark-card {
@@ -802,6 +823,19 @@
   }
 
   #nigel-profile {
+    display: none;
+  }
+
+  #nick-card {
+    display: block;
+  }
+
+  #nick-image {
+    background-image: none;
+    min-height: 0;
+  }
+
+  #nick-profile {
     display: none;
   }
 

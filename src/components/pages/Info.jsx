@@ -5,7 +5,8 @@ import Footer from "../Footer";
 import zoom from "../../images/ZoomProfile.jpg";
 import kate from "../../images/KateProfile.jpg";
 import sally from "../../images/SallyProfile.jpg";
-import nigel from "../../images/NigelProfile.jpeg";
+import nigel from "../../images/NigelProfile.jpg";
+import nick from "../../images/NickProfile.png"
 import rachel from "../../images/RachelProfile.jpg";
 import jen from "../../images/JenniferProfile.jpg";
 import morgan from "../../images/MorganProfile.jpg";
@@ -27,12 +28,12 @@ function Info() {
             <p>
               Zoom Rockman is an award-winning cartoonist, illustrator,
               puppet-maker and animator. Zoom is the youngest-ever contributor
-              to The Beano and Private Eye. Zoom has illustrated several books
-              including Iain Dale’s The Prime Ministers (Political Book of the
-              Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas
-              Defendat Me, The Boris Letters (2022) and Farce Majeure (2023).
+              to <em>The Beano</em> and <em>Private Eye</em>. Zoom has illustrated several books
+              including <em>Iain Dale’s The Prime Ministers</em> (Political Book of the
+              Year 2020) and <em>The Presidents</em> (2021), <em>Michael Rosen’s St Pancreas
+              Defendat Me, The Boris Letters</em> (2022) and <em>Farce Majeure</em> (2023).
               The Evening Standard named Zoom as one of the Most Influential
-              Londoners under 25 and his cartoon for Private Eye, ‘You can’t do
+              Londoners under 25 and his cartoon for <em>Private Eye</em>, ‘You can’t do
               anything these days without being seen as an antisemite’ won best
               Pocket Cartoon of the Year at the Political Cartoon Awards 2023.
             </p>
@@ -43,7 +44,16 @@ function Info() {
               alt="Zoom Rockman"
               caption="ZOOM ROCKMAN"
               title="Director"
-              text="Zoom Rockman is an award-winning cartoonist, illustrator, puppet-maker and animator. Zoom is the youngest-ever contributor to The Beano and Private Eye. Zoom has illustrated several books including Iain Dale’s The Prime Ministers (Political Book of the Year 2020) and The Presidents (2021), Michael Rosen’s St Pancreas Defendat Me, The Boris Letters (2022) and Farce Majeure (2023). The Evening Standard named Zoom as one of the Most Influential Londoners under 25 and his cartoon for Private Eye, ‘You can’t do anything these days without being seen as an antisemite’ won best Pocket Cartoon of the Year at the Political Cartoon Awards 2023."
+              text={<>Zoom Rockman is an award-winning cartoonist, illustrator,
+              puppet-maker and animator. Zoom is the youngest-ever contributor
+              to <em>The Beano</em> and <em>Private Eye</em>. Zoom has illustrated several books
+              including <em>Iain Dale’s The Prime Ministers</em> (Political Book of the
+              Year 2020) and <em>The Presidents</em> (2021), <em>Michael Rosen’s St Pancreas
+              Defendat Me, The Boris Letters</em> (2022) and <em>Farce Majeure</em> (2023).
+              The Evening Standard named Zoom as one of the Most Influential
+              Londoners under 25 and his cartoon for <em>Private Eye</em>, ‘You can’t do
+              anything these days without being seen as an antisemite’ won best
+              Pocket Cartoon of the Year at the Political Cartoon Awards 2023.</>}
               path="https://www.instagram.com/the_zoomcomic/"
               target="_blank"
               classOuter="team-card-container"
@@ -57,7 +67,7 @@ function Info() {
               Kate Lennard is a writer, researcher, production manager and
               furniture designer. She is Creative Director at ROCKMAN & ROCKMAN
               design studio, known for its original furniture designs influenced
-              by its extensive 20th-century ephemera archive. Her Little Genius
+              by its extensive 20th-century ephemera archive. Her <em>Little Genius</em>
               series of children's books, published by Penguin Random House in
               the UK, has been translated into 8 languages.
             </p>
@@ -68,7 +78,11 @@ function Info() {
               alt="Kate Lennard"
               caption="KATE LENNARD"
               title="Screenwriter"
-              text="Kate Lennard is a writer, researcher, production manager and furniture designer. She is Creative Director at ROCKMAN & ROCKMAN design studio, known for its original furniture designs influenced by its extensive 20th-century ephemera archive. Her Little Genius series of children's books, published by Penguin Random House in the UK, has been translated into 8 languages."
+              text={<>Kate Lennard is a writer, researcher, production manager and
+                furniture designer. She is Creative Director at ROCKMAN & ROCKMAN
+                design studio, known for its original furniture designs influenced
+                by its extensive 20th-century ephemera archive. Her <em>Little Genius</em> series of children's books, published by Penguin Random House in
+                the UK, has been translated into 8 languages.</>}
               path="https://www.instagram.com/rockman_and_rockman/"
               target="_blank"
               classOuter="team-card-container"
@@ -107,9 +121,7 @@ function Info() {
           <div id="nigel-profile">
             <h3>NIGEL CANIN - EXECUTIVE PRODUCER</h3>
             <p>
-              Nigel Canin is Director of 2Simple Educational Software, Lemon
-              Soul Publishing and Second Chance, a not for profit computer
-              recycling project.
+            Nigel originally trained as a teacher in the 90s. Motivated by the potential power of technology in the classroom, he launched 2 Simple in 1999 to build and deliver creative programmes for children, now the online learning space Purple Mash, used by over 6,500 primary schools worldwide. Nigel recently founded Lemon Soul, an independent publishing company, in memory of his close friend Jonny Zucker. His latest venture, co-founded with Adam Goodman, is 2econd Chance, a computer recycling community interest company for vulnerable adults and young people aged 16-25. 
             </p>
           </div>
           <div id="nigel-card">
@@ -118,8 +130,26 @@ function Info() {
               alt="Nigel Canin"
               caption="NIGEL CANIN"
               title="Executive Producer"
-              text="Nigel Canin is Director of 2Simple Educational Software, Lemon Soul Publishing and Second Chance, a not for profit computer recycling project."
+              text="Nigel originally trained as a teacher in the 90s. Motivated by the potential power of technology in the classroom, he launched 2 Simple in 1999 to build and deliver creative programmes for children, now the online learning space Purple Mash, used by over 6,500 primary schools worldwide. Nigel recently founded Lemon Soul, an independent publishing company, in memory of his close friend Jonny Zucker. His latest venture, co-founded with Adam Goodman, is 2econd Chance, a computer recycling community interest company for vulnerable adults and young people aged 16-25. "
               path="https://www.linkedin.com/in/nigel-canin-43061317/"
+              target="_blank"
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="nick-image"></div>
+          <div id="nick-profile">
+            <h3>NICK GOLDFARB - EXECUTIVE PRODUCER</h3>
+            <p>Nick Goldfarb has produced feature films including: <em>Metamorphosis, The Informer, Disobedience, Everything in the Song Is True, Opposite Field</em> and the short film <em>Triggered</em> which was nominated by the Hollywood Critics Association as Best Short Film in 2022.</p>
+          </div>
+          <div id="nick-card">
+          <Card
+              src={nick}
+              alt="Nick Goldfarb"
+              caption="NICK GOLDFARB"
+              title="Executive Producer"
+              text={<>Nick Goldfarb has produced feature films including: <em>Metamorphosis, The Informer, Disobedience, Everything in the Song Is True, Opposite Field</em> and the short film <em>Triggered</em> which was nominated by the Hollywood Critics Association as Best Short Film in 2022.</>}
+              path="https://www.linkedin.com/in/nickgoldfarb/"
               target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"
@@ -186,8 +216,7 @@ function Info() {
               classical, electronic and world music makes him an extremely
               versatile composer able to turn his talents to a wide variety of
               eclectic projects. Erran has received numerous Composer Awards for
-              his scores to Borat, Bruno and The Dictator and his song Wuhan Flu
-              was Oscar shortlisted.
+              his scores to <em>Borat, Bruno</em> and <em>The Dictator</em> and his song <em>Wuhan Flu</em> was Oscar shortlisted.
             </p>
           </div>
           <div id="erran-card">
@@ -196,7 +225,13 @@ function Info() {
               alt="Erran Baron Cohen"
               caption="ERRAN BARON COHEN"
               title="Composer"
-              text="Erran Baron Cohen is an award winning composer whose work has encompassed film and television scores, album releases, orchestral commissions and musical theatre. His knowledge of contemporary classical, electronic and world music makes him an extremely versatile composer able to turn his talents to a wide variety of eclectic projects. Erran has received numerous Composer Awards for his scores to Borat, Bruno and The Dictator and his song Wuhan Flu was Oscar shortlisted."
+              text={<>Erran Baron Cohen is an award winning composer whose work has
+                encompassed film and television scores, album releases, orchestral
+                commissions and musical theatre. His knowledge of contemporary
+                classical, electronic and world music makes him an extremely
+                versatile composer able to turn his talents to a wide variety of
+                eclectic projects. Erran has received numerous Composer Awards for
+                his scores to <em>Borat, Bruno</em> and <em>The Dictator</em> and his song <em>Wuhan Flu</em> was Oscar shortlisted.</>}
               path="http://www.erranbaroncohen.com/"
               target="_blank"
               classOuter="team-card-container"
