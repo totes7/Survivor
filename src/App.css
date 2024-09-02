@@ -960,7 +960,7 @@
     padding: 5%;
     display: grid;
     text-align: justify;
-    grid-template-rows: 450px 350px;
+    grid-template-rows: 450px 450px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "text"
@@ -968,7 +968,7 @@
   }
 
   #aspirations-text {
-    margin-bottom: 5%;
+    margin-top: 10%;
   }
 
   #aspirations-text p {
@@ -977,7 +977,7 @@
   }
 
   #aspirations-image {
-    margin: 15% 0;
+    margin: 20% 0;
   }
 
   
