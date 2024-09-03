@@ -19,7 +19,7 @@ function Footer() {
               </Link>
               <Link
                 class="social-icon-link youtube"
-                to="https://www.youtube.com/channel/UCEfloRN5hzghunA970rEv0g"
+                to="https://www.youtube.com/@survivor-w4o"
                 target="_blank"
                 aria-label="Youtube"
               >

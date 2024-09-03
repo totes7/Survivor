@@ -99,9 +99,7 @@ function Info() {
               led the marketing launch of ESPN India and CNN's first
               multiplatform campaign. Sally launched the first online platform
               purely for figurative artists in 2008 becoming art consultant to
-              the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years
-              since he was 16 years old. She is an ILM qualified Leadership and
-              Management coach and a Member of the Institute of Leadership.
+              the Savoy hotel. Sally has been Zoom Rockman's agent since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership.
             </p>
           </div>
           <div id="sally-card">
@@ -110,7 +108,7 @@ function Info() {
               alt="Sally Vaughan"
               caption="SALLY VAUGHAN"
               title="Producer"
-              text="Sally Vaughan is a producer, agent and coach. Prior to founding Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 becoming art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent for 8 years since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership."
+              text="Sally Vaughan is a producer, agent and coach. Prior to founding Exceptional, Sally's career spanned the media and art worlds. As vice president marketing for ESPN Asia and CNN International, she led the marketing launch of ESPN India and CNN's first multiplatform campaign. Sally launched the first online platform purely for figurative artists in 2008 becoming art consultant to the Savoy hotel. Sally has been Zoom Rockman's agent since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership."
               path="https://www.linkedin.com/in/sallyvaughan/"
               target="_blank"
               classOuter="team-card-container"
@@ -241,13 +239,13 @@ function Info() {
           <div id="pini-profile">
             <h3>PINI BROWN - SINGER</h3>
             <p>
-              Pini Brown trained as a Cantor in Jerusalem. His early years were
+              Pini Brown trained as a cantor in Jerusalem. His early years were
               marked by a struggle to fit in and conform within his Ultra
-              Orthodox Community. Age 20 he was brought to the UK for an
+              Orthodox community. Age 20 he was brought to the UK for an
               arranged marriage and after a period of deep unhappiness he made
               the brave decision to leave. Embraced by the wider Jewish
-              Community he continues to pave his way; By day, hosting tours of
-              the East End and by night making a name for himself performing his
+              community he continues to pave his way. By day he hosts tours of
+              the East End and by night he is making a name for himself performing his
               unique brand of Yiddish Klezmer in the late night blues and jazz
               clubs of London.
             </p>
@@ -259,7 +257,15 @@ function Info() {
               alt="Pini Brown"
               caption="PINI BROWN"
               title="Singer"
-              text="Pini Brown trained as a Cantor in Jerusalem.  His early years were marked by a struggle to fit in and conform within his Ultra Orthodox Community. Age 20 he was brought to the UK for an arranged marriage and after a period of deep unhappiness he made the brave decision to leave. Embraced by the wider Jewish Community he continues to pave his way; By day, hosting tours of the East End and by night making a name for himself performing his unique brand of Yiddish Klezmer in the late night blues and jazz clubs of London."
+              text="Pini Brown trained as a cantor in Jerusalem. His early years were
+              marked by a struggle to fit in and conform within his Ultra
+              Orthodox community. Age 20 he was brought to the UK for an
+              arranged marriage and after a period of deep unhappiness he made
+              the brave decision to leave. Embraced by the wider Jewish
+              community he continues to pave his way. By day he hosts tours of
+              the East End and by night he is making a name for himself performing his
+              unique brand of Yiddish Klezmer in the late night blues and jazz
+              clubs of London."
               path="https://www.instagram.com/pini_on_the_roof/"
               target="_blank"
               classOuter="team-card-container"
@@ -269,7 +275,7 @@ function Info() {
           <div id="morgan-image"></div>
           <div id="morgan-profile">
             <h3>MORGAN PENN - SOUND DESIGN</h3>
-            <p>Morgan Penn is a London based Portrait Painter and Musician. </p>
+            <p>Morgan Penn is a London-based portrait painter and musician. </p>
           </div>
           <div id="morgan-card">
             <Card
