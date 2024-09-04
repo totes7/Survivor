@@ -34,8 +34,7 @@ function Info() {
               Defendat Me, The Boris Letters</em> (2022) and <em>Farce Majeure</em> (2023).
               The Evening Standard named Zoom as one of the Most Influential
               Londoners under 25 and his cartoon for <em>Private Eye</em>, ‘You can’t do
-              anything these days without being seen as an antisemite’ won best
-              Pocket Cartoon of the Year at the Political Cartoon Awards 2023.
+              anything these days without being seen as an antisemite’ won            Pocket Cartoon of the Year at the Political Cartoon Awards 2023.
             </p>
           </div>
           <div id="zoom-card">
@@ -52,7 +51,7 @@ function Info() {
               Defendat Me, The Boris Letters</em> (2022) and <em>Farce Majeure</em> (2023).
               The Evening Standard named Zoom as one of the Most Influential
               Londoners under 25 and his cartoon for <em>Private Eye</em>, ‘You can’t do
-              anything these days without being seen as an antisemite’ won best
+              anything these days without being seen as an antisemite’ won
               Pocket Cartoon of the Year at the Political Cartoon Awards 2023.</>}
               path="https://www.instagram.com/the_zoomcomic/"
               target="_blank"
