@@ -19,7 +19,7 @@ function Book() {
             caption="Ivor Perl BEM"
             text="Ivor Perl was only 12 years old when his family were evicted from their home, robbed of their possessions, loaded into a cattle truck and deported to Auschwitz.
 
-            A family of 11, only Ivor and his older brother Alec would survive the Holocaust. His mother, father and five siblings were all murdered by the Nazis.
+            A family of 11, only Ivor and his older brother Alec would survive the Holocaust. His mother, father and seven siblings were all murdered by the Nazis.
 
             Every day in Auschwitz was a brutal struggle for survival, surrounded by unimaginable horror. Against all the odds Ivor survived the Holocaust and would go on to build a meaningful and fulfilling life in England."
             path="https://www.hmd.org.uk/resource/ivor-perl/"
