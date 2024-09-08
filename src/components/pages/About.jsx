@@ -36,9 +36,6 @@ function About() {
               at Auschwitz and liberated from Dachau the same day as Ivor.
             </p>
           </div>
-          {/* <div id="research-image-one"></div>
-          <div id="research-image-two"></div>
-          <div id="research-image-three"></div> */}
           <div id="research-video">
             <video src={video} controls></video>
           </div>
@@ -47,14 +44,15 @@ function About() {
         <h1>CHARACTERS</h1>
 
         <div id="characters">
+          <div id="puppets-image"></div>
           <p>
             All puppets were created by Zoom Rockman using reference
             photographs, documented film footage and survivor art. Where these
             were not available he used detailed descriptions from Ivor himself.
-          </p>{" "}
+          </p>
           <p>
             Each person below described as ‘unknown’ is someone we have not been
-            able to name.If you have any information regarding their identity
+            able to name. If you have any information regarding their identity
             please get in touch using the contact page of this site.
           </p>
           <Characters />

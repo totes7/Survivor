@@ -6,54 +6,62 @@ function Footer() {
   return (
     <>
       <div className="footer-container">
-        <section class="social-media">
-          <div class="social-media-wrap">
-            <div class="social-icons">
-              <Link
-                class="social-icon-link instagram"
-                to="https://www.instagram.com/surv_ivor_film/"
-                target="_blank"
-                aria-label="Instagram"
-              >
-                <i class="fab fa-instagram" />
-              </Link>
-              <Link
-                class="social-icon-link youtube"
-                to="https://www.youtube.com/@survivor-w4o"
-                target="_blank"
-                aria-label="Youtube"
-              >
-                <i class="fab fa-youtube" />
-              </Link>
-              <Link
-                class="social-icon-link twitter"
-                to="https://x.com/SURV_IVOR_Film"
-                target="_blank"
-                aria-label="Twitter"
-              >
-                <i class="fab fa-x-twitter" />
-              </Link>
-              <Link
-                class="social-icon-link linkedin"
-                to="https://www.linkedin.com/showcase/survivorfilm/about/"
-                target="_blank"
-                aria-label="LinkedIn"
-              >
-                <i class="fab fa-linkedin" />
-              </Link>
-            </div>
-            <small class="website-rights">
-              © Copyright Exceptional Agency |{" "}
-              <Link to="https://www.exceptionalagency.com/" target="_blank">
-                exceptionalagency.com
-              </Link>{" "}
-              |{" "}
-              <Link to="/privacy-policy">
-                Privacy Policy
-              </Link>{" "}
-            </small>
+        <p>
+          <em>Survivor</em> is a Lemon Soul film. <em>Survivor</em> images are reproduced with the
+          permission of <Link to="https://lemonsoul.com/" target="_blank">Lemon Soul</Link> .
+        </p>
+        <div class="social-media-wrap">
+          <div class="social-icons">
+            <Link
+              class="social-icon-link instagram"
+              to="https://www.instagram.com/surv_ivor_film/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram" />
+            </Link>
+            <Link
+              class="social-icon-link youtube"
+              to="https://www.youtube.com/@survivor-w4o"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube" />
+            </Link>
+            <Link
+              class="social-icon-link twitter"
+              to="https://x.com/SURV_IVOR_Film"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-x-twitter" />
+            </Link>
+            <Link
+              class="social-icon-link linkedin"
+              to="https://www.linkedin.com/showcase/survivorfilm/about/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin" />
+            </Link>
+            <Link
+              class="social-icon-link facebook"
+              to="https://www.facebook.com/groups/1512871222952048/?ref=share_group_link"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-facebook" />
+            </Link>
           </div>
-        </section>
+
+          <small class="website-rights">
+            © Copyright Exceptional Agency |{" "}
+            <Link to="https://www.exceptionalagency.com/" target="_blank">
+              exceptionalagency.com
+            </Link>{" "}
+            | <Link to="/privacy-policy">Privacy Policy</Link>{" "}
+          </small>
+        </div>
       </div>
     </>
   );

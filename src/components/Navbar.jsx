@@ -43,51 +43,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li
-              className="nav-item dropdown-button"
-              onMouseEnter={onMouseEnter}
-              onMouseLeave={onMouseLeave}
-            >
-                More &nbsp; <i className="fas fa-caret-down" />
-              {dropdown && <Dropdown />}
-            </li>
-            <li>
-              <Link
-                to="/about"
-                className="nav-links mobile-link"
-                onClick={closeMobileMenu}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/info"
-                className="nav-links mobile-link"
-                onClick={closeMobileMenu}
-              >
-                Production
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/screening"
-                className="nav-links mobile-link"
-                onClick={closeMobileMenu}
-              >
-                Screenings
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/book"
-                className="nav-links mobile-link"
-                onClick={closeMobileMenu}
-              >
-                The Book
+                HOME
               </Link>
             </li>
             <li>
@@ -96,9 +52,54 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Contact
+                CONTACT
               </Link>
             </li>
+            <li
+              className="nav-item dropdown-button"
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
+            >
+                MORE &nbsp; <i className="fas fa-caret-down" />
+              {dropdown && <Dropdown />}
+            </li>
+            <li>
+              <Link
+                to="/about"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                ABOUT
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/info"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                PRODUCTION
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/screening"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                SCREENINGS
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/book"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                THE BOOK
+              </Link>
+            </li>
+            
           </ul>
         </div>
       </nav>

@@ -15,12 +15,6 @@
 .contact,
 .privacy-policy {
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    120deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(42, 42, 46, 1) 62%,
-    rgba(77, 78, 79, 1) 100%
-  );
   color: rgb(242, 242, 242);
 }
 
@@ -37,14 +31,14 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 20%;
+  width: 50%;
   margin: 5% 5%;
   text-align: justify;
 }
 
 .news-section > h3 {
-  font-size: 25px;
-  margin-bottom: 5%;
+  font-size: 35px;
+  margin-bottom: 10%;
 }
 
 .news-section > p {
@@ -58,7 +52,7 @@
 }
 
 .news-section a:hover {
-  color: rgb(11, 87, 208);
+  color: rgb(30, 59, 155);
 }
 
 /* About */
@@ -101,42 +95,26 @@
   grid-area: video;
 }
 
-/* #research-image-one {
-  grid-area: image1;
-  background-image: url("./images/Research-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 1%;
-}
-
-#research-image-two {
-  grid-area: image2;
-  background-image: url("./images/Research-2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 1%;
-}
-
-#research-image-three {
-  grid-area: image3;
-  background-image: url("./images/Research-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 1%;
-} */
-
 #characters {
   font-size: 20px;
   padding: 5% 20%;
   text-align: justify;
-  /* display: grid;
-  grid-template-rows: 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "image profile profile"; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
 }
+
+#puppets-image {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 10%;
+  background-image: url('./images/Puppets.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #characters p {
   padding-bottom: 2%;
 }
@@ -169,8 +147,8 @@
   text-align: center;
 }
 
-.info h3 {
-  margin-bottom: 3%;
+.info h3, .info h4 {
+  margin-bottom: 2%;
 }
 
 #team {
@@ -197,7 +175,7 @@
 }
 
 #zoom-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: zoomImage;
   margin: 15% 0 0 0;
   background-image: url("./images/ZoomProfile.jpg");
@@ -217,7 +195,7 @@
 }
 
 #kate-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: kateImage;
   margin: 15% 0 0 0;
   background-image: url("./images/KateProfile.jpg");
@@ -237,7 +215,7 @@
 }
 
 #sally-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: sallyImage;
   margin: 15% 0 0 0;
   background-image: url("./images/SallyProfile.jpg");
@@ -257,7 +235,7 @@
 }
 
 #nigel-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: nigelImage;
   margin: 15% 0 0 0;
   background-image: url("./images/NigelProfile.jpg");
@@ -272,12 +250,22 @@
   padding: 15% 5% 5% 0;
 }
 
+.ls-logo {
+  width: 250px;
+  margin-top: 5%;
+  transition: width 0.6s;
+}
+
+.ls-logo:hover {
+  width: 275px;
+}
+
 #nigel-card {
   display: none;
 }
 
 #nick-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: nickImage;
   margin: 15% 0 0 0;
   background-image: url("./images/NickProfile.png");
@@ -297,7 +285,7 @@
 }
 
 #rachel-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: rachelImage;
   margin: 15% 0 0 0;
   background-image: url("./images/RachelProfile.jpg");
@@ -317,7 +305,7 @@
 }
 
 #jen-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: jenImage;
   margin: 15% 0 0 0;
   background-image: url("./images/JenniferProfile.jpg");
@@ -337,7 +325,7 @@
 }
 
 #erran-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: erranImage;
   margin: 15% 0 0 0;
   background-image: url("./images/ErranProfile.jpg");
@@ -362,7 +350,7 @@
 }
 
 #pini-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: piniImage;
   margin: 15% 0 0 0;
   background-image: url("./images/PiniProfile.jpg");
@@ -377,7 +365,7 @@
 }
 
 #morgan-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: morganImage;
   margin: 15% 0 0 0;
   background-image: url("./images/MorganProfile.jpg");
@@ -397,7 +385,7 @@
 }
 
 #ace-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: aceImage;
   margin: 15% 0 0 0;
   background-image: url("./images/AceProfile.jpg");
@@ -417,7 +405,7 @@
 }
 
 #mark-image {
-  min-height: 300px;
+  min-height: 400px;
   grid-area: markImage;
   margin: 15% 0 0 0;
   background-image: url("./images/MarkProfile.jpg");
@@ -677,6 +665,10 @@
     padding: 0;
   }
 
+  #puppets-image {
+    height: 400px;
+  }
+
   .synopsis {
     padding: 5%;
   }
@@ -724,9 +716,13 @@
   }
 
   .news-section {
-    width: 50%;
+    width: 80%;
     margin: 10% 5% 20% 5%;
     text-align: center;
+  }
+
+  .news-section > h3 {
+    font-size: 25px;
   }
 
   .info {
@@ -735,6 +731,10 @@
 
   .info h1, .info h2 {
     padding: 15% 0 5% 0;
+  }
+
+  .about p {
+    font-size: 16px;
   }
 
   #research {

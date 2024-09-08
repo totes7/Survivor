@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
 import Card from "../Card";
 import Footer from "../Footer";
@@ -6,7 +7,7 @@ import zoom from "../../images/ZoomProfile.jpg";
 import kate from "../../images/KateProfile.jpg";
 import sally from "../../images/SallyProfile.jpg";
 import nigel from "../../images/NigelProfile.jpg";
-import nick from "../../images/NickProfile.png"
+import nick from "../../images/NickProfile.png";
 import rachel from "../../images/RachelProfile.jpg";
 import jen from "../../images/JenniferProfile.jpg";
 import morgan from "../../images/MorganProfile.jpg";
@@ -14,6 +15,7 @@ import mark from "../../images/MarkProfile.jpg";
 import ace from "../../images/AceProfile.jpg";
 import erran from "../../images/ErranProfile.jpg";
 import pini from "../../images/PiniProfile.jpg";
+import lemon from "../../images/LemonSoul.png";
 
 function Info() {
   return (
@@ -24,17 +26,23 @@ function Info() {
         <div id="team">
           <div id="zoom-image"></div>
           <div id="zoom-profile">
-            <h3>ZOOM ROCKMAN - DIRECTOR</h3>
+            <h3>ZOOM ROCKMAN</h3>
+            <h4>DIRECTOR</h4>
             <p>
               Zoom Rockman is an award-winning cartoonist, illustrator,
               puppet-maker and animator. Zoom is the youngest-ever contributor
-              to <em>The Beano</em> and <em>Private Eye</em>. Zoom has illustrated several books
-              including <em>Iain Dale’s The Prime Ministers</em> (Political Book of the
-              Year 2020) and <em>The Presidents</em> (2021), <em>Michael Rosen’s St Pancreas
-              Defendat Me, The Boris Letters</em> (2022) and <em>Farce Majeure</em> (2023).
-              The Evening Standard named Zoom as one of the Most Influential
-              Londoners under 25 and his cartoon for <em>Private Eye</em>, ‘You can’t do
-              anything these days without being seen as an antisemite’ won            Pocket Cartoon of the Year at the Political Cartoon Awards 2023.
+              to <em>The Beano</em> and <em>Private Eye</em>. Zoom has
+              illustrated several books including{" "}
+              <em>Iain Dale’s The Prime Ministers</em> (Political Book of the
+              Year 2020) and <em>The Presidents</em> (2021),{" "}
+              <em>
+                Michael Rosen’s St Pancreas Defendat Me, The Boris Letters
+              </em>{" "}
+              (2022) and <em>Farce Majeure</em> (2023). The Evening Standard
+              named Zoom as one of the Most Influential Londoners under 25 and
+              his cartoon for <em>Private Eye</em>, ‘You can’t do anything these
+              days without being seen as an antisemite’ won Pocket Cartoon of
+              the Year at the Political Cartoon Awards 2023.
             </p>
           </div>
           <div id="zoom-card">
@@ -43,16 +51,25 @@ function Info() {
               alt="Zoom Rockman"
               caption="ZOOM ROCKMAN"
               title="Director"
-              text={<>Zoom Rockman is an award-winning cartoonist, illustrator,
-              puppet-maker and animator. Zoom is the youngest-ever contributor
-              to <em>The Beano</em> and <em>Private Eye</em>. Zoom has illustrated several books
-              including <em>Iain Dale’s The Prime Ministers</em> (Political Book of the
-              Year 2020) and <em>The Presidents</em> (2021), <em>Michael Rosen’s St Pancreas
-              Defendat Me, The Boris Letters</em> (2022) and <em>Farce Majeure</em> (2023).
-              The Evening Standard named Zoom as one of the Most Influential
-              Londoners under 25 and his cartoon for <em>Private Eye</em>, ‘You can’t do
-              anything these days without being seen as an antisemite’ won
-              Pocket Cartoon of the Year at the Political Cartoon Awards 2023.</>}
+              text={
+                <>
+                  Zoom Rockman is an award-winning cartoonist, illustrator,
+                  puppet-maker and animator. Zoom is the youngest-ever
+                  contributor to <em>The Beano</em> and <em>Private Eye</em>.
+                  Zoom has illustrated several books including{" "}
+                  <em>Iain Dale’s The Prime Ministers</em> (Political Book of
+                  the Year 2020) and <em>The Presidents</em> (2021),{" "}
+                  <em>
+                    Michael Rosen’s St Pancreas Defendat Me, The Boris Letters
+                  </em>{" "}
+                  (2022) and <em>Farce Majeure</em> (2023). The Evening Standard
+                  named Zoom as one of the Most Influential Londoners under 25
+                  and his cartoon for <em>Private Eye</em>, ‘You can’t do
+                  anything these days without being seen as an antisemite’ won
+                  Pocket Cartoon of the Year at the Political Cartoon Awards
+                  2023.
+                </>
+              }
               path="https://www.instagram.com/the_zoomcomic/"
               target="_blank"
               classOuter="team-card-container"
@@ -61,12 +78,14 @@ function Info() {
           </div>
           <div id="kate-image"></div>
           <div id="kate-profile">
-            <h3>KATE LENNARD - SCREENWRITER</h3>
+            <h3>KATE LENNARD</h3>
+            <h4>SCREENWRITER</h4>
             <p>
               Kate Lennard is a writer, researcher, production manager and
               furniture designer. She is Creative Director at ROCKMAN & ROCKMAN
               design studio, known for its original furniture designs influenced
-              by its extensive 20th-century ephemera archive. Her <em>Little Genius</em>
+              by its extensive 20th-century ephemera archive. Her{" "}
+              <em>Little Genius</em>
               series of children's books, published by Penguin Random House in
               the UK, has been translated into 8 languages.
             </p>
@@ -77,11 +96,17 @@ function Info() {
               alt="Kate Lennard"
               caption="KATE LENNARD"
               title="Screenwriter"
-              text={<>Kate Lennard is a writer, researcher, production manager and
-                furniture designer. She is Creative Director at ROCKMAN & ROCKMAN
-                design studio, known for its original furniture designs influenced
-                by its extensive 20th-century ephemera archive. Her <em>Little Genius</em> series of children's books, published by Penguin Random House in
-                the UK, has been translated into 8 languages.</>}
+              text={
+                <>
+                  Kate Lennard is a writer, researcher, production manager and
+                  furniture designer. She is Creative Director at ROCKMAN &
+                  ROCKMAN design studio, known for its original furniture
+                  designs influenced by its extensive 20th-century ephemera
+                  archive. Her <em>Little Genius</em> series of children's
+                  books, published by Penguin Random House in the UK, has been
+                  translated into 8 languages.
+                </>
+              }
               path="https://www.instagram.com/rockman_and_rockman/"
               target="_blank"
               classOuter="team-card-container"
@@ -90,7 +115,8 @@ function Info() {
           </div>
           <div id="sally-image"></div>
           <div id="sally-profile">
-            <h3>SALLY VAUGHAN - PRODUCER</h3>
+            <h3>SALLY VAUGHAN</h3>
+            <h4>PRODUCER</h4>
             <p>
               Sally Vaughan is a producer, agent and coach. Prior to founding
               Exceptional, Sally's career spanned the media and art worlds. As
@@ -98,7 +124,9 @@ function Info() {
               led the marketing launch of ESPN India and CNN's first
               multiplatform campaign. Sally launched the first online platform
               purely for figurative artists in 2008 becoming art consultant to
-              the Savoy hotel. Sally has been Zoom Rockman's agent since he was 16 years old. She is an ILM qualified Leadership and Management coach and a Member of the Institute of Leadership.
+              the Savoy hotel. Sally has been Zoom Rockman's agent since he was
+              16 years old. She is an ILM qualified Leadership and Management
+              coach and a Member of the Institute of Leadership.
             </p>
           </div>
           <div id="sally-card">
@@ -116,10 +144,22 @@ function Info() {
           </div>
           <div id="nigel-image"></div>
           <div id="nigel-profile">
-            <h3>NIGEL CANIN - EXECUTIVE PRODUCER</h3>
+            <h3>NIGEL CANIN</h3>
+            <h4>EXECUTIVE PRODUCER</h4>
             <p>
-            Nigel originally trained as a teacher in the 90s. Motivated by the potential power of technology in the classroom, he launched 2 Simple in 1999 to build and deliver creative programmes for children, now the online learning space Purple Mash, used by over 6,500 primary schools worldwide. Nigel recently founded Lemon Soul, an independent publishing company, in memory of his close friend Jonny Zucker. His latest venture, co-founded with Adam Goodman, is 2econd Chance, a computer recycling community interest company for vulnerable adults and young people aged 16-25. 
+              Nigel originally trained as a teacher in the 90s. Motivated by the
+              potential power of technology in the classroom, he launched 2
+              Simple in 1999 to build and deliver creative programmes for
+              children, now the online learning space Purple Mash, used by over
+              6,500 primary schools worldwide. Nigel recently founded Lemon
+              Soul, an independent publishing company, in memory of his close
+              friend Jonny Zucker. His latest venture, co-founded with Adam
+              Goodman, is 2econd Chance, a computer recycling community interest
+              company for vulnerable adults and young people aged 16-25.
             </p>
+            <Link to="https://lemonsoul.com/" target="_blank">
+              <img src={lemon} alt="lemon soul logo" className="ls-logo" />
+            </Link>
           </div>
           <div id="nigel-card">
             <Card
@@ -136,16 +176,35 @@ function Info() {
           </div>
           <div id="nick-image"></div>
           <div id="nick-profile">
-            <h3>NICK GOLDFARB - EXECUTIVE PRODUCER</h3>
-            <p>Nick Goldfarb has produced feature films including: <em>Metamorphosis, The Informer, Disobedience, Everything in the Song Is True, Opposite Field</em> and the short film <em>Triggered</em> which was nominated by the Hollywood Critics Association as Best Short Film in 2022.</p>
+            <h3>NICK GOLDFARB</h3>
+            <h4>EXECUTIVE PRODUCER</h4>
+            <p>
+              Nick Goldfarb has produced feature films including:{" "}
+              <em>
+                Metamorphosis, The Informer, Disobedience, Everything in the
+                Song Is True, Opposite Field
+              </em>{" "}
+              and the short film <em>Triggered</em> which was nominated by the
+              Hollywood Critics Association as Best Short Film in 2022.
+            </p>
           </div>
           <div id="nick-card">
-          <Card
+            <Card
               src={nick}
               alt="Nick Goldfarb"
               caption="NICK GOLDFARB"
               title="Executive Producer"
-              text={<>Nick Goldfarb has produced feature films including: <em>Metamorphosis, The Informer, Disobedience, Everything in the Song Is True, Opposite Field</em> and the short film <em>Triggered</em> which was nominated by the Hollywood Critics Association as Best Short Film in 2022.</>}
+              text={
+                <>
+                  Nick Goldfarb has produced feature films including:{" "}
+                  <em>
+                    Metamorphosis, The Informer, Disobedience, Everything in the
+                    Song Is True, Opposite Field
+                  </em>{" "}
+                  and the short film <em>Triggered</em> which was nominated by
+                  the Hollywood Critics Association as Best Short Film in 2022.
+                </>
+              }
               path="https://www.linkedin.com/in/nickgoldfarb/"
               target="_blank"
               classOuter="team-card-container"
@@ -154,15 +213,16 @@ function Info() {
           </div>
           <div id="rachel-image"></div>
           <div id="rachel-profile">
-            <h3>RACHEL MANSSON - DISTRIBUTION</h3>
+            <h3>RACHEL MANSSON</h3>
+            <h4>DISTRIBUTION</h4>
             <p>
               Commercially focused, highly creative international media senior
               marketing executive with extensive knowledge of the entertainment
               industry. Rachel has successfully conceived, built, launched and
               grown many successful digital businesses and products
-              internationally. Prior to founding the BYO Collective, Rachel has
-              held senior roles at NBCUniversal, PolyGram Films, Star TV, MTV
-              Europe and Virgin Records. Currently BYO Collective consults for
+              internationally. Prior to founding the BYO Collective, Rachel held
+              senior roles at NBCUniversal, PolyGram Films, Star TV, MTV Europe
+              and Virgin Records. Currently BYO Collective has consulted for
               multiple media companies including PBS, Viaplay, Really Epic Dog,
               O3 Medya, MBC Studios amongst others.
             </p>
@@ -182,7 +242,8 @@ function Info() {
           </div>
           <div id="jen-image"></div>
           <div id="jen-profile">
-            <h3>JEN BUZZELLI - ASSOCIATE PRODUCER</h3>
+            <h3>JEN BUZZELLI</h3>
+            <h4>ASSOCIATE PRODUCER</h4>
             <p>
               Jen Buzzelli is a NY-based producer with 25 years experience in
               international co-production, distribution and programming and for
@@ -204,7 +265,8 @@ function Info() {
           </div>
           <div id="erran-image"></div>
           <div id="erran-profile">
-            <h3>ERRAN BARON COHEN - COMPOSER</h3>
+            <h3>ERRAN BARON COHEN</h3>
+            <h4>COMPOSER</h4>
             <p>
               {" "}
               Erran Baron Cohen is an award winning composer whose work has
@@ -213,7 +275,8 @@ function Info() {
               classical, electronic and world music makes him an extremely
               versatile composer able to turn his talents to a wide variety of
               eclectic projects. Erran has received numerous Composer Awards for
-              his scores to <em>Borat, Bruno</em> and <em>The Dictator</em> and his song <em>Wuhan Flu</em> was Oscar shortlisted.
+              his scores to <em>Borat, Bruno</em> and <em>The Dictator</em> and
+              his song <em>Wuhan Flu</em> was Oscar shortlisted.
             </p>
           </div>
           <div id="erran-card">
@@ -222,13 +285,19 @@ function Info() {
               alt="Erran Baron Cohen"
               caption="ERRAN BARON COHEN"
               title="Composer"
-              text={<>Erran Baron Cohen is an award winning composer whose work has
-                encompassed film and television scores, album releases, orchestral
-                commissions and musical theatre. His knowledge of contemporary
-                classical, electronic and world music makes him an extremely
-                versatile composer able to turn his talents to a wide variety of
-                eclectic projects. Erran has received numerous Composer Awards for
-                his scores to <em>Borat, Bruno</em> and <em>The Dictator</em> and his song <em>Wuhan Flu</em> was Oscar shortlisted.</>}
+              text={
+                <>
+                  Erran Baron Cohen is an award winning composer whose work has
+                  encompassed film and television scores, album releases,
+                  orchestral commissions and musical theatre. His knowledge of
+                  contemporary classical, electronic and world music makes him
+                  an extremely versatile composer able to turn his talents to a
+                  wide variety of eclectic projects. Erran has received numerous
+                  Composer Awards for his scores to <em>Borat, Bruno</em> and{" "}
+                  <em>The Dictator</em> and his song <em>Wuhan Flu</em> was
+                  Oscar shortlisted.
+                </>
+              }
               path="http://www.erranbaroncohen.com/"
               target="_blank"
               classOuter="team-card-container"
@@ -236,7 +305,8 @@ function Info() {
             />
           </div>
           <div id="pini-profile">
-            <h3>PINI BROWN - SINGER</h3>
+            <h3>PINI BROWN</h3>
+            <h4>SINGER</h4>
             <p>
               Pini Brown trained as a cantor in Jerusalem. His early years were
               marked by a struggle to fit in and conform within his Ultra
@@ -244,9 +314,9 @@ function Info() {
               arranged marriage and after a period of deep unhappiness he made
               the brave decision to leave. Embraced by the wider Jewish
               community he continues to pave his way. By day he hosts tours of
-              the East End and by night he is making a name for himself performing his
-              unique brand of Yiddish Klezmer in the late night blues and jazz
-              clubs of London.
+              the East End and by night he is making a name for himself
+              performing his unique brand of Yiddish Klezmer in the late night
+              blues and jazz clubs of London.
             </p>
           </div>
           <div id="pini-image"></div>
@@ -273,7 +343,8 @@ function Info() {
           </div>
           <div id="morgan-image"></div>
           <div id="morgan-profile">
-            <h3>MORGAN PENN - SOUND DESIGN</h3>
+            <h3>MORGAN PENN</h3>
+            <h4>SOUND DESIGN</h4>
             <p>Morgan Penn is a London-based portrait painter and musician. </p>
           </div>
           <div id="morgan-card">
@@ -291,7 +362,8 @@ function Info() {
           </div>
           <div id="ace-image"></div>
           <div id="ace-profile">
-            <h3>ACE ROCKMAN - ASSISTANT COLOURIST AND PUPPET MAKER</h3>
+            <h3>ACE ROCKMAN</h3>
+            <h4>ASSISTANT COLOURIST AND PUPPET MAKER</h4>
             <p>
               Ace is currently in his 3rd year studying Classics at St Andrew’s
               University.
@@ -312,7 +384,8 @@ function Info() {
           </div>
           <div id="mark-image"></div>
           <div id="mark-profile">
-            <h3>MARK GARSIDE - TECHNICAL DESIGN</h3>
+            <h3>MARK GARSIDE</h3>
+            <h4>TECHNICAL DESIGN</h4>
             <p>
               Mark Garside is co founder of ROCKMAN & ROCKMAN Design Studio. He
               studied Industrial Design at the Royal College of Art and now
