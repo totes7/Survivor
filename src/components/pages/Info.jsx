@@ -173,6 +173,9 @@ function Info() {
               classOuter="team-card-container"
               classImage="team-card-image"
             />
+            <Link to="https://lemonsoul.com/" target="_blank">
+              <img src={lemon} alt="lemon soul logo" className="ls-logo-mobile" />
+            </Link>
           </div>
           <div id="nick-image"></div>
           <div id="nick-profile">

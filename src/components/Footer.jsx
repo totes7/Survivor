@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-container">
         <p>
           <em>Survivor</em> is a Lemon Soul film. <em>Survivor</em> images are reproduced with the
-          permission of <Link to="https://lemonsoul.com/" target="_blank">Lemon Soul</Link> .
+          permission of <Link to="https://lemonsoul.com/" target="_blank">Lemon Soul</Link>.
         </p>
         <div class="social-media-wrap">
           <div class="social-icons">

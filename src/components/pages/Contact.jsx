@@ -14,7 +14,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    send("service_jo247gy", "sample1", toSend, "EHusL7UCq5epQtLBc")
+    send("service_jo247gy", "template_rvzhd3u", toSend, "EHusL7UCq5epQtLBc")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })

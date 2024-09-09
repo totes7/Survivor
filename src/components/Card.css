@@ -11,11 +11,11 @@ figcaption {
   font-weight: bold;
   margin-top: 5%;
   font-size: 22px;
+  word-spacing: 7px;
 }
 
 .card-info {
   margin-top: 5%;
-  text-align: justify;
   line-height: 150%;
 }
 

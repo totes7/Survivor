@@ -14,7 +14,7 @@ function Screening() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    send("service_jo247gy", "sample2", toSend, "EHusL7UCq5epQtLBc")
+    send("service_jo247gy", "template_ahtmcvl", toSend, "EHusL7UCq5epQtLBc")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
@@ -29,7 +29,7 @@ function Screening() {
       email: "",
     });
 
-    alert("Message sent successfully!");
+    alert("Thank you for getting in touch!");
   };
 
   const handleChange = (e) => {

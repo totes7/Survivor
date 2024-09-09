@@ -14,11 +14,11 @@
 .title {
   width: 100%;
   margin-bottom: 5%;
+  
 }
 
 .hero-container > p {
   margin: 1% 5%;
-  text-align: justify;
   padding: 0 10%;
   color: rgb(242, 242, 242);
   font-size: 20px;

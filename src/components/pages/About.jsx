@@ -11,7 +11,10 @@ function About() {
         <h1>AUTHENTICITY</h1>
         <div id="research">
           <div id="research-text">
-            <p>Everything in this film is true. Care and diligence has been taken to recreate all events, locations and conversations as accurately as possible.
+            <p>
+              Everything in this film is true. Care and diligence has been taken
+              to recreate all events, locations and conversations as accurately
+              as possible.
             </p>{" "}
             <p>
               Many hours spent with Ivor Perl BEM discussing his first hand
@@ -46,9 +49,9 @@ function About() {
         <div id="characters">
           <div id="puppets-image"></div>
           <p>
-            All puppets were created by Zoom Rockman using reference
-            photographs, documented film footage and survivor art. Where these
-            were not available he used detailed descriptions from Ivor himself.
+            Zoom Rockman created all the puppets using reference photographs,
+            documented film footage and survivor art. Where these were not
+            available he used detailed descriptions from Ivor himself.
           </p>
           <p>
             Each person below described as ‘unknown’ is someone we have not been

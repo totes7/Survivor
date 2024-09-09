@@ -9,7 +9,7 @@ function Hero() {
     <div className="hero-container">
       <img src={cover} alt="survivor logo title" className="title" />
       <p>
-        Survivor is the story of a young boy caught up in the horrors of the
+        <em>Survivor</em> is the story of a young boy caught up in the horrors of the
         Holocaust, told by Zoom Rockman using a unique animation style with
         paper puppets. Zoom met Ivor, a 92 year-old Holocaust survivor, in the
         summer of 2023. Ivor left a lasting impression on Zoom, inspiring him to
