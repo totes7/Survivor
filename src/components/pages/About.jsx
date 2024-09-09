@@ -19,8 +19,8 @@ function About() {
             <p>
               Many hours spent with Ivor Perl BEM discussing his first hand
               testimony, cross referenced with the books of Primo Levi, Elie
-              Wiesel, and József Debreczeni [all at Auschwitz around the same
-              time] informed the writing of the screenplay.{" "}
+              Wiesel, and József Debreczeni (all at Auschwitz around the same
+              time) informed the writing of the screenplay.{" "}
             </p>{" "}
             <p>
               Knowledge and layouts of locations were enhanced by research trips

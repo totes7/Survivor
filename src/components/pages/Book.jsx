@@ -28,10 +28,15 @@ function Book() {
             classImage="book-card-image"
           />
 
-          <img
-            src={cover}
-            alt="cover of the book 'Chicken Soup Under the Tree'"
-          />
+          <Link
+            to="https://lemonsoul.com/products/chicken-soup-under-the-tree"
+            target="_blank"
+          >
+            <img
+              src={cover}
+              alt="cover of the book 'Chicken Soup Under the Tree'"
+            />
+          </Link>
         </div>
         <Link
           to="https://lemonsoul.com/products/chicken-soup-under-the-tree"

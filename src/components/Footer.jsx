@@ -46,7 +46,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link facebook"
-              to="https://www.facebook.com/groups/1512871222952048/?ref=share_group_link"
+              to="https://www.facebook.com/groups/883285257193799/?ref=share_group_link"
               target="_blank"
               aria-label="LinkedIn"
             >

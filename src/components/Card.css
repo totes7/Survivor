@@ -5,7 +5,6 @@
   overflow: hidden;
 }
 
-
 figcaption {
   text-align: center;
   font-weight: bold;
@@ -63,7 +62,6 @@ figcaption {
   width: 80%;
   margin: 0 10%;
   object-fit: contain;
-  border-radius: 50%;
 }
 
 /* Media Queries */
@@ -81,5 +79,6 @@ figcaption {
 
   .book-card-image {
     margin: 5% 0 0 0;
+    border-radius: 50%;
   }
 }
