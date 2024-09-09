@@ -16,6 +16,7 @@ import ace from "../../images/AceProfile.jpg";
 import erran from "../../images/ErranProfile.jpg";
 import pini from "../../images/PiniProfile.jpg";
 import lemon from "../../images/LemonSoul.png";
+import rockman from "../../images/ZoomLogo.jpg";
 
 function Info() {
   return (
@@ -44,6 +45,9 @@ function Info() {
               days without being seen as an antisemite’ won Pocket Cartoon of
               the Year at the Political Cartoon Awards 2023.
             </p>
+            {/* <Link to="https://lemonsoul.com/" target="_blank">
+              <img src={rockman} alt="zoom rockman logo" className="zoom-logo" />
+            </Link> */}
           </div>
           <div id="zoom-card">
             <Card
@@ -75,6 +79,9 @@ function Info() {
               classOuter="team-card-container"
               classImage="team-card-image"
             />
+            {/* <Link to="https://lemonsoul.com/" target="_blank">
+              <img src={rockman} alt="zoom rockman logo" className="zoom-logo-mobile" />
+            </Link> */}
           </div>
           <div id="kate-image"></div>
           <div id="kate-profile">

@@ -184,6 +184,20 @@
   padding: 15% 0 5% 5%;
 }
 
+/* .zoom-logo {
+  width: 250px;
+  margin-top: 5%;
+  transition: width 0.6s;
+}
+
+.zoom-logo:hover {
+  width: 275px;
+}
+
+.zoom-logo-mobile {
+  display: none;
+} */
+
 #zoom-card {
   display: none;
 }
@@ -766,6 +780,12 @@
     display: block;
   }
 
+  /* .zoom-logo-mobile {
+    display: block;
+    width: 200px;
+    margin: 5% 20%;
+  } */
+
   #zoom-image {
     background-image: none;
     min-height: 0;
@@ -808,7 +828,7 @@
   .ls-logo-mobile {
     display: block;
     width: 200px;
-    margin: 5% 25%;
+    margin: 5% 20%;
   }
 
   #nigel-image {
