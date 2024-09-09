@@ -1,15 +1,22 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import lemon from "../images/LemonSoul.png";
 
 function Footer() {
   return (
     <>
       <div className="footer-container">
-        <p>
-          <em>Survivor</em> is a Lemon Soul film. <em>Survivor</em> images are reproduced with the
-          permission of <Link to="https://lemonsoul.com/" target="_blank">Lemon Soul</Link>.
-        </p>
+        <div className="lemon-soul">
+          <p>
+            <em>Survivor</em> is a Lemon Soul film. <em>Survivor</em> images are
+            reproduced with the permission of Lemon Soul.{" "}
+          </p>
+          <Link to="https://lemonsoul.com/" target="_blank">
+            <img src={lemon} alt="lemon soul logo" className="ls-logo-footer" />
+          </Link>
+        </div>
+
         <div class="social-media-wrap">
           <div class="social-icons">
             <Link

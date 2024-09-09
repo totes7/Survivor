@@ -22,6 +22,23 @@
   color: rgb(30, 59, 155);
 }
 
+.lemon-soul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ls-logo-footer {
+  width: 150px;
+  margin: 0 0 0 10%;
+  transition: transform 0.6s;
+}
+
+.ls-logo-footer:hover {
+  transform: scale(1.1);
+}
+
 .social-icon-link {
   color: rgb(242, 242, 242);
   font-size: 24px;
@@ -52,6 +69,15 @@
 @media screen and (max-width: 840px) {
   .footer-container {
     text-align: center;
+    padding: 10% 5%;
+  }
+
+  .lemon-soul {
+    flex-direction: column;
+  }
+  
+  .ls-logo-footer {
+    margin: 15% 0 0 0;
   }
 
   .social-media-wrap {
