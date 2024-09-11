@@ -55,9 +55,17 @@ function Footer() {
               class="social-icon-link facebook"
               to="https://www.facebook.com/groups/883285257193799/?ref=share_group_link"
               target="_blank"
-              aria-label="LinkedIn"
+              aria-label="Facebook"
             >
               <i class="fab fa-facebook" />
+            </Link>
+            <Link
+              class="social-icon-link tiktok"
+              to="https://www.tiktok.com/@survivorfilm"
+              target="_blank"
+              aria-label="TikTok"
+            >
+              <i class="fab fa-tiktok" />
             </Link>
           </div>
 
