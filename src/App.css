@@ -477,10 +477,28 @@
   height: 100%;
   padding: 5%;
   text-align: center;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 150px 900px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "banner form";
+}
+
+#screening-title {
+  grid-area: title;
+}
+
+#screening-banner {
+  grid-area: banner;
+  background-image: url("./images/Banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#screening-form {
+  grid-area: form;
 }
 
 .screening h1 {
@@ -497,15 +515,15 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
-  margin-top: 5%;
+  width: 100%;
+  margin-top: 10%;
   padding: 20px;
 }
 
 .screening form > input {
-  width: 100%;
+  width: 80%;
   padding: 10px;
-  margin: 10px 0;
+  margin: 5% 0;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
@@ -513,7 +531,7 @@
 
 .form-button {
   width: 20%;
-  margin-bottom: 5%;
+  margin: 5% 0;
   font-size: 24px;
   border-radius: 5px;
 }
@@ -710,6 +728,29 @@
 
   #aspirations-text p {
     margin: 0 0 0 5%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .screening {
+    height: 100%;
+    padding: 5% 5% 50% 5%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 100px 650px 650px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "banner"
+      "form";
+  }
+
+  #screening-banner {
+    margin-bottom: 5%;
+  }
+
+  .screening form {
+    margin: 10% 0 0 0;
   }
 }
 
@@ -1004,7 +1045,7 @@
   }
 
   .screening form {
-    width: 90%;
+    width: 100%;
   }
 
   .book button {

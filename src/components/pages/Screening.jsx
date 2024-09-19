@@ -3,6 +3,7 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 import "../../App.css";
 import Footer from "../Footer";
+import banner from "../../images/Banner.jpg";
 
 function Screening() {
   const [toSend, setToSend] = useState({
@@ -39,66 +40,75 @@ function Screening() {
   return (
     <>
       <div className="screening">
-        <h1>SCREENINGS</h1>
-        <p>
-          Survivor will be first shown internationally at MIPCOM 24 on 22
-          October 2024
-        </p>
-        <p>Register interest in attending a screening below </p>
+        <div id="screening-title">
+          <h1>SCREENINGS</h1>
+        </div>
 
-        <form id="myForm" className="mb-3">
-          <label htmlFor="name-input" className="form-label">
-            Name
-          </label>
-          <input
-            type="text"
-            name="name"
-            className="form-control"
-            id="name-input"
-            placeholder="Name"
-            value={toSend.name}
-            onChange={handleChange}
-          />
-          <label htmlFor="title-input" className="form-label">
-            Title
-          </label>
-          <input
-            type="text"
-            name="title"
-            className="form-control"
-            id="title-input"
-            placeholder="Title"
-            value={toSend.title}
-            onChange={handleChange}
-          />
-          <label htmlFor="message-input" className="form-label">
-            Company
-          </label>
-          <input
-            type="text"
-            name="company"
-            className="form-control"
-            id="company-input"
-            placeholder="Company"
-            value={toSend.company}
-            onChange={handleChange}
-          />
-          <label htmlFor="email-input" className="form-label">
-            Email address
-          </label>
-          <input
-            type="email"
-            name="email"
-            className="form-control"
-            id="email-input"
-            placeholder="name@example.com"
-            value={toSend.email}
-            onChange={handleChange}
-          />
-        </form>
-        <button onClick={handleSubmit} type="submit" className="form-button">
-          Send
-        </button>
+        <div id="screening-banner">
+          {/* <img src={banner} alt="MIPCOM banner" /> */}
+        </div>
+
+        <div id="screening-form">
+          <p>
+            <em>Survivor</em> will be first shown internationally at MIPCOM 24
+            on 22 October 2024
+          </p>
+          <p>MIPCOM attendees can book a seat here: </p>
+
+          <form id="myForm" className="mb-3">
+            <label htmlFor="name-input" className="form-label">
+              Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              className="form-control"
+              id="name-input"
+              placeholder="Name"
+              value={toSend.name}
+              onChange={handleChange}
+            />
+            <label htmlFor="title-input" className="form-label">
+              Title
+            </label>
+            <input
+              type="text"
+              name="title"
+              className="form-control"
+              id="title-input"
+              placeholder="Title"
+              value={toSend.title}
+              onChange={handleChange}
+            />
+            <label htmlFor="message-input" className="form-label">
+              Company
+            </label>
+            <input
+              type="text"
+              name="company"
+              className="form-control"
+              id="company-input"
+              placeholder="Company"
+              value={toSend.company}
+              onChange={handleChange}
+            />
+            <label htmlFor="email-input" className="form-label">
+              Email address
+            </label>
+            <input
+              type="email"
+              name="email"
+              className="form-control"
+              id="email-input"
+              placeholder="name@example.com"
+              value={toSend.email}
+              onChange={handleChange}
+            />
+          </form>
+          <button onClick={handleSubmit} type="submit" className="form-button">
+            Book
+          </button>
+        </div>
       </div>
 
       <Footer />
