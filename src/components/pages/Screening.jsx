@@ -3,7 +3,6 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 import "../../App.css";
 import Footer from "../Footer";
-import banner from "../../images/Banner.jpg";
 
 function Screening() {
   const [toSend, setToSend] = useState({

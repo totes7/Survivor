@@ -16,7 +16,6 @@ import ace from "../../images/AceProfile.jpg";
 import erran from "../../images/ErranProfile.jpg";
 import pini from "../../images/PiniProfile.jpg";
 import lemon from "../../images/LemonSoul.png";
-import rockman from "../../images/ZoomLogo.jpg";
 
 function Info() {
   return (
