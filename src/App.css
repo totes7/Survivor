@@ -31,6 +31,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  text-align: center;
   width: 50%;
   margin: 5% 5%;
 }
@@ -52,6 +53,16 @@
 
 .news-section a:hover {
   color: rgb(30, 59, 155);
+}
+
+.news-section img {
+  width: 40%;
+  border: 1px solid white;
+  transition: transform 0.6s;
+}
+
+.news-section img:hover {
+  transform: scale(1.1);
 }
 
 /* About */
