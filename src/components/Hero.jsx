@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 import "./Hero.css";
 // import video from "../videos/InProductionPromo.mp4";
@@ -10,7 +11,9 @@ function Hero() {
     <div className="hero-container">
       <div className="hero-image">
         <div className="ribbon">
-          <img src={mipcom} alt="MIPCOM logo" className="banner-logo" />
+          <Link to="/screening">
+            <img src={mipcom} alt="MIPCOM logo" className="banner-logo" />
+          </Link>
         </div>
         <img src={cover} alt="survivor logo title" className="title" />
       </div>
