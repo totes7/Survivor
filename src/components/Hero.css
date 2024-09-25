@@ -1,6 +1,4 @@
 .hero-container {
-  /* background: url('') center center/cover no-repeat; */
-  
   color: #fff;
   height: 100%;
   width: 100%;
@@ -10,12 +8,43 @@
   align-items: center;
   object-fit: contain;
   word-spacing: 3px;
+  overflow-x: hidden;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.banner-logo {
+  transform: scale(0.37);
+}
+
+.ribbon {
+  position: absolute;
+  padding: 1em 2em;
+  z-index: 99;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 14px;
+  pointer-events: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+  background-color: rgba(45,45,45,255);
+  color: rgb(0, 0, 0);
+  top: 0px;
+  right: 0px;
+  transform: translateY(-100%) rotate(90deg) translateX(70.7107%) rotate(-45deg);
+  transform-origin: right bottom;
+  height: 40px;
+  width: 250px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   width: 100%;
   margin-bottom: 5%;
-  
 }
 
 .hero-container > p {
@@ -38,10 +67,14 @@
   margin-bottom: 5%;
 }
 
-video {
+.video-wrap img {
+  width: 50%;
+}
+
+/* video {
   width: 100%;
   border-radius: 5px;
-}
+} */
 
 @media screen and (max-width: 1200px) {
   .hero-container > p {
@@ -60,13 +93,39 @@ video {
   }
 }
 
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 700px) {
   .hero-container > p {
     font-size: 12px;
   }
 
   .video-wrap > h3 {
     font-size: 15px;
+  }
+
+  .banner-logo {
+    transform: scale(0.2);
+  }
+  
+  .ribbon {
+    position: absolute;
+    padding: 1em 2em;
+    z-index: 99;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+    pointer-events: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px;
+    background-color: rgba(45,45,45,255);
+    color: rgb(0, 0, 0);
+    top: 0px;
+    right: 0px;
+    transform: translateY(-100%) rotate(90deg) translateX(70.7107%) rotate(-45deg);
+    transform-origin: right bottom;
+    height: 35px;
+    width: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
 }

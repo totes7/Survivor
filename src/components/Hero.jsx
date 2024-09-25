@@ -1,19 +1,26 @@
 import React from "react";
 import "../App.css";
 import "./Hero.css";
-import video from "../videos/InProductionPromo.mp4";
+// import video from "../videos/InProductionPromo.mp4";
 import cover from "../images/HeroCover.png";
+import mipcom from "../images/MipcomLogo.png";
 
 function Hero() {
   return (
     <div className="hero-container">
-      <img src={cover} alt="survivor logo title" className="title" />
+      <div className="hero-image">
+        <div className="ribbon">
+          <img src={mipcom} alt="MIPCOM logo" className="banner-logo" />
+        </div>
+        <img src={cover} alt="survivor logo title" className="title" />
+      </div>
+
       <p>
-        <em>Survivor</em> is the story of a young boy caught up in the horrors of the
-        Holocaust, told by Zoom Rockman using a unique animation style with
-        paper puppets. Zoom met Ivor, a 92 year-old Holocaust survivor, in the
-        summer of 2023. Ivor left a lasting impression on Zoom, inspiring him to
-        share Ivor’s story, which remains relevant today.
+        <em>Survivor</em> is the story of a young boy caught up in the horrors
+        of the Holocaust, told by Zoom Rockman using a unique animation style
+        with paper puppets. Zoom met Ivor, a 92 year-old Holocaust survivor, in
+        the summer of 2023. Ivor left a lasting impression on Zoom, inspiring
+        him to share Ivor’s story, which remains relevant today.
       </p>
       <p>
         We follow 12-year-old Ivor Perl from a small village in Hungary to the
@@ -30,8 +37,9 @@ function Hero() {
       </p>
 
       <div className="video-wrap">
-        <h3>IN PRODUCTION PROMO</h3>
-        <video src={video} controls></video>
+        <h3>TRAILER COMING SOON</h3>
+        {/* <video src={video} controls></video> */}
+        <img src={cover} alt="survivor logo title" />
       </div>
     </div>
   );
