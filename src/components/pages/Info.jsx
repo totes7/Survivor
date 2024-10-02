@@ -15,6 +15,7 @@ import mark from "../../images/MarkProfile.jpg";
 import ace from "../../images/AceProfile.jpg";
 import erran from "../../images/ErranProfile.jpg";
 import pini from "../../images/PiniProfile.jpg";
+import matt from "../../images/MattProfile.jpg";
 import lemon from "../../images/LemonSoul.png";
 
 function Info() {
@@ -180,7 +181,11 @@ function Info() {
               classImage="team-card-image"
             />
             <Link to="https://lemonsoul.com/" target="_blank">
-              <img src={lemon} alt="lemon soul logo" className="ls-logo-mobile" />
+              <img
+                src={lemon}
+                alt="lemon soul logo"
+                className="ls-logo-mobile"
+              />
             </Link>
           </div>
           <div id="nick-image"></div>
@@ -345,6 +350,47 @@ function Info() {
               unique brand of Yiddish Klezmer in the late night blues and jazz
               clubs of London."
               path="https://www.instagram.com/pini_on_the_roof/"
+              target="_blank"
+              classOuter="team-card-container"
+              classImage="team-card-image"
+            />
+          </div>
+          <div id="matt-profile">
+            <h3>MATTHEW WHITE</h3>
+            <h4>TITLE SEQUENCE DESIGNER</h4>
+            <p>
+              Matthew, Creative Director of SuperGrizzly, is the creator of
+              title sequences for notable films and series such as{" "}
+              <em>
+                The Death of Stalin , The Duke, Ten Percent, Stan & Ollie, The
+                355, Eight for Silver{" "}
+              </em>{" "}
+              and more. SuperGrizzly is proud to have designed the titles for
+              Survivor, while providing post-production support and offering
+              design advice throughout the project.
+            </p>
+          </div>
+          <div id="matt-image"></div>
+          <div id="matt-card">
+            <Card
+              src={matt}
+              alt="Matthew White"
+              caption="MATTHEW WHITE"
+              title="Title Sequence Designer"
+              text={
+                <>
+                  Matthew, Creative Director of SuperGrizzly, is the creator of
+                  title sequences for notable films and series such as{" "}
+                  <em>
+                    The Death of Stalin , The Duke, Ten Percent, Stan & Ollie,
+                    The 355, Eight for Silver{" "}
+                  </em>{" "}
+                  and more. SuperGrizzly is proud to have designed the titles
+                  for Survivor, while providing post-production support and
+                  offering design advice throughout the project.
+                </>
+              }
+              path="https://www.linkedin.com/in/matthewbarnabywhite/"
               target="_blank"
               classOuter="team-card-container"
               classImage="team-card-image"

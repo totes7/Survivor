@@ -163,7 +163,7 @@
   margin: 5% 20%;
   display: grid;
   font-size: 18px;
-  grid-template-rows: 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px;
+  grid-template-rows: 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px 450px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "zoomImage zoom"
@@ -175,9 +175,10 @@
     "jenImage jen"
     "erran erranImage"
     "piniImage pini"
-    "morgan morganImage"
-    "aceImage ace"
-    "mark markImage";
+    "matt mattImage"
+    "morganImage morgan"
+    "ace aceImage"
+    "markImage mark";
 }
 
 #zoom-image {
@@ -388,6 +389,26 @@
   display: none;
 }
 
+#matt-profile {
+  grid-area: matt;
+  padding: 15% 5% 5% 0;
+}
+
+#matt-image {
+  min-height: 400px;
+  grid-area: mattImage;
+  margin: 15% 0 0 0;
+  background-image: url("./images/MattProfile.jpg");
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#matt-card {
+  display: none;
+}
+
 #morgan-image {
   min-height: 400px;
   grid-area: morganImage;
@@ -401,7 +422,7 @@
 
 #morgan-profile {
   grid-area: morgan;
-  padding: 15% 5% 5% 0;
+  padding: 15% 5% 0 5%;
 }
 
 #morgan-card {
@@ -421,7 +442,7 @@
 
 #ace-profile {
   grid-area: ace;
-  padding: 15% 0 5% 5%;
+  padding: 15% 5% 5% 0;
 }
 
 #ace-card {
@@ -441,7 +462,7 @@
 
 #mark-profile {
   grid-area: mark;
-  padding: 15% 5% 5% 0;
+  padding: 15% 0 5% 5%;
 }
 
 #mark-card {
@@ -955,6 +976,19 @@
   }
 
   #pini-profile {
+    display: none;
+  }
+
+  #matt-card {
+    display: block;
+  }
+
+  #matt-image {
+    background-image: none;
+    min-height: 0;
+  }
+
+  #matt-profile {
     display: none;
   }
 
