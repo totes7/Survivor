@@ -41,7 +41,7 @@ function About() {
           </div>
           <div id="research-video">
             <video src={video} controls></video>
-          </div>
+          </div>{" "}
         </div>
 
         <h1>CHARACTERS</h1>
