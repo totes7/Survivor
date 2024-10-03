@@ -256,21 +256,21 @@ function Info() {
           </div>
           <div id="jen-image"></div>
           <div id="jen-profile">
-            <h3>JEN BUZZELLI</h3>
+            <h3>JENNIFER BUZZELLI</h3>
             <h4>ASSOCIATE PRODUCER</h4>
             <p>
               Jen Buzzelli is a NY-based producer with 25 years experience in
-              international co-production, distribution and programming and for
+              international co-production, distribution and programming for
               the likes of National Geographic, truTV and KONAMI.
             </p>
           </div>
           <div id="jen-card">
             <Card
               src={jen}
-              alt="Jen Buzzelli"
-              caption="JEN BUZZELLI"
+              alt="Jennifer Buzzelli"
+              caption="JENNIFER BUZZELLI"
               title="Associate Producer"
-              text="Jen Buzzelli is a NY-based producer with 25 years experience in international co-production, distribution and programming and for the likes of National Geographic, truTV and KONAMI."
+              text="Jennifer Buzzelli is a NY-based producer with 25 years experience in international co-production, distribution and programming for the likes of National Geographic, truTV and KONAMI."
               path=""
               target="_blank"
               classOuter="team-card-container"
