@@ -13,6 +13,7 @@
 
 .hero-image {
   position: relative;
+  overflow: hidden;
 }
 
 .banner-logo {
@@ -55,7 +56,7 @@
 }
 
 .video-wrap {
-  margin: 10% 0 5% 0;
+  margin: 2% 0 5% 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,17 +65,18 @@
 
 .video-wrap > h3 {
   font-size: 35px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
-
+/* 
 .video-wrap img {
   width: 80%;
-}
-
-/* video {
-  width: 100%;
-  border-radius: 5px;
 } */
+
+video {
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+}
 
 @media screen and (max-width: 1200px) {
   .hero-container > p {
@@ -83,6 +85,7 @@
 
   .video-wrap > h3 {
     font-size: 27px;
+    margin: 5% 0;
   }
 }
 
@@ -90,6 +93,11 @@
   .hero-container > p {
     font-size: 18px;
     padding: 0 5%;
+  }
+
+  video {
+    width: 90%;
+    margin: 5% 0;
   }
 }
 

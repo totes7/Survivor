@@ -2,14 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import "./Hero.css";
-// import video from "../videos/InProductionPromo.mp4";
+import video from "../videos/SurvivorTrailer.mp4";
 import cover from "../images/HeroCover.png";
-import placeholder from "../images/Placeholder.png";
+// import placeholder from "../images/Placeholder.png";
 import mipcom from "../images/MipcomLogo.png";
 
 function Hero() {
   return (
     <div className="hero-container">
+      <div className="video-wrap">
+        <h3>OFFICIAL TRAILER</h3>
+        <video src={video} controls autoPlay></video>
+        {/* <img src={placeholder} alt="puppet making" /> */}
+      </div>
+
       <div className="hero-image">
         <div className="ribbon">
           <Link to="/screening">
@@ -40,11 +46,6 @@ function Hero() {
         take their eyes off the screen.
       </p>
 
-      <div className="video-wrap">
-        <h3>TRAILER COMING SOON</h3>
-        {/* <video src={video} controls></video> */}
-        <img src={placeholder} alt="puppet making" />
-      </div>
     </div>
   );
 }
