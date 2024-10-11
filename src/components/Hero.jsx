@@ -4,7 +4,6 @@ import "../App.css";
 import "./Hero.css";
 import video from "../videos/SurvivorTrailer.mp4";
 import cover from "../images/HeroCover.png";
-// import placeholder from "../images/Placeholder.png";
 import mipcom from "../images/MipcomLogo.png";
 
 function Hero() {
@@ -12,8 +11,7 @@ function Hero() {
     <div className="hero-container">
       <div className="video-wrap">
         <h3>OFFICIAL TRAILER</h3>
-        <video src={video} controls autoPlay></video>
-        {/* <img src={placeholder} alt="puppet making" /> */}
+        <video src={video} controls></video>
       </div>
 
       <div className="hero-image">

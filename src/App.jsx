@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import Info from './components/pages/Info';
 import Screening from './components/pages/Screening';
 import Book from './components/pages/Book';
+import Media from "./components/pages/Media";
 import Contact from './components/pages/Contact';
 import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import ScrollToTop from "./components/ScrollToTop";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/info" element={<Info/>} />
         <Route path="/screening" element={<Screening/>} />
         <Route path="/book" element={<Book/>} />
+        <Route path="/media" element={<Media/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
       </Routes>

@@ -259,7 +259,7 @@ function Info() {
             <h3>JENNIFER BUZZELLI</h3>
             <h4>ASSOCIATE PRODUCER</h4>
             <p>
-              Jen Buzzelli is a NY-based producer with 25 years experience in
+              Jennifer Buzzelli is a NY-based producer with 25 years experience in
               international co-production, distribution and programming for
               the likes of National Geographic, truTV and KONAMI.
             </p>
