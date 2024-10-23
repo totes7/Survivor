@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../../App.css";
 import Footer from "../Footer";
 import postcardOne from "../../images/MediaPostcard-1.jpg";
+import postcardTwo from "../../images/MediaPostcard-2.jpg";
 
 function Media() {
   return (
@@ -20,6 +21,15 @@ function Media() {
             className="postcard-one"
           />
         </Link>
+
+        <img
+            src={postcardTwo}
+            alt="MIPCOM news article"
+            className="postcard-two"
+          />
+        <figcaption>MIPCOM Cannes News 22/10/2024</figcaption>
+
+        <br />
       </div>
 
       <Footer />

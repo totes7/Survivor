@@ -70,6 +70,7 @@
 
 .media {
   height: 100%;
+  padding-bottom: 15%;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -84,6 +85,11 @@
 .postcard-one {
   width: 60%;
   margin: 5% 20%;
+}
+
+.postcard-two {
+  width: 60%;
+  margin: 5% 20% 0 20%;
 }
 
 /* About */
@@ -222,20 +228,6 @@
   grid-area: zoom;
   padding: 15% 0 5% 5%;
 }
-
-/* .zoom-logo {
-  width: 250px;
-  margin-top: 5%;
-  transition: width 0.6s;
-}
-
-.zoom-logo:hover {
-  width: 275px;
-}
-
-.zoom-logo-mobile {
-  display: none;
-} */
 
 #zoom-card {
   display: none;
@@ -739,6 +731,11 @@
     margin: 10% 20%;
   }
 
+  .postcard-two {
+    width: 60%;
+    margin: 10% 20% 0 20%;
+  }
+
   .about {
     padding: 5%;
   }
@@ -823,6 +820,11 @@
     margin: 15% 0;
   }
 
+  .postcard-two {
+    width: 100%;
+    margin: 15% 0 0 0;
+  }
+
   .home-bottom-section {
     display: flex;
     flex-flow: column;
@@ -894,12 +896,6 @@
   #zoom-card {
     display: block;
   }
-
-  /* .zoom-logo-mobile {
-    display: block;
-    width: 200px;
-    margin: 5% 20%;
-  } */
 
   #zoom-image {
     background-image: none;

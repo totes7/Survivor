@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-figcaption {
+.card-caption {
   text-align: center;
   font-weight: bold;
   margin-top: 5%;
