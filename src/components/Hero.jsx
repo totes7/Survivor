@@ -15,11 +15,11 @@ function Hero() {
       </div>
 
       <div className="hero-image">
-        <div className="ribbon">
+        {/* <div className="ribbon">
           <Link to="/screening">
             <img src={mipcom} alt="MIPCOM logo" className="banner-logo" />
           </Link>
-        </div>
+        </div> */}
         <img src={cover} alt="survivor logo title" className="title" />
       </div>
 

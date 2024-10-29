@@ -20,7 +20,7 @@
   transform: scale(0.37);
 }
 
-.ribbon {
+/* .ribbon {
   position: absolute;
   padding: 1em 2em;
   z-index: 99;
@@ -41,7 +41,7 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .title {
   width: 100%;
@@ -110,7 +110,7 @@ video {
     transform: scale(0.2);
   }
   
-  .ribbon {
+  /* .ribbon {
     position: absolute;
     padding: 1em 2em;
     z-index: 99;
@@ -131,5 +131,5 @@ video {
     align-content: center;
     justify-content: center;
     align-items: center;
-  }
+  } */
 }

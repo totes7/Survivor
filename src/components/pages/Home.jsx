@@ -15,10 +15,10 @@ function Home() {
           <div className="news-section">
             <h3>LATEST</h3>
             <p>Release date coming soon!</p>
-            <p>Click the link below to register interest in attending a screening.</p>
-            <Link to="/screening">
-              <img src={mipcom} alt="MIPCOM logo" />
-            </Link>
+            <p>Click <Link to="/screening">
+              here
+            </Link> to register interest in attending a screening.</p>
+            
           </div>
         </div>
 

@@ -43,16 +43,15 @@ function Screening() {
           <h1>SCREENINGS</h1>
         </div>
 
-        <div id="screening-banner">
-          {/* <img src={banner} alt="MIPCOM banner" /> */}
-        </div>
+        {/* <div id="screening-banner">
+          <img src={banner} alt="MIPCOM banner" />
+        </div> */}
 
         <div id="screening-form">
           <p>
-            <em>Survivor</em> will be first shown internationally at MIPCOM 24
-            on 22 October 2024
+            <em>Survivor's</em> London Premiere will be on 28 November 2024
           </p>
-          <p>MIPCOM attendees can book a seat here: </p>
+          <p>Attendees can book a seat here: </p>
 
           <form id="myForm" className="mb-3">
             <label htmlFor="name-input" className="form-label">

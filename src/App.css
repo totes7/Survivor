@@ -525,27 +525,27 @@
 
 .screening {
   height: 100%;
-  padding: 5%;
+  padding: 5% 20%;
   text-align: center;
   display: grid;
   grid-template-rows: 150px 900px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "title title"
-    "banner form";
+    "title"
+    "form";
 }
 
 #screening-title {
   grid-area: title;
 }
 
-#screening-banner {
+/* #screening-banner {
   grid-area: banner;
   background-image: url("./images/Banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
 #screening-form {
   grid-area: form;
@@ -797,17 +797,16 @@
     padding: 5% 5% 50% 5%;
     text-align: center;
     display: grid;
-    grid-template-rows: 100px 650px 650px;
+    grid-template-rows: 100px 650px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
-      "banner"
       "form";
   }
 
-  #screening-banner {
+  /* #screening-banner {
     margin-bottom: 5%;
-  }
+  } */
 
   .screening form {
     margin: 10% 0 0 0;
