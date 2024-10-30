@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "../../App.css";
 import Hero from "../Hero";
 import Footer from "../Footer";
-import mipcom from "../../images/MipcomLogo.png";
 
 function Home() {
   return (

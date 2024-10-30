@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../App.css";
 import "./Hero.css";
 import video from "../videos/SurvivorTrailer.mp4";
 import cover from "../images/HeroCover.png";
-import mipcom from "../images/MipcomLogo.png";
+// import mipcom from "../images/MipcomLogo.png";
 
 function Hero() {
   return (
