@@ -10,6 +10,11 @@ export const MenuItems = [
       className: 'dropdown-link'
     },
     {
+      title: 'MEDIA',
+      path: '/media',
+      className: 'dropdown-link'
+    },
+    {
       title: 'SCREENINGS',
       path: '/screening',
       className: 'dropdown-link'

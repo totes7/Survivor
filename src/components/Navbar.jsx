@@ -46,15 +46,7 @@ function Navbar() {
                 HOME
               </Link>
             </li>
-            <li>
-              <Link
-                to="/media"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                MEDIA
-              </Link>
-            </li>
+            
             <li>
               <Link
                 to="/contact"
@@ -88,6 +80,15 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 PRODUCTION
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/media"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                MEDIA
               </Link>
             </li>
             <li>
