@@ -1,40 +1,42 @@
 import React from "react";
-import { useState } from "react";
-import { send } from "emailjs-com";
+// import { useState } from "react";
+// import { send } from "emailjs-com";
+import { Link } from "react-router-dom";
 import "../../App.css";
 import Footer from "../Footer";
+import banner from "../../images/Banner-2.jpg";
 
 function Screening() {
-  const [toSend, setToSend] = useState({
-    name: "",
-    title: "",
-    company: "",
-    email: "",
-  });
+  // const [toSend, setToSend] = useState({
+  //   name: "",
+  //   title: "",
+  //   company: "",
+  //   email: "",
+  // });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    send("service_jo247gy", "template_ahtmcvl", toSend, "EHusL7UCq5epQtLBc")
-      .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
-      })
-      .catch((err) => {
-        console.log("FAILED...", err);
-      });
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   send("service_jo247gy", "template_ahtmcvl", toSend, "EHusL7UCq5epQtLBc")
+  //     .then((response) => {
+  //       console.log("SUCCESS!", response.status, response.text);
+  //     })
+  //     .catch((err) => {
+  //       console.log("FAILED...", err);
+  //     });
 
-    setToSend({
-      name: "",
-      title: "",
-      company: "",
-      email: "",
-    });
+  //   setToSend({
+  //     name: "",
+  //     title: "",
+  //     company: "",
+  //     email: "",
+  //   });
 
-    alert("Thank you for getting in touch!");
-  };
+  //   alert("Thank you for getting in touch!");
+  // };
 
-  const handleChange = (e) => {
-    setToSend({ ...toSend, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e) => {
+  //   setToSend({ ...toSend, [e.target.name]: e.target.value });
+  // };
 
   return (
     <>
@@ -43,16 +45,22 @@ function Screening() {
           <h1>SCREENINGS</h1>
         </div>
 
-        {/* <div id="screening-banner">
-          <img src={banner} alt="MIPCOM banner" />
-        </div> */}
+        <p>
+          Special Screening with Official Charity Partner March of the Living
+        </p>
 
-        <div id="screening-form">
-          <p>
-            <em>Survivor's</em> London Premiere will be on 28 November 2024
-          </p>
-          <p>Attendees can book a seat here: </p>
+        <div id="screening-banner">
+          <img className="banner" src={banner} alt="MIPCOM banner" />
+        </div>
 
+        <Link
+          to="https://www.marchoftheliving.org.uk/events/survivor-film/"
+          target="_blank"
+        >
+          <button>BOOK</button>
+        </Link>
+
+        {/* <div id="screening-form">
           <form id="myForm" className="mb-3">
             <label htmlFor="name-input" className="form-label">
               Name
@@ -106,7 +114,7 @@ function Screening() {
           <button onClick={handleSubmit} type="submit" className="form-button">
             Book
           </button>
-        </div>
+        </div> */}
       </div>
 
       <Footer />

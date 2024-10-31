@@ -524,32 +524,27 @@
 /* Screening */
 
 .screening {
-  height: 100%;
-  padding: 5% 20%;
-  text-align: center;
-  display: grid;
-  grid-template-rows: 150px 900px;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "title"
-    "form";
+  padding: 5% 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
-#screening-title {
-  grid-area: title;
-}
-
-/* #screening-banner {
-  grid-area: banner;
-  background-image: url("./images/Banner.jpg");
+#screening-banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-} */
-
-#screening-form {
-  grid-area: form;
 }
+
+.banner {
+  width: 80%;
+  margin: 5% 10%;
+}
+
+/* #screening-form {
+  grid-area: form;
+} */
 
 .screening h1 {
   font-size: 40px;
@@ -560,7 +555,21 @@
   font-size: 20px;
 }
 
-.screening form {
+.screening button {
+  width: 150px;
+  padding: 5%;
+  margin: 5%;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.screening button:hover {
+  background-color: rgb(11, 87, 208);
+  color: rgb(242, 242, 242);
+  cursor: pointer;
+}
+
+/* .screening form {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -590,7 +599,7 @@
   background-color: rgb(11, 87, 208);
   color: rgb(242, 242, 242);
   cursor: pointer;
-}
+} */
 
 /* Book */
 
@@ -792,7 +801,7 @@
 }
 
 @media screen and (max-width: 770px) {
-  .screening {
+  /* .screening {
     height: 100%;
     padding: 5% 5% 50% 5%;
     text-align: center;
@@ -802,15 +811,15 @@
     grid-template-areas:
       "title"
       "form";
-  }
-
-  /* #screening-banner {
-    margin-bottom: 5%;
   } */
 
-  .screening form {
-    margin: 10% 0 0 0;
+  #screening-banner {
+    margin-bottom: 5%;
   }
+
+  /* .screening form {
+    margin: 10% 0 0 0;
+  } */
 }
 
 @media screen and (max-width: 765px) {
@@ -1125,9 +1134,15 @@
     margin-bottom: 10%;
   }
 
-  .screening form {
-    width: 100%;
+  .screening p {
+    padding: 5%;
+    font-size: 20px;
+    text-align: center;
   }
+
+  /* .screening form {
+    width: 100%;
+  } */
 
   .book button {
     width: 80%;
