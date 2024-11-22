@@ -41,29 +41,19 @@ function Navbar() {
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 HOME
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/contact"
-                className="nav-links mobile-link"
-                onClick={closeMobileMenu}
-              >
-                CONTACT
               </Link>
             </li>
             {/* <li
               className="nav-item dropdown-button"
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
-            >
-            MORE &nbsp; <i className="fas fa-caret-down" />
-            {dropdown && <Dropdown />}
-            </li> */}
+              >
+              MORE &nbsp; <i className="fas fa-caret-down" />
+              {dropdown && <Dropdown />}
+              </li> */}
             <li className="nav-item">
               <Link
                 to="/info"
@@ -109,7 +99,15 @@ function Navbar() {
                 THE BOOK
               </Link>
             </li>
-            
+            <li className="nav-item">
+              <Link
+                to="/contact"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                CONTACT
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

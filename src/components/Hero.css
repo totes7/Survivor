@@ -1,5 +1,5 @@
 .hero-container {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   /* display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@
 video {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .video-banner {
@@ -103,17 +103,12 @@ video {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 1200px) {
   .hero-container > p {
     font-size: 20px;
-  }
-
-  .video-wrap > h3 {
-    font-size: 27px;
-    margin: 5% 0;
   }
 }
 
@@ -123,9 +118,14 @@ video {
     padding: 0 5%;
   }
 
-  video {
-    width: 90%;
-    margin: 5% 0;
+  .video-banner img {
+    width: 70%;
+  }
+
+  .video-buttons button {
+    width: 30%;
+    padding: 2%;
+    margin: 1%;
   }
 }
 
@@ -134,9 +134,22 @@ video {
     font-size: 12px;
   }
 
-  .video-wrap > h3 {
-    font-size: 15px;
+  .video-banner img {
+    width: 80%;
+    margin-bottom: 5%;
   }
+
+  .video-buttons {
+    flex-direction: column;
+  }
+
+  .video-buttons button {
+    width: 60%;
+    padding: 2%;
+    margin: 1%;
+    font-size: 20px;
+  }
+
 /* 
   .banner-logo {
     transform: scale(0.2);

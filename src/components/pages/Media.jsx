@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../../App.css";
 import Footer from "../Footer";
 import deckPdf from "../../files/SurvivorDeck.pdf";
+import trailer from "../../videos/SurvivorTrailer.mp4";
 import postcardOne from "../../images/MediaPostcard-1.jpg";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
 
@@ -23,16 +24,11 @@ function Media() {
           </button>
         </a>
 
-        {/* <Link
-          to="https://1drv.ms/b/s!AjvfCszXQ7AWjp0LJcwJrPd2pnXCIQ?e=WsiVOL"
-          target="_blank"
-        >
-          <button>
-            Download <i class="fa-solid fa-file-pdf"></i>{" "}
-          </button>
-        </Link> */}
+        <h1>OFFICIAL TRAILER</h1>
 
-        <h1>MEDIA</h1>
+        <video src={trailer} controls></video>
+
+        <h1>INTERVIEWS</h1>
 
         <Link
           to="https://canartsaveus.podbean.com/e/survivor-a-true-holocaust-story-unique-animation-and-archival-accuracy/"
