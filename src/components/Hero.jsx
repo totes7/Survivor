@@ -2,7 +2,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import "../App.css";
 import "./Hero.css";
-import video from "../videos/SurvivorTrailer.mp4";
+import video from "../videos/HomeBGVideo.mp4";
 // import cover from "../images/HeroCover.png";
 // import mipcom from "../images/MipcomLogo.png";
 import logo from "../images/LogoTagBBG.png";
@@ -11,7 +11,7 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="overlay"></div>
-      <video src={video}  loop muted></video>
+      <video src={video} autoPlay loop muted></video>
       <div className="video-banner">
         <img src={logo} alt="Survivor logo" />
         <div className="video-buttons">
