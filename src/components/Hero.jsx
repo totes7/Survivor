@@ -5,7 +5,7 @@ import "./Hero.css";
 import video from "../videos/SurvivorTrailer.mp4";
 // import cover from "../images/HeroCover.png";
 // import mipcom from "../images/MipcomLogo.png";
-import logo from "../images/LogoTagGBG.png";
+import logo from "../images/LogoTagBBG.png";
 
 function Hero() {
   return (
@@ -14,6 +14,10 @@ function Hero() {
       <video src={video}  loop muted></video>
       <div className="video-banner">
         <img src={logo} alt="Survivor logo" />
+        <div className="video-buttons">
+          <button>WATCH TRAILER</button>
+          <button>BOOK SCREENING</button>
+        </div>
       </div>
 
       {/* <div className="hero-image">
