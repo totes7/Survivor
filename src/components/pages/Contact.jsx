@@ -102,7 +102,7 @@ function Contact() {
           type="submit"
           className="form-button"
         >
-          Send
+          SUBMIT
         </button>
 
         {/* <h1>SOCIAL</h1>
