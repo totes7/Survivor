@@ -3,27 +3,29 @@ import React from "react";
 import "../App.css";
 import "./Hero.css";
 import video from "../videos/SurvivorTrailer.mp4";
-import cover from "../images/HeroCover.png";
+// import cover from "../images/HeroCover.png";
 // import mipcom from "../images/MipcomLogo.png";
+import logo from "../images/LogoTagGBG.png";
 
 function Hero() {
   return (
     <div className="hero-container">
-      <div className="video-wrap">
-        <h3>OFFICIAL TRAILER</h3>
-        <video src={video} controls></video>
+      <div className="overlay"></div>
+      <video src={video}  loop muted></video>
+      <div className="video-banner">
+        <img src={logo} alt="Survivor logo" />
       </div>
 
-      <div className="hero-image">
-        {/* <div className="ribbon">
+      {/* <div className="hero-image">
+        <div className="ribbon">
           <Link to="/screening">
             <img src={mipcom} alt="MIPCOM logo" className="banner-logo" />
           </Link>
-        </div> */}
+        </div>
         <img src={cover} alt="survivor logo title" className="title" />
-      </div>
+      </div> */}
 
-      <p>
+      {/* <p>
         <em>Survivor</em> is the story of a young boy caught up in the horrors
         of the Holocaust, told by Zoom Rockman using a unique animation style
         with paper puppets. Zoom met Ivor, a 92 year-old Holocaust survivor, in
@@ -42,8 +44,7 @@ function Hero() {
         The beautiful visual and auditory intricacy of Zoom Rockman’s unique
         animation style will captivate the audience, ensuring they won't want to
         take their eyes off the screen.
-      </p>
-
+      </p> */}
     </div>
   );
 }
