@@ -42,7 +42,7 @@ function Screening() {
     <>
       <div className="screening">
         <div id="screening-title">
-          <h1>SCREENINGS</h1>
+          <h1>EVENTS</h1>
         </div>
 
         <p>
