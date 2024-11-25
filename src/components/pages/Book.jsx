@@ -5,11 +5,13 @@ import cover from "../../images/BookCover.webp";
 import ivor from "../../images/IvorProfile.jpg";
 import Card from "../Card";
 import Footer from "../Footer";
+import banner from "../../images/BannerLogo.jpg";
 
 function Book() {
   return (
     <>
       <div className="book">
+        <img className="film-banner" src={banner} alt="film banner" />
         <h1>THE BOOK</h1>
         <div className="book-container">
           <Card

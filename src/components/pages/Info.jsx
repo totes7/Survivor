@@ -17,11 +17,15 @@ import erran from "../../images/ErranProfile.jpg";
 import pini from "../../images/PiniProfile.jpg";
 import matt from "../../images/MattProfile.jpg";
 import lemon from "../../images/LemonSoul.png";
+import banner from "../../images/BannerLogo.jpg";
 
 function Info() {
   return (
     <>
       <div className="info">
+
+        <img className="film-banner" src={banner} alt="film banner" />
+
         <h1>TEAM</h1>
 
         <div id="team">

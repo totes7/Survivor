@@ -3,6 +3,7 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 import "../../App.css";
 import Footer from "../Footer";
+import banner from "../../images/BannerLogo.jpg";
 
 function Contact() {
   const [toSend, setToSend] = useState({
@@ -39,6 +40,9 @@ function Contact() {
   return (
     <>
       <div className="contact">
+
+        <img className="film-banner" src={banner} alt="film banner" />
+
         <h1>CONTACT</h1>
         <p>
           The team welcomes any feedback, information, suggestions and questions.

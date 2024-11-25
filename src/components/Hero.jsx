@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../App.css";
 import "./Hero.css";
 import video from "../videos/HomeBGVideo.mp4";
@@ -15,7 +15,10 @@ function Hero() {
       <div className="video-banner">
         <img src={logo} alt="Survivor logo" />
         <div className="video-buttons">
-          <button>WATCH TRAILER</button>
+          <button>
+            <Link to="/media">WATCH TRAILER</Link>
+          </button>
+
           <button>BOOK SCREENING</button>
         </div>
       </div>

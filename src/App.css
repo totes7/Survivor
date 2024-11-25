@@ -139,6 +139,10 @@ body {
   margin: 5%;
 }
 
+.film-banner {
+  width: 60%;
+}
+
 #research {
   padding: 5% 20% 20%;
   display: grid;
@@ -201,6 +205,13 @@ body {
 }
 
 /* Info (Production) */
+
+.info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .info h1 {
   font-size: 40px;
@@ -637,11 +648,11 @@ body {
 
 .book {
   height: 100%;
-  padding: 5% 10%;
   text-align: center;
 }
 
 .book h1 {
+  margin-top: 5%;
   font-size: 40px;
 }
 
@@ -684,7 +695,6 @@ body {
 
 .contact {
   height: 100%;
-  padding: 5%;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -693,6 +703,7 @@ body {
 
 .contact h1 {
   font-size: 40px;
+  margin-top: 5%;
 }
 
 .contact p {
@@ -788,6 +799,10 @@ body {
   .about p {
     font-size: 18px;
     padding: 0;
+  }
+
+  .film-banner {
+    width: 90%;
   }
 
   #puppets-image {

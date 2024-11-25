@@ -3,11 +3,15 @@ import "../../App.css";
 import Characters from "../Characters";
 import Footer from "../Footer";
 import video from "../../videos/video1.MP4";
+import banner from "../../images/BannerLogo.jpg";
 
 function About() {
   return (
     <>
       <div className="about">
+
+        <img className="film-banner" src={banner} alt="film banner" />
+
         <h1>SYNOPSIS</h1>
         <div className="synopsis">
           <p>
