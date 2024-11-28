@@ -45,6 +45,8 @@ function ScreeningForm() {
 
         <h1>BOOK A SCREENING</h1>
         
+        <p>Register your interest in staging a screening here:</p>
+
         <form id="myForm" className="mb-3">
           <label htmlFor="name-input" className="form-label">
             Name

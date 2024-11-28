@@ -626,6 +626,11 @@ body {
   word-spacing: 12px;
 }
 
+.screening-form p {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
 .screening-form form {
   display: flex;
   flex-flow: column;
@@ -1215,6 +1220,11 @@ body {
 
   .screening-form h1 {
     font-size: 40px;
+    text-align: center;
+  }
+
+  .screening-form p {
+    padding: 0 5%;
     text-align: center;
   }
 
