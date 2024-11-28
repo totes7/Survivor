@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   height: 60px;
-  max-width: 1500px;
+  max-width: 1900px;
 }
 
 .navbar-logo {
@@ -67,7 +67,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   height: 100%;
 }
 

@@ -889,6 +889,9 @@ body {
 }
 
 @media screen and (max-width: 765px) {
+  .media {
+    text-align: center;
+  }
   .media video {
     width: 100%;
   }

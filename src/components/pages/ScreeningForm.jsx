@@ -44,6 +44,7 @@ function ScreeningForm() {
       <img className="film-banner" src={banner} alt="film banner" />
 
         <h1>BOOK A SCREENING</h1>
+        
         <form id="myForm" className="mb-3">
           <label htmlFor="name-input" className="form-label">
             Name
