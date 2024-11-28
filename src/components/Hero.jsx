@@ -19,7 +19,9 @@ function Hero() {
             <Link to="/media">WATCH TRAILER</Link>
           </button>
 
-          <button>BOOK SCREENING</button>
+          <button>
+            <Link to="/screening-form">BOOK A SCREENING</Link>
+          </button>
         </div>
       </div>
 

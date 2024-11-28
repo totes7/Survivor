@@ -22,6 +22,7 @@ body {
 .info,
 .book,
 .screening,
+.screening-form,
 .contact,
 .media,
 .privacy-policy {
@@ -611,24 +612,38 @@ body {
   cursor: pointer;
 }
 
-/* .screening form {
+.screening-form {
+  height: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin-top: 10%;
+}
+
+.screening-form h1 {
+  font-size: 40px;
+  margin-top: 5%;
+  word-spacing: 12px;
+}
+
+.screening-form form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-top: 5%;
   padding: 20px;
 }
 
-.screening form > input {
+.screening-form form > input {
   width: 80%;
   padding: 10px;
-  margin: 5% 0;
+  margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-} */
+}
 
 .form-button {
   width: 10%;
@@ -844,6 +859,10 @@ body {
 
   #aspirations-text p {
     margin: 0 0 0 5%;
+  }
+
+  .form-button {
+    width: 20%;
   }
 }
 
@@ -1191,9 +1210,18 @@ body {
     text-align: center;
   }
 
-  /* .screening form {
-    width: 100%;
-  } */
+  .screening-form h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .screening-form form {
+    width: 90%;
+  }
+
+  .form-button {
+    width: 40%;
+  }
 
   .book button {
     width: 80%;

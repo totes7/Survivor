@@ -84,6 +84,7 @@ video {
 }
 
 .video-buttons button {
+  word-spacing: 8px;
   width: 20%;
   padding: 1%;
   margin: 1%;

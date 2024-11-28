@@ -11,6 +11,7 @@ import Media from "./components/pages/Media";
 import Contact from './components/pages/Contact';
 import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import ScrollToTop from "./components/ScrollToTop";
+import ScreeningForm from "./components/pages/ScreeningForm";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/info" element={<Info/>} />
         <Route path="/screening" element={<Screening/>} />
+        <Route path="/screening-form" element={<ScreeningForm/>} />
         <Route path="/book" element={<Book/>} />
         <Route path="/media" element={<Media/>} />
         <Route path="/contact" element={<Contact/>} />
