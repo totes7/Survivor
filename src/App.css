@@ -929,8 +929,9 @@ body {
   }
 
   .forbes-p {
-    font-size: 30px;
-    margin: 5% 5% 10%;
+    font-size: 20px;
+    margin: 5% 15% 10%;
+    text-align: left;
   }
   
   .forbes-article {
