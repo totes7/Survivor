@@ -34,11 +34,13 @@ function Media() {
 
         <img src={forbesLogo} alt="Forbes.com logo" className="forbes-logo" />
 
-        <img
+        <p className="forbes-p">"How Short Film Survivor Shows The Power Of Animation To Depict Difficult Subjects"</p>
+
+        {/* <img
           src={forbesArticle}
           alt="Forbes article title"
           className="forbes-article"
-        />
+        /> */}
         <Link
           to="https://www.forbes.com/sites/bennyhareven/2024/11/30/how-short-film-survivor-uses-animated-puppets-to-depict-the-holocaust/"
           target="_blank"
