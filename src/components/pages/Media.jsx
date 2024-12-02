@@ -6,7 +6,8 @@ import deckPdf from "../../files/SurvivorDeck.pdf";
 import trailer from "../../videos/SurvivorTrailer.mp4";
 import postcardOne from "../../images/MediaPostcard-1.jpg";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
-import forbes from "../../images/ForbesArticle.png";
+import forbesLogo from "../../images/ForbesLogo.jpg";
+import forbesArticle from "../../images/ForbesArticle.png";
 
 function Media() {
   return (
@@ -29,10 +30,12 @@ function Media() {
 
         <video src={trailer} controls></video>
 
-        <h1>INTERVIEWS</h1>
+        <h1>PRESS</h1>
+
+        <img src={forbesLogo} alt="Forbes.com logo" className="forbes-logo" />
 
         <img
-          src={forbes}
+          src={forbesArticle}
           alt="Forbes article title"
           className="forbes-article"
         />
@@ -40,7 +43,9 @@ function Media() {
           to="https://www.forbes.com/sites/bennyhareven/2024/11/30/how-short-film-survivor-uses-animated-puppets-to-depict-the-holocaust/"
           target="_blank"
           className="forbes-link"
-        >Read full article on Forbes.com</Link>
+        >
+          Read full article on Forbes.com
+        </Link>
 
         <Link
           to="https://canartsaveus.podbean.com/e/survivor-a-true-holocaust-story-unique-animation-and-archival-accuracy/"
