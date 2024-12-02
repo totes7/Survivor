@@ -7,7 +7,7 @@ import trailer from "../../videos/SurvivorTrailer.mp4";
 import postcardOne from "../../images/MediaPostcard-1.jpg";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
 import forbesLogo from "../../images/ForbesLogo.jpg";
-import forbesArticle from "../../images/ForbesArticle.png";
+// import forbesArticle from "../../images/ForbesArticle.png";
 
 function Media() {
   return (
