@@ -7,7 +7,7 @@ import trailer from "../../videos/SurvivorTrailer.mp4";
 import postcardOne from "../../images/MediaPostcard-1.jpg";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
 import forbesLogo from "../../images/ForbesLogo.jpg";
-// import forbesArticle from "../../images/ForbesArticle.png";
+import adam from "../../images/AdamBoulton.jpg";
 
 function Media() {
   return (
@@ -34,13 +34,11 @@ function Media() {
 
         <img src={forbesLogo} alt="Forbes.com logo" className="forbes-logo" />
 
-        <p className="forbes-p">"How Short Film Survivor Shows The Power Of Animation To Depict Difficult Subjects"</p>
+        <p className="forbes-p">
+          "How Short Film Survivor Shows The Power Of Animation To Depict
+          Difficult Subjects"
+        </p>
 
-        {/* <img
-          src={forbesArticle}
-          alt="Forbes article title"
-          className="forbes-article"
-        /> */}
         <Link
           to="https://www.forbes.com/sites/bennyhareven/2024/11/30/how-short-film-survivor-uses-animated-puppets-to-depict-the-holocaust/"
           target="_blank"
@@ -48,6 +46,23 @@ function Media() {
         >
           Read full article on Forbes.com
         </Link>
+
+        <div className="adam-article">
+          <img src={adam} alt="Adam Boulton" className="adam-pic" />
+          <div className="adam-text">
+            <p className="adam-p">
+              "Survivor: Rockman's Holocaust animation is a remarkable
+              achievement"
+            </p>
+            <small>Adam Boulton, 3 Dec 2024</small>
+            <Link
+              to="https://www.reaction.life/p/survivor-rockmans-holocaust-animation?utm_campaign=post&utm_medium=web"
+              target="_blank"
+            >
+              Read full article here
+            </Link>
+          </div>
+        </div>
 
         <Link
           to="https://canartsaveus.podbean.com/e/survivor-a-true-holocaust-story-unique-animation-and-archival-accuracy/"

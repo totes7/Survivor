@@ -150,6 +150,38 @@ body {
   color: rgb(30, 59, 155);
 }
 
+.adam-article {
+  margin: 5% 20%;
+  display: flex;
+  flex-flow: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.adam-text {
+  margin-left: 2%;
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.adam-text a {
+  margin-top: 15%;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+}
+
+.adam-text a:hover {
+  color: rgb(30, 59, 155);
+}
+
+.adam-p {
+  font-size: 55px;
+  margin-bottom: 2%;
+}
+
 /* About */
 
 .about {
@@ -941,6 +973,36 @@ body {
 
   .forbes-link {
     font-size: 20px;
+  }
+
+  .adam-article {
+    margin: 10%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .adam-text {
+    margin-top: 5%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adam-pic {
+    width: 90%;
+  }
+  
+  .adam-p {
+    font-size: 20px;
+    margin: 5%;
+    text-align: left;
+  }
+
+  .adam-text a {
+    font-size: 20px;;
   }
 
   .home-bottom-section {
