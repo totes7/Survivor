@@ -25,6 +25,7 @@ body {
 .screening-form,
 .contact,
 .media,
+.gallery,
 .privacy-policy {
   background: rgb(0, 0, 0);
   color: rgb(242, 242, 242);
@@ -808,6 +809,25 @@ body {
   box-sizing: border-box;
 }
 
+/* Gallery */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery h1 {
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+.gallery img {
+  width: 60%;
+  margin: 5%;
+}
+
 /* Privacy Policy */
 
 .privacy-policy-container {
@@ -934,6 +954,10 @@ body {
   .form-button {
     width: 20%;
   }
+
+  .gallery h1 {
+    margin: 10% 0;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -965,7 +989,7 @@ body {
     margin: 5% 17% 10%;
     text-align: left;
   }
-  
+
   .forbes-article {
     width: 100%;
     margin: 5% 0 5% 0;
@@ -982,7 +1006,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   .adam-text {
     margin-top: 5%;
     display: flex;
@@ -994,7 +1018,7 @@ body {
   .adam-pic {
     width: 90%;
   }
-  
+
   .adam-p {
     font-size: 20px;
     margin: 5%;
@@ -1002,7 +1026,7 @@ body {
   }
 
   .adam-text a {
-    font-size: 20px;;
+    font-size: 20px;
   }
 
   .home-bottom-section {
