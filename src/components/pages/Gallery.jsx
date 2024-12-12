@@ -13,6 +13,11 @@ function Gallery() {
     <>
       <div className="gallery">
         <h1>GALLERY</h1>
+
+        <p>UK Premiere with March of the Living</p>
+
+        <p>Blake Ezra Photography, 28 November 2024</p>
+
         {imagesList.map((image, index) => (
           <LazyLoadImage
             key={index}

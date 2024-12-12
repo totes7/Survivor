@@ -824,7 +824,12 @@ body {
 
 .gallery h1 {
   font-size: 40px;
-  margin-top: 5%;
+  margin: 3% 0;
+}
+
+.gallery p {
+  font-size: 20px;
+  margin: 1%;
 }
 
 .gallery-img {
@@ -1394,6 +1399,11 @@ body {
 
   .contact form {
     width: 90%;
+  }
+
+  .gallery p {
+    font-size: 16px;
+    margin: 2%;
   }
 
   .privacy-policy-container {
