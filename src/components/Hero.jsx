@@ -23,6 +23,8 @@ function Hero() {
             <Link to="/screening-form">BOOK A SCREENING</Link>
           </button>
         </div>
+        <p>"Why did I survive? I ask myself this question every day. When I began to see this film taking shape and become something, I thought to myself, maybe this is the reason I am still here. To meet Zoom and tell him my story so that he can make this film for future generations."</p>
+        <small>Ivor Perl BEM, December 2024</small>
       </div>
 
       {/* <div className="hero-image">

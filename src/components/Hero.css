@@ -72,7 +72,20 @@ video {
 }
 
 .video-banner img {
+  margin-top: 5%;
   width: 40%;
+}
+
+.video-banner p {
+  font-size: 20px;
+  padding: 3% 25% 0;
+  text-align: center;
+  word-spacing: 3px;
+  font-style: italic;
+}
+
+.video-banner small {
+  margin-top: 2%;
 }
 
 .video-buttons {
@@ -143,6 +156,15 @@ video {
   .video-banner img {
     width: 80%;
     margin-bottom: 5%;
+  }
+
+  .video-banner p {
+    font-size: 15px;
+    padding: 5% 15% 0;
+  }
+
+  .video-banner small {
+    margin-top: 5%;
   }
 
   .video-buttons {
