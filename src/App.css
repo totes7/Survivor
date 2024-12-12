@@ -151,7 +151,7 @@ body {
   color: rgb(30, 59, 155);
 }
 
-.adam-article {
+.adam-article, .jonny-podcast {
   margin: 5% 20%;
   display: flex;
   flex-flow: row;
@@ -159,7 +159,11 @@ body {
   justify-content: center;
 }
 
-.adam-text {
+.jonny-pic {
+  width: 45%;
+}
+
+.adam-text, .jonny-text {
   margin-left: 2%;
   display: flex;
   flex-flow: column;
@@ -167,18 +171,18 @@ body {
   justify-content: center;
 }
 
-.adam-text a {
-  margin-top: 15%;
+.adam-text a, .jonny-text a {
+  margin-top: 10%;
   font-size: 25px;
   text-decoration: none;
   color: rgb(242, 242, 242);
 }
 
-.adam-text a:hover {
+.adam-text a:hover, .jonny-text a:hover {
   color: rgb(30, 59, 155);
 }
 
-.adam-p {
+.adam-p, .jonny-p {
   font-size: 55px;
   margin-bottom: 2%;
 }
@@ -893,6 +897,15 @@ body {
     margin: 5% 20%;
   }
 
+  .jonny-pic {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+
+  .jonny-p {
+    font-size: 45px;
+  }
+
   .about {
     padding: 5%;
   }
@@ -999,7 +1012,7 @@ body {
     font-size: 20px;
   }
 
-  .adam-article {
+  .adam-article, .jonny-podcast {
     margin: 10%;
     display: flex;
     flex-flow: column;
@@ -1007,7 +1020,7 @@ body {
     justify-content: center;
   }
 
-  .adam-text {
+  .adam-text, .jonny-text {
     margin-top: 5%;
     display: flex;
     flex-flow: column;
@@ -1015,17 +1028,17 @@ body {
     justify-content: center;
   }
 
-  .adam-pic {
+  .adam-pic, .jonny-pic {
     width: 90%;
   }
 
-  .adam-p {
+  .adam-p, .jonny-p {
     font-size: 20px;
     margin: 5%;
     text-align: left;
   }
 
-  .adam-text a {
+  .adam-text a, .jonny-text a {
     font-size: 20px;
   }
 

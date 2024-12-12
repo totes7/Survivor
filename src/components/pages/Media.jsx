@@ -8,6 +8,7 @@ import postcardOne from "../../images/MediaPostcard-1.jpg";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
 import forbesLogo from "../../images/ForbesLogo.jpg";
 import adam from "../../images/AdamBoulton.jpg";
+import jonny from "../../images/JonnyGould.jpg";
 
 function Media() {
   return (
@@ -46,6 +47,22 @@ function Media() {
         >
           Read full article on Forbes.com
         </Link>
+
+        <div className="jonny-podcast">
+          <img src={jonny} alt="Jonny Gould" className="jonny-pic" />
+          <div className="jonny-text">
+            <p className="jonny-p">
+              "It is extremely emotional... this provides another sector to my understanding..."
+            </p>
+            <small>Jonny Gould, 10 Dec 2024</small>
+            <Link
+              to="https://podfollow.com/1454252164/episode/930dbba239f9e3cb93a34a132db54780a353fbe6/view"
+              target="_blank"
+            >
+              Read full article here
+            </Link>
+          </div>
+        </div>
 
         <div className="adam-article">
           <img src={adam} alt="Adam Boulton" className="adam-pic" />
