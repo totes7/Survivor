@@ -7,8 +7,8 @@ import trailer from "../../videos/SurvivorTrailer.mp4";
 import postcardOne from "../../images/MediaPostcard-1.jpg";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
 import forbesLogo from "../../images/ForbesLogo.jpg";
-import adam from "../../images/AdamBoulton.jpg";
-import jonny from "../../images/JonnyGould.jpg";
+import adam from "../../images/Adam.jpg";
+import jonny from "../../images/Jonny.jpg";
 
 function Media() {
   return (
