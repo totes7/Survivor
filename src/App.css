@@ -1035,7 +1035,7 @@ body {
   }
 
   .about {
-    padding: 5%;
+    padding: 0 5% 5% 5%;
   }
 
   .about h1 {
@@ -1201,9 +1201,7 @@ body {
     font-size: 25px;
   }
 
-  .info {
-    padding-top: 10%;
-  }
+  
 
   .info h1,
   .info h2 {
