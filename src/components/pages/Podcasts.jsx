@@ -4,11 +4,14 @@ import "../../App.css";
 import Footer from "../Footer";
 import postcardOne from "../../images/MediaPostcard-1.jpg";
 import jonny from "../../images/Jonny.jpg";
+import banner from "../../images/BannerLogo.jpg";
 
 function Podcasts() {
   return (
     <>
       <div className="podcasts">
+        <img className="film-banner" src={banner} alt="film banner" />
+
         <h1>PODCASTS</h1>
 
         <Link

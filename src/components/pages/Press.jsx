@@ -5,11 +5,14 @@ import Footer from "../Footer";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
 import forbesLogo from "../../images/ForbesLogo.jpg";
 import adam from "../../images/Adam.jpg";
+import banner from "../../images/BannerLogo.jpg";
 
 function Press() {
   return (
     <>
       <div className="press">
+        <img className="film-banner" src={banner} alt="film banner" />
+
         <h1>PRESS</h1>
 
         <img src={forbesLogo} alt="Forbes.com logo" className="forbes-logo" />

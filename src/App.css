@@ -94,15 +94,15 @@ body {
 }
 
 .media-pack h1 {
-  margin-top: 5%;
+  margin: 5% 0 7%;
   font-size: 40px;
 }
 
 .media-pack button {
-  width: 200px;
+  width: 300px;
   padding: 5%;
-  margin: 25% 0 10%;
-  font-size: 20px;
+  margin: 20% 0 10%;
+  font-size: 30px;
   border-radius: 5px;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .trailer h1 {
-  margin-top: 5%;
+  margin: 5% 0;
   font-size: 40px;
 }
 
@@ -292,7 +292,7 @@ body {
 }
 
 .bonus p {
-  margin-top: 2%;
+  margin: 2% 0 5%;
   font-size: 20px;
   padding: 0 20%;
 }
