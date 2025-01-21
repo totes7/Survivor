@@ -1,27 +1,27 @@
 export const MenuItems = [
     {
-      title: 'ABOUT',
-      path: '/about',
+      title: 'MEDIA PACK',
+      path: '/mediapack',
       className: 'dropdown-link'
     },
     {
-      title: 'PRODUCTION',
-      path: '/info',
+      title: 'TRAILER',
+      path: '/trailer',
       className: 'dropdown-link'
     },
     {
-      title: 'MEDIA',
-      path: '/media',
+      title: 'PRESS',
+      path: '/press',
       className: 'dropdown-link'
     },
     {
-      title: 'SCREENINGS',
-      path: '/screening',
+      title: 'PODCASTS',
+      path: '/podcasts',
       className: 'dropdown-link'
     },
     {
-      title: 'THE BOOK',
-      path: '/book',
+      title: 'BONUS MATERIAL',
+      path: '/bonus',
       className: 'dropdown-link'
     },
   ];

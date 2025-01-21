@@ -1,31 +1,31 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-// import Dropdown from "./Dropdown";
+import Dropdown from "./Dropdown";
 // import logo from "../images/LogoBBG.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  // const [dropdown, setDropdown] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  // const onMouseEnter = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(true);
-  //   }
-  // };
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
 
-  // const onMouseLeave = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(false);
-  //   }
-  // };
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
 
   return (
     <>
@@ -46,14 +46,6 @@ function Navbar() {
                 HOME
               </Link>
             </li>
-            {/* <li
-              className="nav-item dropdown-button"
-              onMouseEnter={onMouseEnter}
-              onMouseLeave={onMouseLeave}
-              >
-              MORE &nbsp; <i className="fas fa-caret-down" />
-              {dropdown && <Dropdown />}
-              </li> */}
             <li className="nav-item">
               <Link
                 to="/about"
@@ -72,7 +64,15 @@ function Navbar() {
                 PRODUCTION
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item dropdown-button"
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
+              >
+              MEDIA &nbsp; <i className="fas fa-caret-down" />
+              {dropdown && <Dropdown />}
+              </li>
+            {/* <li className="nav-item">
               <Link
                 to="/media"
                 className="nav-links mobile-link"
@@ -80,7 +80,7 @@ function Navbar() {
               >
                 MEDIA
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 to="/gallery"

@@ -24,7 +24,11 @@ body {
 .screening,
 .screening-form,
 .contact,
-.media,
+.media-pack,
+.trailer,
+.press,
+.podcasts,
+.bonus,
 .gallery,
 .privacy-policy {
   background: rgb(0, 0, 0);
@@ -78,9 +82,9 @@ body {
   transform: scale(1.1);
 }
 
-/* Media */
+/* Media Pack */
 
-.media {
+.media-pack {
   height: 100%;
   padding-bottom: 15%;
   display: flex;
@@ -89,35 +93,62 @@ body {
   justify-content: space-between;
 }
 
-.media h1 {
+.media-pack h1 {
   margin-top: 5%;
   font-size: 40px;
 }
 
-.media button {
+.media-pack button {
   width: 200px;
   padding: 5%;
-  margin: 15% 0;
+  margin: 25% 0 10%;
   font-size: 20px;
   border-radius: 5px;
 }
 
-.media button:hover {
+.media-pack button:hover {
   background-color: rgb(11, 87, 208);
   color: rgb(242, 242, 242);
   cursor: pointer;
 }
 
-.media video {
+/* Trailer */
+
+.trailer {
+  height: 100%;
+  padding-bottom: 15%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trailer h1 {
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.trailer video {
   margin: 5% 0;
   width: 60%;
   border-radius: 5px;
   border: 1px solid whitesmoke;
 }
 
-.postcard-one {
-  width: 60%;
-  margin: 5% 20%;
+/* Press */
+
+.press {
+  height: 100%;
+  padding-bottom: 15%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.press h1 {
+  margin: 5% 0 7%;
+  font-size: 40px;
 }
 
 .postcard-two {
@@ -151,7 +182,7 @@ body {
   color: rgb(30, 59, 155);
 }
 
-.adam-article, .jonny-podcast {
+.adam-article {
   margin: 5% 20%;
   display: flex;
   flex-flow: row;
@@ -159,11 +190,11 @@ body {
   justify-content: center;
 }
 
-.adam-pic, .jonny-pic {
+.adam-pic {
   width: 45%;
 }
 
-.adam-text, .jonny-text {
+.adam-text {
   margin-left: 2%;
   display: flex;
   flex-flow: column;
@@ -171,20 +202,99 @@ body {
   justify-content: center;
 }
 
-.adam-text a, .jonny-text a {
+.adam-text a {
   margin-top: 10%;
   font-size: 25px;
   text-decoration: none;
   color: rgb(242, 242, 242);
 }
 
-.adam-text a:hover, .jonny-text a:hover {
+.adam-text a:hover {
   color: rgb(30, 59, 155);
 }
 
-.adam-p, .jonny-p {
+.adam-p {
   font-size: 55px;
   margin-bottom: 2%;
+}
+
+/* Podcasts */
+
+.podcasts {
+  height: 100%;
+  padding-bottom: 15%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.podcasts h1 {
+  margin: 5% 0 7%;
+  font-size: 40px;
+}
+
+.postcard-one {
+  width: 60%;
+  margin: 5% 20%;
+}
+
+.jonny-podcast {
+  margin: 5% 20%;
+  display: flex;
+  flex-flow: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.jonny-pic {
+  width: 45%;
+}
+
+.jonny-text {
+  margin-left: 2%;
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.jonny-text a {
+  margin-top: 10%;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+}
+
+.jonny-text a:hover {
+  color: rgb(30, 59, 155);
+}
+
+.jonny-p {
+  font-size: 55px;
+  margin-bottom: 2%;
+}
+
+/* Bonus Material */
+
+.bonus {
+  height: 100%;
+  padding-bottom: 15%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bonus h1 {
+  margin: 5% 0 7%;
+  font-size: 40px;
+}
+
+.bonus p {
+  margin-top: 2%;
+  font-size: 20px;
+  padding: 0 20%;
 }
 
 /* About */
