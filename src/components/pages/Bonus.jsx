@@ -25,8 +25,12 @@ function Bonus() {
           to meet Ivor Perl BEM, the subject of this incredible story. Also
           contributing are scriptwriter Kate Lennard, composer Erran Baron
           Cohen, singer Pini Brown and soundscape creator Morgan Penn. Featuring
-          clips from <em>Survivor</em>.
+          clips from <em>Survivor</em>.<br />
+          <br />
+          <em>Creating Survivor</em> is a SuperGrizzly Production for Lemon Soul, Exceptional Agency & Mainstreet Media.
         </p>
+
+        <p></p>
 
         {imagesList.map((image, index) => (
           <LazyLoadImage
