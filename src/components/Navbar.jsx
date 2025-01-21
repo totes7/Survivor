@@ -23,7 +23,7 @@ function Navbar() {
     if (window.innerWidth < 960) {
       setDropdown(false);
     } else {
-      setDropdown(false);
+      setDropdown(true);
     }
   };
 
@@ -49,7 +49,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/about"
-                className="nav-links mobile-link"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 ABOUT
@@ -58,7 +58,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/info"
-                className="nav-links mobile-link"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 PRODUCTION
@@ -72,19 +72,55 @@ function Navbar() {
               MEDIA &nbsp; <i className="fas fa-caret-down" />
               {dropdown && <Dropdown />}
               </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
-                to="/media"
+                to="/mediapack"
                 className="nav-links mobile-link"
                 onClick={closeMobileMenu}
               >
-                MEDIA
+                MEDIA PACK
               </Link>
-            </li> */}
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/trailer"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                TRAILER
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/press"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                PRESS
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/podcasts"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                PODCASTS
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/bonus"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                BONUS MATERIAL
+              </Link>
+            </li>
             <li className="nav-item">
               <Link
                 to="/gallery"
-                className="nav-links mobile-link"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 GALLERY
@@ -93,7 +129,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/screening"
-                className="nav-links mobile-link"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 EVENTS
@@ -102,7 +138,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/book"
-                className="nav-links mobile-link"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 THE BOOK
@@ -111,7 +147,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/contact"
-                className="nav-links mobile-link"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 CONTACT

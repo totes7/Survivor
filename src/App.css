@@ -993,6 +993,18 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 960px) {
+  .media-pack h1 {
+    padding-top: 10%;
+  }
+
+  .trailer h1 {
+    padding-top: 10%;
+  }
+
+  .trailer video {
+    width: 100%;
+  }
+
   .postcard-one {
     width: 60%;
     margin: 10% 20%;
@@ -1098,9 +1110,6 @@ body {
   .media {
     text-align: center;
   }
-  .media video {
-    width: 100%;
-  }
 
   .postcard-one {
     width: 100%;
@@ -1127,7 +1136,8 @@ body {
     font-size: 20px;
   }
 
-  .adam-article, .jonny-podcast {
+  .adam-article,
+  .jonny-podcast {
     margin: 10%;
     display: flex;
     flex-flow: column;
@@ -1135,7 +1145,8 @@ body {
     justify-content: center;
   }
 
-  .adam-text, .jonny-text {
+  .adam-text,
+  .jonny-text {
     margin-top: 5%;
     display: flex;
     flex-flow: column;
@@ -1143,18 +1154,33 @@ body {
     justify-content: center;
   }
 
-  .adam-pic, .jonny-pic {
+  .adam-pic,
+  .jonny-pic {
     width: 90%;
   }
 
-  .adam-p, .jonny-p {
+  .adam-p,
+  .jonny-p {
     font-size: 20px;
     margin: 5%;
     text-align: left;
   }
 
-  .adam-text a, .jonny-text a {
+  .adam-text a,
+  .jonny-text a {
     font-size: 20px;
+  }
+
+  .bonus h1 {
+    margin: 15% 0 7%;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .bonus p {
+    margin: 2% 0;
+    font-size: 20px;
+    padding: 0 5%;
   }
 
   .home-bottom-section {
