@@ -16,7 +16,7 @@ function Hero() {
         <img src={logo} alt="Survivor logo" />
         <div className="video-buttons">
           <button>
-            <Link to="/media">WATCH TRAILER</Link>
+            <Link to="/trailer">WATCH TRAILER</Link>
           </button>
 
           <button>
