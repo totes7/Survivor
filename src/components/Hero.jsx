@@ -23,8 +23,24 @@ function Hero() {
             <Link to="/screening-form">BOOK A SCREENING</Link>
           </button>
         </div>
-        <p>"Why did I survive? I ask myself this question every day. When I began to see this film taking shape and become something, I thought to myself, maybe this is the reason I am still here. To meet Zoom and tell him my story so that he can make this film for future generations."</p>
+        <p>
+          {" "}
+          <em>
+            "Why did I survive? I ask myself this question every day. When I
+            began to see this film taking shape and become something, I thought
+            to myself, maybe this is the reason I am still here. To meet Zoom
+            and tell him my story so that he can make this film for future
+            generations."
+          </em>{" "}
+        </p>
         <small>Ivor Perl BEM, December 2024</small>
+
+        <p>
+          {" "}
+          <em>Survivor</em> will be screened on ABC TV, the Australian National
+          Public Television Network at 4.30pm local time on 27th January,
+          Holocaust Memorial Day
+        </p>
       </div>
 
       {/* <div className="hero-image">

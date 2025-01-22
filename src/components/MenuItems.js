@@ -20,7 +20,7 @@ export const MenuItems = [
       className: 'dropdown-link'
     },
     {
-      title: 'BONUS MATERIAL',
+      title: 'CREATING SURVIVOR',
       path: '/bonus',
       className: 'dropdown-link'
     },

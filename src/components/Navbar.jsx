@@ -23,7 +23,7 @@ function Navbar() {
     if (window.innerWidth < 960) {
       setDropdown(false);
     } else {
-      setDropdown(true);
+      setDropdown(false);
     }
   };
 
@@ -114,7 +114,7 @@ function Navbar() {
                 className="nav-links mobile-link"
                 onClick={closeMobileMenu}
               >
-                BONUS MATERIAL
+                CREATING SURVIVOR
               </Link>
             </li>
             <li className="nav-item">

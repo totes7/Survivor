@@ -78,10 +78,9 @@ video {
 
 .video-banner p {
   font-size: 20px;
-  padding: 3% 25% 0;
+  padding: 2% 25% 0;
   text-align: center;
   word-spacing: 3px;
-  font-style: italic;
 }
 
 .video-banner small {
