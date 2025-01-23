@@ -69,7 +69,7 @@ function Navbar() {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
               >
-              MEDIA &nbsp; <i className="fas fa-caret-down" />
+              MEDIA
               {dropdown && <Dropdown />}
               </li>
             <li className="nav-item">
