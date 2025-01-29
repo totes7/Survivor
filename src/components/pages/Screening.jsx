@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../../App.css";
 import Footer from "../Footer";
-import banner from "../../images/Poster.jpg";
+// import banner from "../../images/Poster.jpg";
 
 function Screening() {
   
@@ -14,7 +14,14 @@ function Screening() {
           <h1>EVENTS</h1>
         </div>
 
-        <p>
+        <p>New Events coming soon!</p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        {/* <p>
           Special Screening with JW3, London, to mark Holocaust Memorial Day 2025
         </p>
 
@@ -27,7 +34,7 @@ function Screening() {
           target="_blank"
         >
           <button>BOOK</button>
-        </Link>
+        </Link> */}
 
       </div>
 

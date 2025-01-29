@@ -6,6 +6,7 @@ import postcardTwo from "../../images/MediaPostcard-2.jpg";
 import forbesLogo from "../../images/ForbesLogo.jpg";
 import adam from "../../images/Adam.jpg";
 import banner from "../../images/BannerLogo.jpg";
+import mailOnline from "../../images/MailOnlineLogo.png";
 
 function Press() {
   return (
@@ -14,6 +15,18 @@ function Press() {
         <img className="film-banner" src={banner} alt="film banner" />
 
         <h1>PRESS</h1>
+
+        <img src={mailOnline} alt="MailOnline logo" className="mail-online-logo" />
+
+        <p className="mail-online-p">"Auschwitz survivor, 92, is overwhelmed by animated film portraying his time in death camp where parents and seven of his siblings were murdered"</p>
+
+        <Link
+          to="https://www.dailymail.co.uk/news/article-14325035/Holocaust-survivor-92-Nazi-Auschwitz-animated-movie.html"
+          target="_blank"
+          className="mail-online-link"
+        >
+          Read full article on DailyMail.co.uk
+        </Link>
 
         <img src={forbesLogo} alt="Forbes.com logo" className="forbes-logo" />
 

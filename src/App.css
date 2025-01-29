@@ -151,6 +151,27 @@ body {
   font-size: 40px;
 }
 
+.mail-online-logo {
+  width: 50%;
+  margin-top: 5%;
+}
+
+.mail-online-p {
+  font-size: 55px;
+  margin: 2% 25% 5%;
+}
+
+.mail-online-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+  margin-bottom: 5%;
+}
+
+.mail-online-link:hover {
+  color: rgb(30, 59, 155);
+}
+
 .postcard-two {
   width: 60%;
   margin: 5% 20% 0 20%;
@@ -1023,6 +1044,15 @@ body {
     margin: 10% 20% 0 20%;
   }
 
+  .mail-online-logo {
+    width: 70%;
+    margin-top: 15%;
+  }
+
+  .mail-online-p {
+    margin: 5% 15%;
+  }
+
   .forbes-logo {
     width: 70%;
     margin-top: 15%;
@@ -1127,6 +1157,16 @@ body {
   .postcard-two {
     width: 100%;
     margin: 15% 0 0 0;
+  }
+
+  .mail-online-p {
+    font-size: 20px;
+    margin: 5% 17% 10%;
+    text-align: left;
+  }
+
+  .mail-online-link {
+    font-size: 18px;
   }
 
   .forbes-p {
