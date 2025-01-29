@@ -787,6 +787,18 @@ body {
   margin: 5% 10%;
 }
 
+.cinema-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+  margin: 5% 0;
+}
+
+.cinema-link:hover {
+  color: rgb(30, 59, 155);
+}
+
+
 .screening h1 {
   font-size: 40px;
 }
