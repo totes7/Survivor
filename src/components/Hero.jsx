@@ -35,12 +35,7 @@ function Hero() {
         </p>
         <small>Ivor Perl BEM, December 2024</small>
 
-        <p>
-          {" "}
-          <em>Survivor</em> will be screened on ABC TV, the Australian National
-          Public Television Network at 4.30pm local time on 27th January,
-          Holocaust Memorial Day
-        </p>
+    
       </div>
 
       {/* <div className="hero-image">
