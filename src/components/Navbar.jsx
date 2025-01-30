@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Dropdown from "./Dropdown";
+import Dropdown2 from "./Dropdown2";
 // import logo from "../images/LogoBBG.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [dropdown2, setDropdown2] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -24,6 +26,22 @@ function Navbar() {
       setDropdown(false);
     } else {
       setDropdown(false);
+    }
+  };
+
+  const onMouseEnter2 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown2(false);
+    } else {
+      setDropdown2(true);
+    }
+  };
+
+  const onMouseLeave2 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown2(false);
+    } else {
+      setDropdown2(false);
     }
   };
 
@@ -119,20 +137,37 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/gallery"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                GALLERY
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
                 to="/screening"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 EVENTS
+              </Link>
+            </li>
+            <li
+              className="nav-item dropdown-button"
+              onMouseEnter={onMouseEnter2}
+              onMouseLeave={onMouseLeave2}
+              >
+              GALLERY
+              {dropdown2 && <Dropdown2 />}
+              </li>
+              <li className="nav-item">
+              <Link
+                to="/gallery2"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                JW3
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/gallery"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                LONDON PREMIERE
               </Link>
             </li>
             <li className="nav-item">

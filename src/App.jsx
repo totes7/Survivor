@@ -17,6 +17,7 @@ import ScreeningForm from "./components/pages/ScreeningForm";
 import Press from "./components/pages/Press";
 import Podcasts from "./components/pages/Podcasts";
 import Bonus from "./components/pages/Bonus";
+import Gallery2 from "./components/pages/Gallery2";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/podcasts" element={<Podcasts/>} />
         <Route path="/bonus" element={<Bonus/>} />
         <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/gallery2" element={<Gallery2/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
       </Routes>
