@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../App.css";
 import Footer from "../Footer";
-// import banner from "../../images/Poster.jpg";
+import banner from "../../images/Poster.jpg";
+import romaniaBanner from "../../images/RomaniaPoster.jpeg";
 
 function Screening() {
   return (
@@ -12,46 +13,36 @@ function Screening() {
           <h1>EVENTS</h1>
         </div>
 
-        <p>Upcoming events to be announced shortly</p>
-        <br />
-        <br />
 
+        <img src={romaniaBanner} alt="romania screening poster" className="romania-poster"/>
 
-        <Link to="https://www.jw3.org.uk/search?for=Survivor" target="_blank" className="cinema-link">
-          <em>Survivor</em> cinema showtimes
-        </Link>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
-
-        {/* <p>
-          Special Screening with JW3, London, to mark Holocaust Memorial Day 2025
-        </p>
+        <h3>UK SCREENINGS</h3>
 
         <div id="screening-banner">
           <img className="banner" src={banner} alt="MIPCOM banner" />
         </div>
 
+        <p>
+          March 25th, South Hampstead Synagogue, London
+        </p>
+
         <Link
-          to="https://www.jw3.org.uk/search?for=Survivor#"
+          to="https://myus.theus.org.uk/events/118305/screening-of-survivor/"
           target="_blank"
         >
           <button>BOOK</button>
-        </Link> */}
+        </Link>
+
+        <p>
+          March 30th, Barnet Synagogue, New Barnet
+        </p>
+
+        <Link
+          to="https://myus.theus.org.uk/events/118401/survivor-screening/"
+          target="_blank"
+        >
+          <button>BOOK</button>
+        </Link>
       </div>
 
       <Footer />
