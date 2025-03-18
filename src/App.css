@@ -1550,6 +1550,10 @@ body {
     margin-bottom: 10%;
   }
 
+  .screening h3 {
+    margin: 10% 0;
+  }
+
   .screening p {
     padding: 5%;
     font-size: 20px;
