@@ -767,7 +767,7 @@ body {
   margin-top: 2%;
 }
 
-/* Screening */
+/* Screening (EVENTS) */
 
 .screening {
   padding: 5% 0;
@@ -878,6 +878,49 @@ body {
   background-color: rgb(11, 87, 208);
   color: rgb(242, 242, 242);
   cursor: pointer;
+}
+
+/* Past Events */
+
+.past-events {
+  padding: 5% 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.past-events h1 {
+  font-size: 40px;
+}
+
+.past-events h3 {
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+.past-events a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+}
+
+.past-events a:hover {
+  color: rgb(30, 59, 155);
+}
+
+.past-postcard-two {
+  width: 70%;
+  margin: 2% 20% 0 20%;
+}
+
+.past-banner {
+  width: 70%;
+  margin: 5% 15% 2%;
+}
+
+.past-logo {
+  margin-top: 5%;
 }
 
 /* Book */
@@ -1545,7 +1588,7 @@ body {
     font-size: 18px;
   }
 
-  .banner, .romania-poster {
+  .banner, .romania-poster, .past-banner {
     width: 90%;
     margin: 5% 5%;
   }
@@ -1580,6 +1623,21 @@ body {
 
   .form-button {
     width: 40%;
+  }
+
+  .past-events h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .past-postcard-two {
+    width: 100%;
+    margin: 5% 0 0 0;
+  }
+
+  .past-logo {
+    width: 50%;
   }
 
   .book button {

@@ -10,7 +10,7 @@ function Screening() {
     <>
       <div className="screening">
         <div id="screening-title">
-          <h1>EVENTS</h1>
+          <h1>UPCOMING EVENTS</h1>
         </div>
 
 
@@ -19,7 +19,7 @@ function Screening() {
         <h3>UK SCREENINGS</h3>
 
         <div id="screening-banner">
-          <img className="banner" src={banner} alt="MIPCOM banner" />
+          <img className="banner" src={banner} alt="survivor banner" />
         </div>
 
         <p>
