@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Dropdown from "./Dropdown";
 import Dropdown2 from "./Dropdown2";
+import Dropdown3 from "./Dropdown3";
 // import logo from "../images/LogoBBG.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [dropdown2, setDropdown2] = useState(false);
+  const [dropdown3, setDropdown3] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -42,6 +44,22 @@ function Navbar() {
       setDropdown2(false);
     } else {
       setDropdown2(false);
+    }
+  };
+
+  const onMouseEnter3 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown3(false);
+    } else {
+      setDropdown3(true);
+    }
+  };
+
+  const onMouseLeave3 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown3(false);
+    } else {
+      setDropdown3(false);
     }
   };
 
@@ -135,13 +153,30 @@ function Navbar() {
                 CREATING SURVIVOR
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item dropdown-button"
+              onMouseEnter={onMouseEnter3}
+              onMouseLeave={onMouseLeave3}
+              >
+              EVENTS
+              {dropdown3 && <Dropdown3 />}
+              </li>
+              <li className="nav-item">
               <Link
                 to="/screening"
-                className="nav-links"
+                className="nav-links mobile-link"
                 onClick={closeMobileMenu}
               >
-                EVENTS
+                UPCOMING EVENTS
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/past-events"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                PAST EVENTS
               </Link>
             </li>
             <li

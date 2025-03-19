@@ -18,6 +18,7 @@ import Press from "./components/pages/Press";
 import Podcasts from "./components/pages/Podcasts";
 import Bonus from "./components/pages/Bonus";
 import Gallery2 from "./components/pages/Gallery2";
+import PastEvents from "./components/pages/PastEvents";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/info" element={<Info/>} />
         <Route path="/screening" element={<Screening/>} />
+        <Route path="/past-events" element={<PastEvents/>}/>
         <Route path="/screening-form" element={<ScreeningForm/>} />
         <Route path="/book" element={<Book/>} />
         <Route path="/mediapack" element={<MediaPack/>} />
