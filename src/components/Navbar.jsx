@@ -4,6 +4,7 @@ import "./Navbar.css";
 import Dropdown from "./Dropdown";
 import Dropdown2 from "./Dropdown2";
 import Dropdown3 from "./Dropdown3";
+import Dropdown4 from "./Dropdown4";
 // import logo from "../images/LogoBBG.png";
 
 function Navbar() {
@@ -11,6 +12,7 @@ function Navbar() {
   const [dropdown, setDropdown] = useState(false);
   const [dropdown2, setDropdown2] = useState(false);
   const [dropdown3, setDropdown3] = useState(false);
+  const [dropdown4, setDropdown4] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -63,6 +65,22 @@ function Navbar() {
     }
   };
 
+  const onMouseEnter4 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown4(false);
+    } else {
+      setDropdown4(true);
+    }
+  };
+
+  const onMouseLeave4 = () => {
+    if (window.innerWidth < 960) {
+      setDropdown4(false);
+    } else {
+      setDropdown4(false);
+    }
+  };
+
   return (
     <>
       <nav className="navbar">
@@ -98,6 +116,32 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 PRODUCTION
+              </Link>
+            </li>
+            <li
+              className="nav-item dropdown-button"
+              onMouseEnter={onMouseEnter4}
+              onMouseLeave={onMouseLeave4}
+              >
+              WATCH
+              {dropdown4 && <Dropdown4 />}
+              </li>
+              <li className="nav-item">
+              <Link
+                to="/screening"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                WATCH AT HOME
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/past-events"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                CINEMA
               </Link>
             </li>
             <li
