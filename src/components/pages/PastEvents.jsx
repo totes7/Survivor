@@ -14,27 +14,9 @@ function PastEvents() {
       <div className="past-events">
         <h1>PAST EVENTS</h1>
 
-        <h3>Premiere MIPCOM Cannes 22/10/2024</h3>
+        <h3>University of Cluj, Romania, 20/3/2025</h3>
 
-        <img src={mipcom} alt="mipcom logo" className="past-logo"/>
-
-        <img
-          src={postcardTwo}
-          alt="MIPCOM news article"
-          className="past-postcard-two"
-        />
-
-        <h3>Young March of the Living, London Premiere</h3>
-
-        <img
-          src={banner}
-          alt="march of the living lonodn premiere poster"
-          className="past-banner"
-        />
-
-        <Link to="/gallery">
-            Photo Gallery
-        </Link>
+        <img src={romaniaBanner} alt="romania screening poster" className="romania-poster"/>
 
         <h3>JW3 London, Holocaust Memorial Day 2025</h3>
 
@@ -48,9 +30,27 @@ function PastEvents() {
             Photo Gallery
         </Link>
 
-        <h3>University of Cluj, Romania, 20/3/2025</h3>
+        <h3>Young March of the Living, London Premiere</h3>
 
-        <img src={romaniaBanner} alt="romania screening poster" className="romania-poster"/>
+        <img
+          src={banner}
+          alt="march of the living lonodn premiere poster"
+          className="past-banner"
+        />
+
+        <Link to="/gallery">
+            Photo Gallery
+        </Link>
+
+        <h3>Premiere MIPCOM Cannes 22/10/2024</h3>
+
+        <img src={mipcom} alt="mipcom logo" className="past-logo"/>
+
+        <img
+          src={postcardTwo}
+          alt="MIPCOM news article"
+          className="past-postcard-two"
+        />
 
       </div>
       <Footer />
