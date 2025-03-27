@@ -6,6 +6,7 @@ import mipcom from "../../images/MipcomLogo.png";
 import postcardTwo from "../../images/MediaPostcard-2.jpg";
 import banner from "../../images/Banner-2.jpg";
 import poster from "../../images/Poster.jpg";
+import romaniaBanner from "../../images/RomaniaPoster.jpeg";
 
 function PastEvents() {
   return (
@@ -46,6 +47,10 @@ function PastEvents() {
         <Link to="/gallery2">
             Photo Gallery
         </Link>
+
+        <h3>University of Cluj, Romania, 20/3/2025</h3>
+
+        <img src={romaniaBanner} alt="romania screening poster" className="romania-poster"/>
 
       </div>
       <Footer />

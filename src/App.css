@@ -806,6 +806,7 @@ body {
 
 .screening h3 {
   font-size: 30px;
+  margin-top: 10%;
 }
 
 .screening p {
@@ -1595,10 +1596,12 @@ body {
 
   .screening h1 {
     margin-bottom: 10%;
+    text-align: center;
   }
 
   .screening h3 {
     margin: 10% 0;
+    text-align: center;
   }
 
   .screening p {
