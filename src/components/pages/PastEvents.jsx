@@ -14,6 +14,15 @@ function PastEvents() {
       <div className="past-events">
         <h1>PAST EVENTS</h1>
 
+
+        <h3>March 25th, South Hampstead Synagogue, London</h3>
+
+        <h3>March 30th, Barnet Synagogue, New Barnet</h3>
+
+        <div id="screening-banner">
+          <img className="past-banner" src={poster} alt="survivor poster" />
+        </div>
+
         <h3>University of Cluj, Romania, 20/3/2025</h3>
 
         <img src={romaniaBanner} alt="romania screening poster" className="romania-poster"/>

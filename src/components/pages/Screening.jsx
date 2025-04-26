@@ -13,27 +13,7 @@ function Screening() {
           <h1>UPCOMING EVENTS</h1>
         </div>
 
-        <div id="screening-banner">
-          <img className="banner" src={banner} alt="survivor banner" />
-        </div>
 
-        <p>March 25th, South Hampstead Synagogue, London</p>
-
-        <Link
-          to="https://myus.theus.org.uk/events/118305/screening-of-survivor/"
-          target="_blank"
-        >
-          <button>BOOK</button>
-        </Link>
-
-        <p>March 30th, Barnet Synagogue, New Barnet</p>
-
-        <Link
-          to="https://myus.theus.org.uk/events/118401/survivor-screening/"
-          target="_blank"
-        >
-          <button>BOOK</button>
-        </Link>
 
         <h3>Commemorating the 80th Anniversary of the Liberation of Dachau</h3>
 
@@ -51,6 +31,38 @@ function Screening() {
         <p>April 29th, Central London</p>
         <Link
           to="https://www.eventbrite.co.uk/e/commemorating-the-80th-anniversary-of-the-liberation-of-dachau-tickets-1301797143299"
+          target="_blank"
+        >
+          <button>BOOK</button>
+        </Link>
+
+        <h3>Peter Kessler Film Club Special Event</h3>
+
+        <div id="screening-banner">
+          <img className="banner" src={banner} alt="survivor banner" />
+        </div>
+
+        <p>May 2nd, Magdalen College Auditorium, Oxford University</p>
+
+        <Link
+          to="https://talks.ox.ac.uk/talks/id/566ac03e-6000-4ae6-80a9-059024a65469/"
+          target="_blank"
+        >
+          <button>BOOK</button>
+        </Link>
+
+        <h3>World School's Premiere</h3>
+
+        <div id="screening-banner">
+          <img className="banner" src={banner} alt="survivor banner" />
+        </div>
+
+        <p>Survivor screening followed by Zoom Rockman and Nigel Canin in conversation with Mark Penney</p>
+        <p>Performance Pini Brown</p>
+        <p>May 12th, Solihull School, Solihull</p>
+
+        <Link
+          to="https://www.trybooking.com/uk/events/landing/80393?"
           target="_blank"
         >
           <button>BOOK</button>
