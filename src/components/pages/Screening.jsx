@@ -59,10 +59,19 @@ function Screening() {
 
         <p>Survivor screening followed by Zoom Rockman and Nigel Canin in conversation with Mark Penney</p>
         <p>Performance Pini Brown</p>
-        <p>May 12th, Solihull School, Solihull</p>
+        <p>Schools - May 12th, Solihull School, Solihull</p>
 
         <Link
           to="https://www.trybooking.com/uk/events/landing/80393?"
+          target="_blank"
+        >
+          <button>BOOK</button>
+        </Link>
+
+        <p>Evening - May 12th, Solihull School, Solihull</p>
+
+        <Link
+          to="https://www.trybooking.com/uk/events/landing/80599?"
           target="_blank"
         >
           <button>BOOK</button>
