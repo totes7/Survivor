@@ -79,7 +79,7 @@ function PastEvents() {
         </Link>
 
 
-        <h3>March 25th, South Hampstead Synagogue, London</h3>
+        <h3>March 26th, South Hampstead Synagogue, London</h3>
 
         <h3>March 30th, Barnet Synagogue, New Barnet</h3>
 
