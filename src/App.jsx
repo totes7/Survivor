@@ -19,6 +19,8 @@ import Podcasts from "./components/pages/Podcasts";
 import Bonus from "./components/pages/Bonus";
 import Gallery2 from "./components/pages/Gallery2";
 import PastEvents from "./components/pages/PastEvents";
+import Abc from "./components/pages/Abc";
+import Netflix from "./components/pages/Netflix";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/info" element={<Info/>} />
         <Route path="/screening" element={<Screening/>} />
         <Route path="/past-events" element={<PastEvents/>}/>
+        <Route path="/abc" element={<Abc/>}/>
+        <Route path="/netflix" element={<Netflix/>}/>
         <Route path="/screening-form" element={<ScreeningForm/>} />
         <Route path="/book" element={<Book/>} />
         <Route path="/mediapack" element={<MediaPack/>} />

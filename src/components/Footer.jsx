@@ -70,9 +70,9 @@ function Footer() {
           </div>
 
           <small class="website-rights">
-            © Copyright Exceptional Agency |{" "}
-            <Link to="https://www.exceptionalagency.com/" target="_blank">
-              exceptionalagency.com
+            © Copyright Lemon Soul |{" "}
+            <Link to="https://lemonsoul.com/" target="_blank">
+              lemonsoul.com
             </Link>{" "}
             | <Link to="/privacy-policy">Privacy Policy</Link>{" "}
           </small>

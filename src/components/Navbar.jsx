@@ -202,7 +202,7 @@ function Navbar() {
               onMouseEnter={onMouseEnter3}
               onMouseLeave={onMouseLeave3}
               >
-              EVENTS
+              SCREENINGS
               {dropdown3 && <Dropdown3 />}
               </li>
               <li className="nav-item">
@@ -211,7 +211,7 @@ function Navbar() {
                 className="nav-links mobile-link"
                 onClick={closeMobileMenu}
               >
-                UPCOMING EVENTS
+                CURRENT EVENTS
               </Link>
             </li>
             <li className="nav-item">
@@ -221,6 +221,24 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 PAST EVENTS
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/abc"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                ABC
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/netflix"
+                className="nav-links mobile-link"
+                onClick={closeMobileMenu}
+              >
+                NETFLIX
               </Link>
             </li>
             <li

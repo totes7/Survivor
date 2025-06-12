@@ -23,6 +23,8 @@ body {
 .book,
 .screening,
 .past-events,
+.abc,
+.netflix,
 .screening-form,
 .contact,
 .media-pack,
@@ -926,6 +928,64 @@ body {
   margin-top: 5%;
 }
 
+/* ABC */
+
+.abc {
+  padding: 7% 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.abc h1 {
+  font-size: 50px;
+}
+
+.abc p {
+  margin: 5% 10%;
+  font-size: 24px;
+  word-spacing: 3px;
+  text-align: center;
+}
+
+.abc a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+}
+
+.abc a:hover {
+  color: rgb(30, 59, 155);
+}
+
+/* Netflix */
+
+.netflix{
+  padding: 5% 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.netflix h1 {
+  font-size: 40px;
+}
+
+.netflix h3 {
+  font-size: 30px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.netflix p {
+  margin: 2% 15%;
+  font-size: 22px;
+  word-spacing: 3px;
+  /* text-align: center; */
+}
+
 /* Book */
 
 .book {
@@ -1194,6 +1254,16 @@ body {
 
   #aspirations-text p {
     margin: 0 0 0 5%;
+  }
+
+  .abc p {
+    margin: 10%;
+    font-size: 24px;
+    word-spacing: 3px;
+  }
+
+  .abc a {
+    margin-bottom: 35%;
   }
 
   .form-button {
@@ -1612,6 +1682,24 @@ body {
     text-align: center;
   }
 
+  .abc p {
+    margin: 10%;
+    font-size: 20px;
+    word-spacing: 3px;
+  }
+  
+  .netflix h3 {
+    font-size: 25px;
+    margin: 10% 0;
+    text-align: center;
+  }
+  
+  .netflix p {
+    margin: 2% 10%;
+    font-size: 20px;
+    word-spacing: 3px;
+  }
+
   .screening-form h1 {
     font-size: 40px;
     text-align: center;
@@ -1634,6 +1722,11 @@ body {
     font-size: 25px;
     text-align: center;
     margin-top: 10%;
+  }
+
+  .past-events p {
+    margin: 2% 0;
+    text-align: center;
   }
 
   .past-postcard-two {
